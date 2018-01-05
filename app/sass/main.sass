@@ -4,11 +4,13 @@
 
 body 
     font-family: Quicksand, sans-serif
+    font-weight: 300
+    overflow-x: hidden
 
 .container-lg
     max-width: 1040px
     margin: 0 auto
-
+    
 .head
     width: 100%
     height: 100%
@@ -28,7 +30,11 @@ body
     height: 100%
     margin-top: 20px
 
-.logo__inner 
+.logo
+    width: 100%
+    height: 100%
+
+.logo__header
     width: 107px
     height: auto
 
@@ -41,7 +47,7 @@ body
 
 .header-nav__item 
     display: inline-block
-    font-family: Quicksand
+    padding-top: 4px
 
 .header-nav__link 
     color: $white
@@ -50,17 +56,16 @@ body
     font-family: Quicksand
     font-weight: 300 
 
-.header-auth 
+.auth 
     width: 100%
     height: 100%
-
-.header-auth__inner
     color: $white
     font-size: 18px
-    font-family: Quicksand
-    font-weight: 300 
+
+.auth__inner
     text-align: right
     margin-right: 3px
+    padding-top: 4px
 
 //section header
 .header-content 
@@ -73,15 +78,30 @@ body
     width: 100%
     height: 100%
 
-.header-content-title__head
+.title
     color: $white
     font-size: 41px
-    width: 95%
+    width: 100%
+    height: 100%
+    font-weight: 300
 
-.header-content-title__about
+.title__inner
+    width: 95%
+    font-size: inherit
+    color: inherit
+    font-weight: inherit
+
+
+.title-about
     font-size: 24px
     color: $white
+    width: 100%
+    height: 100%
+
+.title-about__inner
     padding-top: 31px
+    color: inherit
+    font-size: inherit
 
 .header-content-button__inner
     padding-top: 73px
@@ -109,3 +129,489 @@ body
     top: 37.1%
     transform: rotate(1deg)
     z-index: 99
+
+
+//header section bottom
+
+.header-content-bottom
+    width: 100%
+    height: 100%
+    margin-top: 81px
+    padding-left: 25px
+
+.header-content-bottom__inner
+    width: 100%
+    height: 100%
+    padding-left: 10px
+
+.title-second
+    font-size: 32px
+    color: $blue
+    font-weight: 300
+
+.title-second__inner
+    font-size: inherit
+    color: inherit
+    font-weight: inherit
+
+.txt-about
+    font-size: 20px
+    color: $blue-dark
+
+.txt-about__inner
+    font-size: inherit
+    color: inherit
+    margin-top: 20px
+
+.header-content-price-slider
+    width: 100%
+    height: 100%
+    padding-left: 6px
+
+.header-content-price__inner
+    width: 100%
+    height: 100%
+    margin-top: 81px
+
+.image-small
+    display: inline-block
+    width: 44%
+
+.image-small__inner
+    background-color: $silver-2
+    border-radius: 7px
+    height: 204px
+    
+
+.header-content-price-txt
+    width: 55%
+    padding-left: 37px
+    display: inline-block
+    vertical-align: top
+
+.title-fourth
+    padding: 0
+    margin: 0
+    font-size: 22px
+    color: $blue
+    font-weight: 500
+
+.title-fourth__inner
+    font-sizse: inherit
+    color: inherit
+    font-weight: inherit
+
+.about-txt-fourth
+    font-size: 18px
+    color: $blue-dark
+
+.about-txt-fourth__inner
+    padding-top: 26px
+    font-size: inherit
+    color: inherit
+
+.read-more
+    font-size: 18px
+    text-decoration: underline
+    cursor: pointer
+    color: $blue-dark
+
+.read-more__inner
+    padding-top: 9px
+    font-size: inherit
+    text-decoration: inherit
+    color: inherit
+
+//corousel button 
+.carousel-indicators
+    bottom: 0 !important
+    top: 129%
+    left: 63%
+
+.carousel-indicators li
+    background-color: $grey-light
+    border: none
+    width: 12px
+    height: 12px
+    margin: 0 10px
+
+
+.carousel-indicators .active 
+    background-color: $grey-2
+    border: none
+    width: 12px
+    height: 12px
+    margin: 0 10px
+
+
+//section second
+.section-second
+    width: 100%
+    height: 100%
+    position: relative
+
+.section-second-background
+    position: absolute
+    top: -8%
+    width: 100%
+    height: 61%
+    background-color: $white-2
+    transform: skewY(-12deg)
+    z-index: -1
+
+.section-second__inner
+    margin-top: 283px
+    padding-left: 62px
+
+//title
+.stripe-section-title
+    width: 100%
+    height: 100%
+
+.stripe-section-title__inner 
+    width: 100%
+    height: 100%
+    margin: 0 auto
+    text-align: center
+
+//logo
+.stripe-section-logo 
+    width: 100%
+    height: 100%
+
+.stripe-section-logo__circle
+    width: 66px
+    height: 66px
+    background-color: $blue-light-2
+    border-radius: 50%
+    margin: 0 auto
+
+.stripe-section-logo__circle-inner
+    width: 36px
+    height: 36px
+    background-color: $blue-2
+    border-radius: 10px
+    position: relative
+    left: 15px
+    top: 15px
+    &:before, &:after
+        content: ''
+        position: absolute
+        width: 18.35px
+        height: 5.65px
+        background-color: $white
+        right: 24%
+        border-radius: 4px
+    &:before
+        top: 8px
+    &:after
+        top: 20px
+
+
+//section-second title
+.title-second__inner-second
+    padding-top: 5px
+    padding-left: 14px
+    font-weight: 300
+   
+//section-second text
+.section-second__txt 
+    width: 100%
+    height: 100%
+    margin-top: 7px
+
+.txt-about-second
+    font-size: 22px
+    line-height: 43px
+    color: $blue
+    font-weight: 500
+
+.txt-about-second__space-right
+    padding-right: 62px
+    text-align: right
+    font-size: inherit
+    font-weight: inherit
+    
+
+.txt-about__compress
+    line-height: 26px
+    position: relative
+    right: 38px
+    padding-top: 8px
+
+//section-second -image
+
+.image-middle
+    width: 100%
+    height: 100%
+
+.image-middle__inner 
+    width: 94%
+    height: 477px
+    border-radius: 6px
+    background-color: $silver-2
+    margin-top: 54px
+    margin-left: 5px
+
+//section-second-item
+.secion-second-text-item
+    display: block
+    width: 100%
+    height: 100%
+    margin-top: 97px
+    position: relative
+    right: 25px
+
+//logo
+.logo__inner
+    width: 62.5px
+    height: 62.5px
+    background-repeat: no-repeat
+
+.logo__inner-integrated
+    background-image: url('../img/Icon-01.jpg')
+
+.logo__inner-customizable
+    background-image: url('../img/Icon-02.jpg')
+
+.logo__inner-operation
+    background-image: url('../img/Icon-03.jpg')
+
+.title-fourth__section-second 
+    margin-top: 18px
+    font-size: inherit
+    font-weight: 500
+
+.txt-about-small
+    width: 100%
+    height: 100%
+    font-size: 16px
+    font-weight: 300
+    line-height: 26px
+    color: $purple-2
+
+.txt-about-small__section-second
+    font-size: inherit
+    color: inherit
+    font-weight: inherit
+    line-height: inherit
+    margin-top: 37px
+    max-width: 280px
+
+
+
+//section-third
+
+.section-third
+    width: 100%
+    height: 100%
+    position: relative
+
+.section-third-background
+    position: absolute
+    width: 100%
+    height: 31%
+    background-color: $grey-3
+    bottom: 0
+
+.section-third__inner 
+    margin-top: 103px
+
+.title-second__inner-third
+    max-width: 516px
+    font-size: inherit
+    font-weight: inherit
+    margin: 0 auto
+    padding-top: 20px
+    line-height: 49px
+
+.row-third__image 
+    margin-top: 48px
+
+
+//section-fouth
+.section-fourth
+    width: 100%
+    height: 100%
+    padding-top: 126px
+    padding-bottom: 165px
+    position: relative
+
+.section-fourth-background
+    background-image: url(../img/back_4.png)
+    background-size: cover
+    position: absolute
+    height: 100%
+    width: 100%
+    z-index: -1
+    top: 0
+
+.title-border
+    color: $white
+    border: 1px solid $white
+    max-width: 447px
+    height: 96px
+    width: 100%
+    text-align: center
+    margin: 0 auto
+    font-size: 22px
+    padding-top: 30px
+    text-transform: uppercase
+    font-weight: 500
+
+.title-border--fourth 
+    position: relative
+    right: 24px
+    top: 3px
+
+
+
+.about-txt 
+    font-size: 24px
+    color: $white
+    text-align: center
+    width: 100%
+    height: auto
+    margin: 0 auto
+    font-weight: 300
+    line-height: 38px
+
+.about-txt__center
+    max-width: 800px
+    margin: 0 auto
+    font-size: inherit
+    font-weight: inherit
+    padding-top: 123px
+    position: relative
+    right: 24px
+
+
+//tabs
+
+.container-large
+    max-width: 1632px
+    padding-left: 15px
+    padding-right: 15px
+    margin: 0 auto
+
+.tabs
+    width: 100%
+    height: 100%
+    margin-top: 135px
+
+//nav tabs button
+.nav-tabs 
+    border-bottom: none
+    display: flex
+    width: 100%
+    flex-wrap: wrap
+    justify-content: center
+
+.nav-item
+    color: $white
+    text-decoration: none
+    font-size: 15px
+    border: 1px solid $white
+    border-radius: 27px
+    padding: 10px 23px
+    margin: 0 21px 20px
+    font-weight: 600
+    text-transform: uppercase
+    transition: all 0.3s ease-in
+    display: inline-block
+    width: auto
+    &:focus, &:hover
+        background-color: $white
+        color: $blue-3
+        text-decoration: none
+
+.tab__inner
+    width: 100%
+    height: 100%
+    display: flex
+    margin-top: 103px
+    padding-bottom: 149px
+
+.image-middle__tabs 
+    width: 100%
+    height: 471px
+    background-color: silver
+    border-radius: 6px
+
+.tab__txt 
+    width: 70%
+    height: auto
+    padding-left: 93px
+    position: relative
+
+
+.title-fourth--white
+    color: $white
+
+.title-fourth__tabs 
+    font-size: inherit
+    margin: 0
+    padding-top: 3px
+    font-weight: inherit
+
+.about-txt__inner 
+    margin: 0
+    text-align: initial
+    padding-top: 48px
+    font-size: inherit
+    font-weight: inherit
+    line-height: inherit
+
+.buttons 
+    width: 100%
+    height: auto
+    position: absolute
+    bottom: 0
+
+//logo stripe section
+.stripe-section-logo__circle--fourth
+    position: absolute
+    left: 46.9%
+    bottom: calc(6vw - 81px)
+
+.stripe-section-logo__circle--big
+    width: 133.49px
+    height: 133.49px
+
+.stripe-section-logo__circle-inner--big
+    width: 72.81px
+    height: 72.81px
+    top: 30px
+    left: 30px
+    &:before, &:after
+        width: 37.11px
+        height: 11.42px
+    &:before
+        top: 17px
+    &:after
+        top: 43px
+
+
+//section-fifth
+
+.section-fifth
+    position: relative
+    width: 100%
+    height: 100%
+
+.section-fifth-background 
+    position: absolute
+    width: 100%
+    height: 119%
+    background: linear-gradient(to bottom, $blue-dark, $silver-blue)
+    top: -19%
+    z-index: -2
+
+.title-border.title-boder--fifth
+    margin-top: 128px
+
+.tabs--fifth
+    margin-top: 146px
+
+.tab__txt--fifth
+    padding-left: 9px

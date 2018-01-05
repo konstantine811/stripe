@@ -10,7 +10,10 @@
 $(document).ready(function() {
 
 	//bootstrap carousel
-	$('.carousel').carousel();
+	$('.carousel').carousel({
+		pause: true,
+		interval: false
+	});
 });
 
 
