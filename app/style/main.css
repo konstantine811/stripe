@@ -126,6 +126,86 @@ body {
   background-size: 56%;
   cursor: pointer; }
 
+.mobile-button {
+  height: 24px;
+  width: 28px;
+  position: absolute;
+  right: 14px;
+  top: 21px;
+  z-index: 120;
+  cursor: pointer;
+  padding-top: 10px; }
+
+.mobile-button__inner {
+  position: relative;
+  width: 24px;
+  height: 3px;
+  -webkit-border-radius: 1px;
+          border-radius: 1px;
+  background-color: #fff;
+  z-index: 120; }
+  .mobile-button__inner:before, .mobile-button__inner:after {
+    content: '';
+    position: absolute;
+    width: 24px;
+    height: 3px;
+    -webkit-border-radius: 1px;
+            border-radius: 1px;
+    background: #fff; }
+  .mobile-button__inner:before {
+    bottom: 8px; }
+  .mobile-button__inner:after {
+    top: 8px; }
+
+.mobile-button.close .mobile-button__inner:before, .mobile-button.close .mobile-button__inner:after {
+  background-color: black; }
+
+.mobile-button.close .mobile-button__inner:before {
+  -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
+  bottom: -4px; }
+
+.mobile-button.close .mobile-button__inner:after {
+  -webkit-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  top: 4px; }
+
+.mobile-menu {
+  display: none;
+  position: absolute;
+  width: 95%;
+  height: 50%;
+  background: #fff;
+  margin: 0 auto;
+  left: 2%;
+  z-index: 97;
+  -webkit-border-radius: 4px;
+          border-radius: 4px;
+  -webkit-box-shadow: 0px 4px 13px -2px #888;
+          box-shadow: 0px 4px 13px -2px #888; }
+  .mobile-menu .header-nav__item {
+    display: block; }
+  .mobile-menu .header-nav__link {
+    color: #888; }
+    .mobile-menu .header-nav__link:hover {
+      color: #8898AA;
+      text-decoration: none; }
+    .mobile-menu .header-nav__link:focus {
+      outline: none;
+      text-decoration: none; }
+
+.auth-mobile {
+  position: absolute;
+  bottom: 7px;
+  left: 7%;
+  color: white;
+  font-size: 18px; }
+
+.auth-mobile__inner {
+  color: #888; }
+
 .header-nav__wrap {
   list-style: none;
   width: 100%;
@@ -159,6 +239,8 @@ body {
   text-align: right;
   margin-right: 3px;
   padding-top: 4px;
+  display: inline-block;
+  color: #fff;
   cursor: pointer;
   -webkit-transition: color 0.1s ease;
   transition: color 0.1s ease; }
@@ -294,7 +376,8 @@ body {
   color: white;
   text-align: center;
   position: relative;
-  font-size: 22px;
+  font-size: 32px;
+  font-weight: 300;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -660,6 +743,10 @@ body {
   -webkit-border-radius: 6px;
           border-radius: 6px; }
 
+.image-middle__third {
+  width: 100%;
+  height: auto; }
+
 .tab__txt {
   width: 70%;
   height: auto;
@@ -738,7 +825,8 @@ body {
   padding-left: 9px; }
 
 footer.footer {
-  padding-top: 102px; }
+  padding-top: 102px;
+  padding-bottom: 125px; }
 
 .title-fifth {
   font-size: 14px;
@@ -750,3 +838,64 @@ footer.footer {
   list-style: none;
   margin: 0;
   padding: 0; }
+
+.footer-link__item {
+  padding: 6px 0; }
+
+.footer-link__inner {
+  font-size: 14px;
+  font-weight: 500;
+  color: #8898AA;
+  -webkit-transition: color .1s ease;
+  transition: color .1s ease; }
+  .footer-link__inner:hover {
+    color: #32325d;
+    text-decoration: none; }
+
+.title-fifth__placeholder {
+  font-weight: 600; }
+
+.txt-about-small-footer {
+  font-size: 14px;
+  font-weight: 300;
+  color: #8898AA;
+  max-width: 201px; }
+
+.txt-about-small-footer__column-first {
+  font-size: inherit;
+  font-weight: inherit; }
+
+.title-fifth--upper {
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #657E97;
+  font-family: Quicksand; }
+
+.title-fifth__footer {
+  font-weight: inherit;
+  color: inherit;
+  font-family: inherit; }
+
+.develop-wrap {
+  margin-left: 34px; }
+
+.company-wrap {
+  position: relative;
+  right: 32px; }
+
+.resources-wrap {
+  position: relative;
+  right: 30px; }
+
+.footer-info {
+  width: 100%;
+  height: 100%;
+  position: relative; }
+
+.footer-info__txt {
+  position: absolute;
+  right: 8%;
+  top: 24px;
+  font-size: 14px;
+  font-weight: 300;
+  color: #8898AA; }

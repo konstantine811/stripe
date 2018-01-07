@@ -11,8 +11,13 @@ $(document).ready(function() {
 
 	//bootstrap carousel
 	$('.carousel').carousel({
-		interval: 3000
+		interval: false
 	});
+
+	$('.mobile-button').click(function() {
+		$('.mobile-menu').toggle(300);
+		$(this).toggleClass('close');
+	})
 });
 
 

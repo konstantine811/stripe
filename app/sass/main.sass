@@ -19,7 +19,7 @@ body
 
 .container-space 
     padding-left: 82px
-    
+
 .head
     width: 100%
     height: 100%
@@ -51,7 +51,80 @@ body
     background-repeat: no-repeat
     background-size: 56%
     cursor: pointer
-    
+
+//mobile menu
+
+.mobile-button
+    height: 24px
+    width: 28px
+    position: absolute
+    right: 14px
+    top: 21px
+    z-index: 120
+    cursor: pointer
+    padding-top: 10px
+
+.mobile-button__inner 
+    position: relative
+    width: 24px
+    height: 3px
+    border-radius: 1px
+    background-color: $white
+    z-index: 120
+    &:before, &:after
+        content: ''
+        position: absolute
+        width: 24px
+        height: 3px
+        border-radius: 1px
+        background: $white
+    &:before
+        bottom: 8px
+    &:after
+        top: 8px
+
+.mobile-button.close
+    .mobile-button__inner
+        &:before, &:after
+            background-color: black
+        &:before
+            transform: rotate(45deg)
+            bottom: -4px
+        &:after
+            transform: rotate(-45deg)
+            top: 4px
+
+.mobile-menu 
+    display: none
+    position: absolute
+    width: 95%
+    height: 50%
+    background: $white
+    margin: 0 auto
+    left: 2%
+    z-index: 97
+    border-radius: 4px
+    box-shadow: 0px 4px 13px -2px $silver
+    .header-nav__item
+        display: block
+    .header-nav__link
+        color: $silver
+        &:hover
+            color: $silver-2
+            text-decoration: none
+        &:focus
+            outline: none
+            text-decoration: none
+
+.auth-mobile 
+    position: absolute
+    bottom: 7px
+    left: 7%
+    color: white
+    font-size: 18px
+.auth-mobile__inner
+    color: $silver
+//end
 
 .header-nav__wrap
     list-style: none
@@ -85,6 +158,8 @@ body
     text-align: right
     margin-right: 3px
     padding-top: 4px
+    display: inline-block
+    color: $white
     cursor: pointer
     transition: color 0.1s ease
     &:hover
@@ -220,7 +295,8 @@ body
     color: white
     text-align: center
     position: relative
-    font-size: 22px
+    font-size: 32px
+    font-weight: 300
     display: flex
     justify-content: center
     align-items: center    
@@ -583,6 +659,10 @@ body
     background-color: silver
     border-radius: 6px
 
+.image-middle__third
+    width: 100%
+    height: auto
+
 .tab__txt 
     width: 70%
     height: auto
@@ -665,6 +745,7 @@ body
 //footer
 footer.footer 
     padding-top: 102px
+    padding-bottom: 125px
 
 
 .title-fifth 
@@ -677,4 +758,66 @@ footer.footer
     list-style: none
     margin: 0
     padding: 0
+
+.footer-link__item 
+    padding: 6px 0
+
+.footer-link__inner
+    font-size: 14px
+    font-weight: 500
+    color: $silver-2
+    transition: color .1s ease
+    &:hover
+        color: $purple-dark
+        text-decoration: none
+
+.title-fifth__placeholder
+    font-weight: 600
+
+.txt-about-small-footer
+    font-size: 14px
+    font-weight: 300
+    color: $silver-2
+    max-width: 201px
+
+.txt-about-small-footer__column-first
+    font-size: inherit
+    font-weight: inherit
+
+.title-fifth--upper
+    text-transform: uppercase
+    font-weight: 600
+    color: $blue-dark
+    font-family: Quicksand
+
+.title-fifth__footer
+    font-weight: inherit
+    color: inherit
+    font-family: inherit
+
+
+.develop-wrap 
+    margin-left: 34px
+
+.company-wrap 
+    position: relative
+    right: 32px
+
+.resources-wrap 
+    position: relative
+    right: 30px
+
+.footer-info 
+    width: 100%
+    height: 100%
+    position: relative
+
+.footer-info__txt 
+    position: absolute
+    right: 8%
+    top: 24px
+    font-size: 14px
+    font-weight: 300
+    color: $silver-2
+
 
