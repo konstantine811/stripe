@@ -83,6 +83,15 @@ body {
   max-width: 1040px;
   margin: 0 auto; }
 
+.container-large-second {
+  max-width: 1707px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto; }
+
+.container-space {
+  padding-left: 82px; }
+
 .head {
   width: 100%;
   height: 100%;
@@ -109,8 +118,13 @@ body {
   height: 100%; }
 
 .logo__header {
-  width: 107px;
-  height: auto; }
+  width: 189px;
+  height: 33px;
+  background-image: url(../img/ixlayer-logo-white.png);
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: 56%;
+  cursor: pointer; }
 
 .header-nav__wrap {
   list-style: none;
@@ -128,7 +142,12 @@ body {
   font-size: 18px;
   padding-right: 37px;
   font-family: Quicksand;
-  font-weight: 300; }
+  font-weight: 300;
+  -webkit-transition: color 0.1s ease;
+  transition: color 0.1s ease; }
+  .header-nav__link:hover {
+    color: rgba(255, 255, 255, 0.75);
+    text-decoration: none; }
 
 .auth {
   width: 100%;
@@ -139,7 +158,13 @@ body {
 .auth__inner {
   text-align: right;
   margin-right: 3px;
-  padding-top: 4px; }
+  padding-top: 4px;
+  cursor: pointer;
+  -webkit-transition: color 0.1s ease;
+  transition: color 0.1s ease; }
+  .auth__inner:hover {
+    color: rgba(255, 255, 255, 0.75);
+    text-decoration: none; }
 
 .header-content {
   width: 100%;
@@ -209,7 +234,7 @@ body {
 .header-content-bottom {
   width: 100%;
   height: 100%;
-  margin-top: 81px;
+  margin-top: 75px;
   padding-left: 25px; }
 
 .header-content-bottom__inner {
@@ -248,13 +273,40 @@ body {
 
 .image-small {
   display: inline-block;
-  width: 44%; }
+  width: 44%;
+  position: relative; }
 
 .image-small__inner {
   background-color: #8898AA;
   -webkit-border-radius: 7px;
           border-radius: 7px;
   height: 204px; }
+
+.image-txt {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0; }
+
+.image-txt__inner {
+  width: 100%;
+  height: 100%;
+  color: white;
+  text-align: center;
+  position: relative;
+  font-size: 22px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
 
 .header-content-price-txt {
   width: 55%;
@@ -270,9 +322,10 @@ body {
   font-weight: 500; }
 
 .title-fourth__inner {
-  font-sizse: inherit;
+  font-size: inherit;
   color: inherit;
-  font-weight: inherit; }
+  font-weight: inherit;
+  margin: 0; }
 
 .about-txt-fourth {
   font-size: 18px;
@@ -290,7 +343,8 @@ body {
   color: #657E97; }
 
 .read-more__inner {
-  padding-top: 9px;
+  padding-top: 11px;
+  display: inline-block;
   font-size: inherit;
   text-decoration: inherit;
   color: inherit; }
@@ -409,7 +463,8 @@ body {
 
 .image-middle {
   width: 100%;
-  height: 100%; }
+  height: 100%;
+  position: relative; }
 
 .image-middle__inner {
   width: 94%;
@@ -492,7 +547,7 @@ body {
 .section-fourth {
   width: 100%;
   height: 100%;
-  padding-top: 126px;
+  padding-top: 133px;
   padding-bottom: 165px;
   position: relative; }
 
@@ -573,14 +628,14 @@ body {
   text-decoration: none;
   font-size: 15px;
   border: 1px solid #fff;
-  -webkit-border-radius: 27px;
-          border-radius: 27px;
-  padding: 10px 23px;
-  margin: 0 21px 20px;
+  -webkit-border-radius: 21px;
+          border-radius: 21px;
+  padding: 9px 31px;
+  margin: 0px 11px 28px 13px;
   font-weight: 600;
   text-transform: uppercase;
-  -webkit-transition: all 0.3s ease-in;
-  transition: all 0.3s ease-in;
+  -webkit-transition: background-color 0.1s ease;
+  transition: background-color 0.1s ease;
   display: inline-block;
   width: auto; }
   .nav-item:focus, .nav-item:hover {
@@ -595,7 +650,7 @@ body {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 103px;
+  margin-top: 95px;
   padding-bottom: 149px; }
 
 .image-middle__tabs {
@@ -609,7 +664,8 @@ body {
   width: 70%;
   height: auto;
   padding-left: 93px;
-  position: relative; }
+  position: relative;
+  padding-bottom: 105px; }
 
 .title-fourth--white {
   color: #fff; }
@@ -680,3 +736,17 @@ body {
 
 .tab__txt--fifth {
   padding-left: 9px; }
+
+footer.footer {
+  padding-top: 102px; }
+
+.title-fifth {
+  font-size: 14px;
+  color: #5F83DA; }
+
+.footer-link {
+  width: 100%;
+  height: 100%;
+  list-style: none;
+  margin: 0;
+  padding: 0; }

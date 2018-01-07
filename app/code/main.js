@@ -11,8 +11,7 @@ $(document).ready(function() {
 
 	//bootstrap carousel
 	$('.carousel').carousel({
-		pause: true,
-		interval: false
+		interval: 3000
 	});
 });
 

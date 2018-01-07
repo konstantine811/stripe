@@ -10,6 +10,15 @@ body
 .container-lg
     max-width: 1040px
     margin: 0 auto
+
+.container-large-second 
+    max-width: 1707px
+    padding-left: 15px
+    padding-right: 15px
+    margin: 0 auto
+
+.container-space 
+    padding-left: 82px
     
 .head
     width: 100%
@@ -35,8 +44,14 @@ body
     height: 100%
 
 .logo__header
-    width: 107px
-    height: auto
+    width: 189px
+    height: 33px
+    background-image: url(../img/ixlayer-logo-white.png)
+    display: inline-block
+    background-repeat: no-repeat
+    background-size: 56%
+    cursor: pointer
+    
 
 .header-nav__wrap
     list-style: none
@@ -55,6 +70,10 @@ body
     padding-right: 37px
     font-family: Quicksand
     font-weight: 300 
+    transition: color 0.1s ease
+    &:hover
+        color: hsla(0,0%,100%,.75)
+        text-decoration: none
 
 .auth 
     width: 100%
@@ -66,6 +85,11 @@ body
     text-align: right
     margin-right: 3px
     padding-top: 4px
+    cursor: pointer
+    transition: color 0.1s ease
+    &:hover
+        color: hsla(0,0%,100%,.75)
+        text-decoration: none
 
 //section header
 .header-content 
@@ -136,7 +160,7 @@ body
 .header-content-bottom
     width: 100%
     height: 100%
-    margin-top: 81px
+    margin-top: 75px
     padding-left: 25px
 
 .header-content-bottom__inner
@@ -176,12 +200,30 @@ body
 .image-small
     display: inline-block
     width: 44%
+    position: relative
 
 .image-small__inner
     background-color: $silver-2
     border-radius: 7px
     height: 204px
-    
+
+//image txt
+.image-txt 
+    position: absolute
+    width: 100%
+    height: 100%
+    top: 0
+
+.image-txt__inner 
+    width: 100%
+    height: 100%
+    color: white
+    text-align: center
+    position: relative
+    font-size: 22px
+    display: flex
+    justify-content: center
+    align-items: center    
 
 .header-content-price-txt
     width: 55%
@@ -197,9 +239,10 @@ body
     font-weight: 500
 
 .title-fourth__inner
-    font-sizse: inherit
+    font-size: inherit
     color: inherit
     font-weight: inherit
+    margin: 0
 
 .about-txt-fourth
     font-size: 18px
@@ -217,7 +260,8 @@ body
     color: $blue-dark
 
 .read-more__inner
-    padding-top: 9px
+    padding-top: 11px
+    display: inline-block
     font-size: inherit
     text-decoration: inherit
     color: inherit
@@ -344,6 +388,7 @@ body
 .image-middle
     width: 100%
     height: 100%
+    position: relative
 
 .image-middle__inner 
     width: 94%
@@ -433,7 +478,7 @@ body
 .section-fourth
     width: 100%
     height: 100%
-    padding-top: 126px
+    padding-top: 133px
     padding-bottom: 165px
     position: relative
 
@@ -512,12 +557,12 @@ body
     text-decoration: none
     font-size: 15px
     border: 1px solid $white
-    border-radius: 27px
-    padding: 10px 23px
-    margin: 0 21px 20px
+    border-radius: 21px
+    padding: 9px 31px
+    margin: 0px 11px 28px 13px
     font-weight: 600
     text-transform: uppercase
-    transition: all 0.3s ease-in
+    transition: background-color 0.1s ease
     display: inline-block
     width: auto
     &:focus, &:hover
@@ -529,7 +574,7 @@ body
     width: 100%
     height: 100%
     display: flex
-    margin-top: 103px
+    margin-top: 95px
     padding-bottom: 149px
 
 .image-middle__tabs 
@@ -543,6 +588,7 @@ body
     height: auto
     padding-left: 93px
     position: relative
+    padding-bottom: 105px
 
 
 .title-fourth--white
@@ -615,3 +661,20 @@ body
 
 .tab__txt--fifth
     padding-left: 9px
+
+//footer
+footer.footer 
+    padding-top: 102px
+
+
+.title-fifth 
+    font-size: 14px
+    color: $blue
+
+.footer-link 
+    width: 100%
+    height: 100%
+    list-style: none
+    margin: 0
+    padding: 0
+
