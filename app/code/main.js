@@ -11,7 +11,7 @@ $(document).ready(function() {
 
 	//bootstrap carousel
 	$('.carousel').carousel({
-		interval: false
+		interval: 3000
 	});
 
 	$('.mobile-button').click(function() {
