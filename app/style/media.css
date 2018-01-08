@@ -107,7 +107,76 @@
   .section-second .title-fourth__section-second {
     text-align: center; }
   .footer .col-xs-float {
-    float: right; } }
+    float: right; }
+  body .title {
+    font-size: 32px; }
+  body .title-second {
+    font-size: 26px; }
+  body .txt-about-second {
+    font-size: 18px;
+    line-height: 32px; }
+  body .txt-about {
+    font-size: 18px; }
+  body .title-border {
+    font-size: 20px;
+    padding-top: 24px;
+    height: 81px; }
+  body .about-txt {
+    font-size: 18px; }
+  body .header-content-bottom {
+    padding-left: 0; }
+  body .txt-about-second__space-right {
+    text-align: center; }
+  body .txt-about-small__section-second {
+    margin-top: 0; }
+  body .section-second .secion-second-text-item {
+    margin-top: 0px; }
+  body .section-second .logo__inner {
+    margin: 25px auto 0; }
+  body .title-fourth__section-second {
+    margin-top: 12px; }
+  body .image-middle__third {
+    -webkit-border-radius: 6px;
+            border-radius: 6px;
+    margin-top: 25px;
+    -webkit-box-shadow: 0 8px 10px 0px #888;
+            box-shadow: 0 8px 10px 0px #888;
+    margin-bottom: 15px; }
+  body .section-fifth .tab__inner {
+    margin-top: 15px;
+    padding-bottom: 0; }
+  body .about-txt__inner {
+    padding-top: 12px; }
+  body .container--section-fifth {
+    padding-bottom: 25px; }
+  body footer.footer {
+    padding-top: 50px; }
+  body .section-fourth .tab__inner {
+    margin-top: 15px; }
+  body .head .header-content {
+    padding-left: 0; }
+  body button.bt {
+    width: 50%;
+    min-width: 165px;
+    margin: 10px auto;
+    padding: 14px 1%;
+    max-width: 165px; }
+  body .row-third__image {
+    margin-top: 0; }
+  body .section-fifth .tab__inner {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: reverse !important;
+    -webkit-flex-direction: column-reverse !important;
+        -ms-flex-direction: column-reverse !important;
+            flex-direction: column-reverse !important; }
+  body .col-not-padding {
+    padding: 0; }
+  body .nav-item {
+    padding: 0 10px; }
+    body .nav-item .nav-link {
+      font-size: 12px;
+      width: 100%;
+      margin: 10px auto; } }
 
 @media (max-width: 564px) {
   .header-content-bottom .image-small {

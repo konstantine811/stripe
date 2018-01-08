@@ -11,17 +11,24 @@ section.section-fifth
                         product improvements and ship them faster
         .row
             .tabs.tabs--fifth
-                nav
-                    .nav.nav-tabs#nav-tab(role="tablist")
-                        a.nav-item.nav-link.active#frontend-tab(data-toggle="tab" href="#frontend" role="tab" aria-controls="frontend" aria-selected="true") Frontend api
-                        a.nav-item.nav-link#ios-libraries-tab(data-toggle="tab" href="#ios-libraries" role="tab" aria-controls="ios-libraries" aria-selected="false") Ios libraries
-                        a.nav-item.nav-link#open-source-tab(data-toggle="tab" href="#open-source" role="tab" aria-controls="open-source" aria-selected="false") Open source plugin
-                        a.nav-item.nav-link#data-routing-tab(data-toggle="tab" href="#data-routing" role="tab" aria-controls="data-routing" aria-selected="false") Data routing
-                        a.nav-item.nav-link#versioned-api-tab(data-toggle="tab" href="#versioned-api" role="tab" aria-controls="versioned-api" aria-selected="false") Versioned api
-                        a.nav-item.nav-link#clinical-research-tab(data-toggle="tab" href="#clinical-research" role="tab" aria-controls="clinical-research" aria-selected="false") Clinical Research
-                        a.nav-item.nav-link#security-tab(data-toggle="tab" href="#security" role="tab" aria-controls="security" aria-selected="false") Security
-                        a.nav-item.nav-link#update-improvements-tab(data-toggle="tab" href="#update-improvements" role="tab" aria-controls="update-improvements" aria-selected="false") Update & Improvements
-    .container-large-second
+                ul.nav.nav-tabs#nav-tab(role="tablist")
+                    li.nav-item.active
+                        a.nav-link#frontend-tab(data-toggle="tab" href="#frontend" role="tab" aria-controls="frontend" aria-selected="true") Frontend api
+                    li.nav-item
+                        a.nav-link#ios-libraries-tab(data-toggle="tab" href="#ios-libraries" role="tab" aria-controls="ios-libraries" aria-selected="false") Ios libraries
+                    li.nav-item
+                        a.nav-link#open-source-tab(data-toggle="tab" href="#open-source" role="tab" aria-controls="open-source" aria-selected="false") Open source plugin
+                    li.nav-item
+                        a.nav-link#data-routing-tab(data-toggle="tab" href="#data-routing" role="tab" aria-controls="data-routing" aria-selected="false") Data routing
+                    li.nav-item
+                        a.nav-link#versioned-api-tab(data-toggle="tab" href="#versioned-api" role="tab" aria-controls="versioned-api" aria-selected="false") Versioned api
+                    li.nav-item
+                        a.nav-link#clinical-research-tab(data-toggle="tab" href="#clinical-research" role="tab" aria-controls="clinical-research" aria-selected="false") Clinical Research
+                    li.nav-item
+                        a.nav-link#security-tab(data-toggle="tab" href="#security" role="tab" aria-controls="security" aria-selected="false") Security
+                    li.nav-item
+                        a.nav-link#update-improvements-tab(data-toggle="tab" href="#update-improvements" role="tab" aria-controls="update-improvements" aria-selected="false") Update & Improvements
+    .container-large-second.container--section-fifth
         .tab-content#nav-tabContent
             .tab-pane.fade.active.in#frontend(role="tabpanel" aria-labelledby="frontend-tab")
                 .tab__inner

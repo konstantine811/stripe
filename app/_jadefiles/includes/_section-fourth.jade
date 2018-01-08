@@ -14,12 +14,15 @@ section.section-fourth
                          user friendly genetic products with in 3 weeks.
         .row
             .tabs
-                nav
-                    .nav.nav-tabs#nav-tab(role="tablist")
-                        a.nav-item.nav-link.active#custome-product-tab(data-toggle="tab" href="#custome-product" role="tab" aria-controls="custome-product" aria-selected="true") Custom product design
-                        a.nav-item.nav-link#web-mobile-tab(data-toggle="tab" href="#web-mobile" role="tab" aria-controls="web-mobile" aria-selected="false") Web and mobile
-                        a.nav-item.nav-link#ecosystem-tab(data-toggle="tab" href="#ecosystem" role="tab" aria-controls="ecosystem" aria-selected="false") Integrated with the ecosystem
-                        a.nav-item.nav-link#operation-tab(data-toggle="tab" href="#operation" role="tab" aria-controls="operation" aria-selected="false") Operation
+                ul.nav.nav-tabs#nav-tab(role="tablist")
+                    li.nav-item.active
+                        a.nav-link#custome-product-tab(data-toggle="tab" href="#custome-product" role="tab" aria-controls="custome-product" aria-selected="true") Custom product design
+                     li.nav-item
+                        a.nav-link#web-mobile-tab(data-toggle="tab" href="#web-mobile" role="tab" aria-controls="web-mobile" aria-selected="false") Web and mobile
+                     li.nav-item
+                        a.nav-link#ecosystem-tab(data-toggle="tab" href="#ecosystem" role="tab" aria-controls="ecosystem" aria-selected="false") Integrated with the ecosystem
+                     li.nav-item
+                        a.nav-link#operation-tab(data-toggle="tab" href="#operation" role="tab" aria-controls="operation" aria-selected="false") Operation
     .container-large
         .tab-content#nav-tabContent
             .tab-pane.fade.active.in#custome-product(role="tabpanel" aria-labelledby="custome-product-tab")

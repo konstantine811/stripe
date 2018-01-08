@@ -706,9 +706,14 @@ body {
       -ms-flex-pack: center;
           justify-content: center; }
 
-.nav-item {
+.nav-item.active .nav-link {
+  background-color: #fff;
+  color: #4850A2; }
+
+.nav-item .nav-link {
   color: #fff;
   text-decoration: none;
+  text-align: center;
   font-size: 15px;
   border: 1px solid #fff;
   -webkit-border-radius: 21px;
@@ -717,14 +722,20 @@ body {
   margin: 0px 11px 28px 13px;
   font-weight: 600;
   text-transform: uppercase;
-  -webkit-transition: background-color 0.1s ease;
-  transition: background-color 0.1s ease;
+  -webkit-transition: background-color 1s linear;
+  transition: background-color 1s linear;
   display: inline-block;
   width: auto; }
-  .nav-item:focus, .nav-item:hover {
+  .nav-item .nav-link:focus, .nav-item .nav-link:hover {
     background-color: #fff;
     color: #4850A2;
     text-decoration: none; }
+
+.section-fifth .nav-item .nav-link:focus, .section-fifth .nav-item .nav-link:hover {
+  color: #333F4C; }
+
+.section-fifth .nav-item.active .nav-link {
+  color: #333F4C; }
 
 .tab__inner {
   width: 100%;
