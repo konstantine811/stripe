@@ -147,6 +147,7 @@
   height: 100%; }
 
 .stripe-section-logo__circle {
+  position: relative;
   width: 66px;
   height: 66px;
   background-color: #D7F5FD;

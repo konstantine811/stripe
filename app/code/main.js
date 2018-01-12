@@ -21,7 +21,7 @@ $(document).ready(function() {
 
 	$(window).scroll(function() {
 		var st = $(this).scrollTop();
-		var s_second = $('.section-second').position().top - $('.section-second').outerWidth()/2 - 200;
+		var s_second = $('.section-second').position().top - $('.section-second').outerWidth()/2;
 		var s_third = $('.section-third').position().top - $('.section-third').outerWidth()/2;
 
 
@@ -39,7 +39,7 @@ $(document).ready(function() {
 });
 
 $(window).on('load', function() { 
-	$(".container-fix").delay(0).fadeOut("slow");
+	$(".container-fix").delay(6000).fadeOut("slow");
 	setTimeout(function() {
 		$('body').css('overflow-y', 'scroll')
 	}, 0);
