@@ -1,0 +1,89 @@
+@imports _logo
+    
+.container-fix
+    position: fixed
+    width: 100vw
+    height: 100vh
+    background-color: white
+    z-index: 1000
+    overflow: hidden
+
+.preloader-animation
+    display: flex
+    justify-content: center
+    align-items: center
+    width: 100%
+    height: 100%
+    .header-logo 
+        width: 100px
+        height: 100px
+        .rect
+            width: 81px
+            height: 81px
+        .rect-txt
+            font-size: 10px
+            top: 13px
+            left: 66px
+        .rect-top
+            animation: anim-rect-top-preloader 3s 0.6s infinite both ease
+        .rect-middle-first
+            animation: anim-rect-middle-first-preloader 3s 0.5s infinite both ease
+        .rect-middle-second
+            animation: anim-rect-middle-second-preloader 3s 1s infinite both ease
+        .rect-bottom
+            animation: anim-rect-bottom-preloader 3s 0.7s infinite both ease
+
+@keyframes anim-rect-top-preloader
+    0%
+        transform: rotateX(67deg) rotateY(0deg) rotateZ(46deg) translate3d(0px, 0px, 0px) skewY(7deg) skewX(9deg)
+        opacity: 0
+    20%
+        transform: rotateX(67deg) rotateY(0deg) rotateZ(46deg) translate3d(0px, 0px, -30px) skewY(7deg) skewX(9deg)
+        opacity: 1
+    60%
+        transform: rotateX(67deg) rotateY(0deg) rotateZ(46deg) translate3d(0px, 0px, -114px) skewY(7deg) skewX(9deg)
+        opacity: 1
+    100%
+        transform: rotateX(67deg) rotateY(0deg) rotateZ(46deg) translate3d(0px, 0px, 0px) skewY(7deg) skewX(9deg)
+        opacity: 0
+
+@keyframes anim-rect-middle-first-preloader
+    0%
+        transform: rotateX(67deg) rotateY(0deg) rotateZ(46deg) translate3d(0px, 0px, 54px) skewY(7deg) skewX(9deg)
+        opacity: 0
+    20%
+        transform: rotateX(67deg) rotateY(0deg) rotateZ(46deg) translate3d(0px, 0px, 40px) skewY(7deg) skewX(9deg)
+        opacity: 1
+    70%
+        transform: rotateX(67deg) rotateY(0deg) rotateZ(46deg) translate3d(0px, 0px, -28px) skewY(7deg) skewX(9deg)
+        opacity: 1
+    100%
+        transform: rotateX(67deg) rotateY(0deg) rotateZ(46deg) translate3d(0px, 0px, 54px) skewY(7deg) skewX(9deg)
+        opacity: 0
+
+@keyframes anim-rect-middle-second-preloader
+    0%
+        transform: rotateX(67deg) rotateY(0deg) rotateZ(46deg) translate3d(0px, 0px, 129px) skewY(7deg) skewX(9deg)
+        opacity: 0
+    16%
+        transform: rotateX(67deg) rotateY(0deg) rotateZ(46deg) translate3d(0px, 0px, 104px) skewY(7deg) skewX(9deg)
+        opacity: 1
+    50%
+        transform: rotateX(67deg) rotateY(0deg) rotateZ(46deg) translate3d(0px, 0px, 61px) skewY(7deg) skewX(9deg)
+        opacity: 1
+    100%
+        transform: rotateX(67deg) rotateY(0deg) rotateZ(46deg) translate3d(0px, 0px, 124px) skewY(7deg) skewX(9deg)
+        opacity: 0
+
+@keyframes anim-rect-bottom-preloader
+    0%
+        transform: rotateX(67deg) rotateY(0deg) rotateZ(46deg) translate3d(0px, 0px, 163px) skewY(7deg) skewX(9deg)
+        opacity: 0
+    70%
+        transform: rotateX(67deg) rotateY(0deg) rotateZ(46deg) translate3d(0px, 0px, 150px) skewY(7deg) skewX(9deg)
+        opacity: 1
+    100%
+        transform: rotateX(67deg) rotateY(0deg) rotateZ(46deg) translate3d(0px, 0px, 190px) skewY(7deg) skewX(9deg)
+        opacity: 0
+
+

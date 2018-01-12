@@ -1,0 +1,130 @@
+@import './media/_header-nav-media'
+
+.header 
+    width: 100%
+    height: 100%
+    margin-top: 20px
+
+.logo
+    width: 100%
+    height: 100%
+
+.logo__header
+    width: 189px
+    height: 33px
+    background-image: url(../img/ixlayer-logo-white.png)
+    display: inline-block
+    background-repeat: no-repeat
+    background-size: 56%
+    cursor: pointer
+
+.mobile-button
+    height: 24px
+    width: 28px
+    position: absolute
+    right: 14px
+    top: 21px
+    z-index: 120
+    cursor: pointer
+    padding-top: 10px
+
+.mobile-button__inner 
+    position: relative
+    width: 24px
+    height: 3px
+    border-radius: 1px
+    background-color: $white
+    z-index: 120
+    &:before, &:after
+        content: ''
+        position: absolute
+        width: 24px
+        height: 3px
+        border-radius: 1px
+        background: $white
+    &:before
+        bottom: 8px
+    &:after
+        top: 8px
+
+.mobile-button.close
+    .mobile-button__inner
+        &:before, &:after
+            background-color: black
+        &:before
+            transform: rotate(45deg)
+            bottom: -4px
+        &:after
+            transform: rotate(-45deg)
+            top: 4px
+
+.mobile-menu 
+    display: none
+    position: absolute
+    width: 95%
+    height: 50%
+    background: $white
+    margin: 0 auto
+    left: 2%
+    z-index: 97
+    border-radius: 4px
+    box-shadow: 0px 4px 13px -2px $silver
+    .header-nav__item
+        display: block
+    .header-nav__link
+        color: $silver
+        &:hover
+            color: $silver-2
+            text-decoration: none
+        &:focus
+            outline: none
+            text-decoration: none
+
+.auth-mobile 
+    position: absolute
+    bottom: 7px
+    left: 7%
+    color: white
+    font-size: 18px
+.auth-mobile__inner
+    color: $silver
+
+.header-nav__wrap
+    list-style: none
+    width: 100%
+    height: 100%
+    position: relative
+    right: 10px
+
+.header-nav__item 
+    display: inline-block
+    padding-top: 4px
+
+.header-nav__link 
+    color: $white
+    font-size: 18px
+    padding-right: 37px
+    font-family: Quicksand
+    font-weight: 300 
+    transition: color 0.1s ease
+    &:hover
+        color: hsla(0,0%,100%,.75)
+        text-decoration: none
+
+.auth 
+    width: 100%
+    height: 100%
+    color: $white
+    font-size: 18px
+
+.auth__inner
+    text-align: right
+    margin-right: 3px
+    padding-top: 4px
+    display: inline-block
+    color: $white
+    cursor: pointer
+    transition: color 0.1s ease
+    &:hover
+        color: hsla(0,0%,100%,.75)
+        text-decoration: none
