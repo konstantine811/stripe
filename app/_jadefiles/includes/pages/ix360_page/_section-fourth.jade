@@ -1,63 +1,63 @@
 section.section-fourth
     .container
         .row
-            .section-fourth-header
-                .section-fourth-header__logo
-                    include ../partials/_logo-circle
-                .section-fourth-header__title
-                    .title-second.title-second--white
-                        .title-second__section-fourth Details of ixLayer end-to-end product and services
-                    .txt-about.txt-about--white
-                        .txt-about__section-fourth.
-                            With ixLayer end-to-end solution 
-                            that is needed from your side is 
-                            the scientific claims and ixLayer 
-                            will provide you best in class, 
-                            web and mobile, user friendly genetic 
-                            products with in 3 weeks. This includes
+            .col-lg-12
+                .section-fourth-header
+                    .section-fourth-header__logo
+                        include ../partials/_logo-circle
+                    .section-fourth-header__title
+                        .title-second.title-second--white
+                            .title-second__section-fourth Details of ixLayer end-to-end product and services
+                        .txt-about.txt-about--white
+                            .txt-about__section-fourth.
+                                With ixLayer end-to-end solution 
+                                that is needed from your side is 
+                                the scientific claims and ixLayer 
+                                will provide you best in class, 
+                                web and mobile, user friendly genetic 
+                                products with in 3 weeks. This includes
         .row
-            .section-fourth-table
-                .section-fourth-table__inner
-                    table.table.table-striped
-                        thead
-                            tr
-                                th(scope="col")
-                                th(scope="col") Consumer Genetic products
-                                th(scope="col") Health (LDT) genetic products
-                        tbody
-                            tr
-                                td.table-row-txt
-                                    .table-row-txt__inner
-                                        .title-third
-                                            h3.title-third__table-row Product concept & ideation
-                                        .txt-about-small
-                                            .txt-about-small__table-row.
-                                                Our product team with guide you through 
-                                                product concept and ideation, including value props, 
-                                                feature/functionalities, product criterias ...
-                                td Close
-                                td Open
-                            tr
-                                td.table-row-txt
-                                    .table-row-txt__inner
-                                        .title-third
-                                            h3.title-third__table-row Product concept & ideation
-                                        .txt-about-small
-                                            .txt-about-small__table-row.
-                                                Our product team with guide you through 
-                                                product concept and ideation, including value props, 
-                                                feature/functionalities, product criterias ...
-                                td Close
-                                td Open
-                             tr
-                                td.table-row-txt
-                                    .table-row-txt__inner
-                                        .title-third
-                                            h3.title-third__table-row Product concept & ideation
-                                        .txt-about-small
-                                            .txt-about-small__table-row.
-                                                Our product team with guide you through 
-                                                product concept and ideation, including value props, 
-                                                feature/functionalities, product criterias ...
-                                td Close
-                                td Open
+            .col-lg-12
+                .section-fourth-table
+                    .section-fourth-table__inner
+                        table.table.table-striped
+                            thead.section-fourth-table__thead
+                                tr
+                                    th(scope="col")
+                                    th(scope="col")
+                                        .txt-about.txt-about--white
+                                            .txt-about__table Consumer Genetic products
+                                    th(scope="col")
+                                        .txt-about.txt-about--white
+                                            .txt-about__table Health (LDT) genetic products
+                            tbody.section-fourth-table__tbody
+                                each val in table
+                                    tr
+                                        td.table-row-txt
+                                            .table-row-txt__inner
+                                                .title-third
+                                                    h3.title-third__table-row #{val.title}
+                                                .txt-about-small
+                                                    .txt-about-small__table-row #{val.txt_about}
+                                        td
+                                            .table-row-icon
+                                                .table-row-icon__inner
+                                                    if val.consumer === true
+                                                        span.icon-ok
+                                                    else
+                                                        span.icon-remove
+                                        td
+                                            .table-row-icon
+                                                .table-row-icon__inner
+                                                    if val.health === true
+                                                        span.icon-ok
+                                                    else
+                                                        span.icon-remove
+                        .table-launch-buttons
+                            .table-launch-buttons__inner
+                                .title-about.title-about--blue-dark
+                                    .title-about__table-buttons Launch your genetic product today
+                                .table-buttons__inner
+                                    button.bt.purple Explore Solution
+                                    button.bt.grey Request a demo
+

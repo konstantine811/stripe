@@ -265,6 +265,14 @@ button.bt.grey:hover {
             transform: rotateX(67deg) rotateY(0deg) rotateZ(46deg) translate3d(0px, 0px, 190px) skewY(7deg) skewX(9deg);
     opacity: 0; } }
 
+@media (max-width: 1528px) {
+  body .container-large--row-boxes {
+    padding: 0; } }
+
+@media (max-width: 1528px) {
+  body .container-large--row-boxes {
+    top: 0; } }
+
 @media (max-width: 992px) {
   .col-not-padding {
     padding: 0; } }
@@ -314,7 +322,8 @@ button.bt.grey:hover {
 body {
   font-family: Quicksand, sans-serif;
   font-weight: 300;
-  overflow: hidden; }
+  overflow: hidden;
+  position: relative; }
 
 .container-lg {
   max-width: 1040px;
@@ -343,6 +352,55 @@ body {
 
 .container-space {
   padding-left: 82px; }
+
+.icon-ok {
+  width: 42px;
+  height: 42px;
+  position: relative;
+  display: inline-block; }
+  .icon-ok:before, .icon-ok:after {
+    content: '';
+    background-color: #59FEB1;
+    position: absolute;
+    width: 3px;
+    opacity: 0;
+    -webkit-animation: anim-opacity 2s 1 forwards cubic-bezier(0.68, 1.38, 0.06, -0.21);
+            animation: anim-opacity 2s 1 forwards cubic-bezier(0.68, 1.38, 0.06, -0.21); }
+  .icon-ok:before {
+    height: 19px;
+    left: 4px;
+    -webkit-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    top: 13px; }
+  .icon-ok:after {
+    height: 42px;
+    left: 25px;
+    top: -6px;
+    -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+            transform: rotate(45deg); }
+
+.icon-remove {
+  width: 42px;
+  height: 42px;
+  position: relative;
+  display: inline-block; }
+  .icon-remove:before, .icon-remove:after {
+    content: '';
+    background-color: #F84444;
+    position: absolute;
+    width: 3px;
+    height: 42px;
+    left: 18px; }
+  .icon-remove:before {
+    -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+            transform: rotate(45deg); }
+  .icon-remove:after {
+    -webkit-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+            transform: rotate(-45deg); }
 
 .image-full {
   width: 100%;
@@ -417,6 +475,23 @@ body {
   cursor: pointer;
   color: #657E97; }
 
+.table-row-icon {
+  width: 100%;
+  height: 100%;
+  position: relative; }
+
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #fff; }
+
+.table-striped > tbody > tr:nth-of-type(even) {
+  background-color: #F3F9FF; }
+
+.table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td,
+.table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+  border: none;
+  padding: 0;
+  margin: 0; }
+
 .tabs {
   width: 100%;
   height: 100%;
@@ -432,11 +507,15 @@ body {
 
 .title-about {
   font-size: 24px;
+  font-weight: 300;
   font-family: Quicksand, sans-serif;
   line-height: 38px;
   color: #fff;
   width: 100%;
   height: 100%; }
+
+.title-about--blue-dark {
+  color: #657E97; }
 
 .title-border {
   font-family: Quicksand, sans-serif;
@@ -501,6 +580,12 @@ body {
   color: #657E97;
   font-family: Quicksand; }
 
+.title-third {
+  font-size: 20px;
+  font-weight: 500;
+  color: #657E97;
+  font-family: Quicksand; }
+
 .title-wrap-back {
   position: relative;
   height: 85px;
@@ -522,6 +607,28 @@ body {
 
 .title-wrap-back--pink {
   background-color: #EB89B7; }
+
+.table tbody {
+  -webkit-box-shadow: 0px 8px 14px 0px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 8px 14px 0px rgba(0, 0, 0, 0.5);
+  -webkit-border-radius: 11px 11px 11px 11px;
+          border-radius: 11px 11px 11px 11px; }
+
+.table tbody tr:first-child td:first-child {
+  -webkit-border-radius: 6px 0 0 0;
+          border-radius: 6px 0 0 0; }
+
+.table tbody tr:first-child td:last-child {
+  -webkit-border-radius: 0 6px 0 0;
+          border-radius: 0 6px 0 0; }
+
+.table tbody tr:last-child td:first-child {
+  -webkit-border-radius: 0 0 0 6px;
+          border-radius: 0 0 0 6px; }
+
+.table tbody tr:last-child td:last-child {
+  -webkit-border-radius: 0 0 6px 0;
+          border-radius: 0 0 6px 0; }
 
 .txt-about {
   font-family: Quicksand, sans-serif;
@@ -551,3 +658,15 @@ body {
 
 .txt-about-small--white {
   color: #fff; }
+
+@-webkit-keyframes anim-opacity {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@keyframes anim-opacity {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
