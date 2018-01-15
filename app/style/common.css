@@ -269,10 +269,6 @@ button.bt.grey:hover {
   body .container-large--row-boxes {
     padding: 0; } }
 
-@media (max-width: 1528px) {
-  body .container-large--row-boxes {
-    top: 0; } }
-
 @media (max-width: 992px) {
   .col-not-padding {
     padding: 0; } }
@@ -280,6 +276,9 @@ button.bt.grey:hover {
 @media (max-width: 767px) {
   .col-not-padding {
     padding: 0; }
+  body .image-small {
+    max-width: 332px;
+    width: 100%; }
   body .title {
     font-size: 32px; }
   body .title-second {
@@ -312,6 +311,9 @@ button.bt.grey:hover {
   margin: 0 auto;
   font-weight: 300;
   line-height: 38px; }
+
+.about-txt--blue-dark {
+  color: #657E97; }
 
 .about-txt-fourth {
   font-family: Quicksand, sans-serif;
@@ -411,6 +413,14 @@ body {
           border-radius: 6px;
   display: inline-block; }
 
+.image-least {
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+  background-color: #8898AA;
+  -webkit-border-radius: 6px;
+          border-radius: 6px; }
+
 .image-small {
   background-color: #8898AA;
   width: 332px;
@@ -427,6 +437,11 @@ body {
   -webkit-transform: skewY(-6deg);
       -ms-transform: skewY(-6deg);
           transform: skewY(-6deg); }
+
+.main-background--grey {
+  background: -webkit-gradient(linear, left top, left bottom, from(#657E97), to(#333F4C));
+  background: -webkit-linear-gradient(top, #657E97, #333F4C);
+  background: linear-gradient(to bottom, #657E97, #333F4C); }
 
 .nav-tabs {
   border-bottom: none;
@@ -505,6 +520,9 @@ body {
   height: 100%;
   font-weight: 300; }
 
+.title--blue-dark {
+  color: #657E97; }
+
 .title-about {
   font-size: 24px;
   font-weight: 300;
@@ -516,6 +534,9 @@ body {
 
 .title-about--blue-dark {
   color: #657E97; }
+
+.title-about--blue {
+  color: #5F83DA; }
 
 .title-border {
   font-family: Quicksand, sans-serif;
@@ -530,6 +551,11 @@ body {
   padding-top: 30px;
   text-transform: uppercase;
   font-weight: 500; }
+
+.title-border--unset {
+  text-transform: unset;
+  max-width: 365px;
+  height: 92px; }
 
 .title-fifth {
   height: 100%;
@@ -552,6 +578,9 @@ body {
   font-size: 22px;
   color: #5F83DA;
   font-weight: 500; }
+
+.title-fourth--blue-dark {
+  color: #657E97; }
 
 .title-fourth--white {
   color: #fff; }
@@ -585,6 +614,9 @@ body {
   font-weight: 500;
   color: #657E97;
   font-family: Quicksand; }
+
+.title-third--blue {
+  color: #5F83DA; }
 
 .title-wrap-back {
   position: relative;
