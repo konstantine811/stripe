@@ -12,13 +12,32 @@
   height: 100%; }
 
 .logo__header {
-  width: 189px;
-  height: 33px;
-  background-image: url(../img/ixlayer-logo-white.png);
+  width: 30px;
+  height: 30px;
   display: inline-block;
-  background-repeat: no-repeat;
-  background-size: 56%;
   cursor: pointer; }
+  .logo__header .header-logo {
+    -webkit-transform: scale(0.4);
+        -ms-transform: scale(0.4);
+            transform: scale(0.4);
+    top: -27px;
+    right: 17px;
+    opacity: 0.9; }
+
+.logo__link {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  position: relative; }
+
+.logo__txt {
+  display: inline-block;
+  color: white;
+  font-size: 22px;
+  font-weight: 500;
+  position: absolute;
+  top: 2px;
+  left: 33px; }
 
 .mobile-button {
   height: 24px;
@@ -201,6 +220,22 @@
   width: 63px;
   height: 82px; }
 
+.header-logo.animation .rect-top {
+  -webkit-animation: anim-rect-top 2s 1 forwards cubic-bezier(0, 0.63, 0.17, 1.16);
+          animation: anim-rect-top 2s 1 forwards cubic-bezier(0, 0.63, 0.17, 1.16); }
+
+.header-logo.animation .rect-middle-first {
+  -webkit-animation: anim-rect-middle-first 2.3s 0.7s 1 forwards ease;
+          animation: anim-rect-middle-first 2.3s 0.7s 1 forwards ease; }
+
+.header-logo.animation .rect-middle-second {
+  -webkit-animation: anim-rect-middle-second 2s 0.7s 1 forwards ease;
+          animation: anim-rect-middle-second 2s 0.7s 1 forwards ease; }
+
+.header-logo.animation .rect-bottom {
+  -webkit-animation: anim-rect-bottom 1.4s 0.7s 1 forwards ease-in-out;
+          animation: anim-rect-bottom 1.4s 0.7s 1 forwards ease-in-out; }
+
 .rect {
   width: 50px;
   height: 50px;
@@ -217,20 +252,12 @@
   opacity: 0;
   z-index: 10; }
 
-.rect-top-ix360-anim {
-  -webkit-animation: anim-rect-top 2s 1 forwards cubic-bezier(0, 0.63, 0.17, 1.16);
-          animation: anim-rect-top 2s 1 forwards cubic-bezier(0, 0.63, 0.17, 1.16); }
-
 .rect-middle-first {
   -webkit-transform: rotateX(67deg) rotateY(0deg) rotateZ(46deg) translate3d(0px, 0px, 80px) skewY(7deg) skewX(9deg);
           transform: rotateX(67deg) rotateY(0deg) rotateZ(46deg) translate3d(0px, 0px, 80px) skewY(7deg) skewX(9deg);
   background-color: #f9a18a;
   opacity: 0;
   z-index: 9; }
-
-.rect-middle-first-ix360-anim {
-  -webkit-animation: anim-rect-middle-first 2.3s 0.7s 1 forwards ease;
-          animation: anim-rect-middle-first 2.3s 0.7s 1 forwards ease; }
 
 .rect-middle-second {
   -webkit-transform: rotateX(67deg) rotateY(0deg) rotateZ(46deg) translate3d(0px, 0px, 120px) skewY(7deg) skewX(9deg);
@@ -239,20 +266,12 @@
   opacity: 0;
   z-index: 8; }
 
-.rect-middle-second-ix360-anim {
-  -webkit-animation: anim-rect-middle-second 2s 0.7s 1 forwards ease;
-          animation: anim-rect-middle-second 2s 0.7s 1 forwards ease; }
-
 .rect-bottom {
   -webkit-transform: rotateX(67deg) rotateY(0deg) rotateZ(46deg) translate3d(0px, 0px, 150px) skewY(7deg) skewX(9deg);
           transform: rotateX(67deg) rotateY(0deg) rotateZ(46deg) translate3d(0px, 0px, 150px) skewY(7deg) skewX(9deg);
   background-color: #c17dbe;
   z-index: 7;
   opacity: 0; }
-
-.rect-bottom-ix360-anim {
-  -webkit-animation: anim-rect-bottom 1.4s 0.7s 1 forwards ease-in-out;
-          animation: anim-rect-bottom 1.4s 0.7s 1 forwards ease-in-out; }
 
 .rect-txt {
   width: 100%;

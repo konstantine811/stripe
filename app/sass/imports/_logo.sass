@@ -59,6 +59,15 @@
     width: 63px
     height: 82px
 
+.header-logo.animation
+    .rect-top
+        animation: anim-rect-top 2s 1 forwards cubic-bezier(0, 0.63, 0.17, 1.16)
+    .rect-middle-first
+        animation: anim-rect-middle-first 2.3s 0.7s 1 forwards ease   
+    .rect-middle-second
+        animation: anim-rect-middle-second 2s 0.7s 1 forwards ease
+    .rect-bottom
+        animation: anim-rect-bottom 1.4s 0.7s 1 forwards ease-in-out
 .rect
     width: 50px
     height: 50px
@@ -72,17 +81,11 @@
     opacity: 0
     z-index: 10
 
-.rect-top-ix360-anim
-    animation: anim-rect-top 2s 1 forwards cubic-bezier(0, 0.63, 0.17, 1.16)
-
 .rect-middle-first
     transform: rotateX(67deg) rotateY(0deg) rotateZ(46deg) translate3d(0px, 0px, 80px) skewY(7deg) skewX(9deg)
     background-color: $pink-2
     opacity: 0
     z-index: 9
-
-.rect-middle-first-ix360-anim
-    animation: anim-rect-middle-first 2.3s 0.7s 1 forwards ease
 
 .rect-middle-second
     transform: rotateX(67deg) rotateY(0deg) rotateZ(46deg) translate3d(0px, 0px, 120px) skewY(7deg) skewX(9deg)
@@ -90,17 +93,11 @@
     opacity: 0
     z-index: 8
 
-.rect-middle-second-ix360-anim
-    animation: anim-rect-middle-second 2s 0.7s 1 forwards ease
-
 .rect-bottom
     transform: rotateX(67deg) rotateY(0deg) rotateZ(46deg) translate3d(0px, 0px, 150px) skewY(7deg) skewX(9deg)
     background-color: $purple-4
     z-index: 7
     opacity: 0
-
-.rect-bottom-ix360-anim
-    animation: anim-rect-bottom 1.4s 0.7s 1 forwards ease-in-out
 
 .rect-txt
     width: 100%
