@@ -69,11 +69,29 @@ button.bt.purple {
 button.bt.purple:hover {
   background: #E847AD; }
 
+button.bt.puprle-blue {
+  background: #7C72DB; }
+
+button.bt.purple-blue:hover {
+  background: rgba(124, 114, 219, 0.9); }
+
+button.bt.purple-dark {
+  background: #BC72DB; }
+
+button.bt.purple-dark:hover {
+  background: rgba(188, 114, 219, 0.9); }
+
 button.bt.blue {
   background: #5F83DA; }
 
 button.bt.blue:hover {
   background: #6D91E9; }
+
+button.bt.blue-dark {
+  background: #6E73F9; }
+
+button.bt.blue-dark:hover {
+  background: rgba(110, 115, 249, 0.9); }
 
 button.bt.grey {
   background: #E1F0FF;
@@ -81,6 +99,12 @@ button.bt.grey {
 
 button.bt.grey:hover {
   background: #F3F9FF; }
+
+button.bt.pink {
+  background: #EB89B7; }
+
+button.bt.pink:hover {
+  background: rgba(235, 137, 183, 0.9); }
 
 @imports "_logo";
 .container-fix {
@@ -355,6 +379,11 @@ body {
 .container-space {
   padding-left: 82px; }
 
+.email-link {
+  color: #CF3095;
+  font-size: 18px;
+  font-weight: 300; }
+
 .icon-ok {
   width: 42px;
   height: 42px;
@@ -442,6 +471,11 @@ body {
   background: -webkit-gradient(linear, left top, left bottom, from(#657E97), to(#333F4C));
   background: -webkit-linear-gradient(top, #657E97, #333F4C);
   background: linear-gradient(to bottom, #657E97, #333F4C); }
+
+.main-background--light-blue {
+  background: -webkit-gradient(linear, right top, left top, from(#62B1D9), to(#83CBF1));
+  background: -webkit-linear-gradient(right, #62B1D9, #83CBF1);
+  background: linear-gradient(to left, #62B1D9, #83CBF1); }
 
 .nav-tabs {
   border-bottom: none;
@@ -532,11 +566,23 @@ body {
   width: 100%;
   height: 100%; }
 
+.title-about--medium {
+  font-weight: 500; }
+
 .title-about--blue-dark {
   color: #657E97; }
 
 .title-about--blue {
   color: #5F83DA; }
+
+.title-about-second {
+  width: 100%;
+  height: 100%;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 48px;
+  color: #62B1D9;
+  font-family: Quicksand, sans-serif; }
 
 .title-border {
   font-family: Quicksand, sans-serif;
@@ -591,8 +637,14 @@ body {
   color: #5F83DA;
   font-weight: 300; }
 
+.title-second--medium {
+  font-weight: 500; }
+
 .title-second--white {
   color: #fff; }
+
+.title-second--blue-dark {
+  color: #657E97; }
 
 .title-sixth {
   font-family: Quicksand, sans-serif;

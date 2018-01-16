@@ -269,7 +269,7 @@
 .rect-bottom {
   -webkit-transform: rotateX(67deg) rotateY(0deg) rotateZ(46deg) translate3d(0px, 0px, 150px) skewY(7deg) skewX(9deg);
           transform: rotateX(67deg) rotateY(0deg) rotateZ(46deg) translate3d(0px, 0px, 150px) skewY(7deg) skewX(9deg);
-  background-color: #c17dbe;
+  background-color: #BD7ABD;
   z-index: 7;
   opacity: 0; }
 

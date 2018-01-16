@@ -1,9 +1,8 @@
 $(document).ready(function() {
     $(window).scroll(function() {
-
 		var st = $(this).scrollTop();
-		var s_second = $('.section-second').position().top - $('.section-second').outerWidth();
-		var s_third = $('.section-third').position().top - $('.section-third').outerWidth();
+		var s_second = $('.section-second').offset().top - $('.section-second').outerHeight();
+        var s_third = $('.section-third').offset().top - $('.section-second').outerHeight() / 2;
 		
 		if(st >= s_second) {
 			$('.section-second-header__logo').find('.header-logo').addClass('animation');
