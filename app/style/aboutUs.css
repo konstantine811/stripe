@@ -464,6 +464,35 @@
             transform: rotateX(67deg) rotateY(0deg) rotateZ(46deg) translate3d(0px, 0px, 120px) skewY(7deg) skewX(9deg);
     opacity: 1; } }
 
+@media (max-width: 1326px) {
+  body .logo-header-about {
+    left: 170px; }
+    body .logo-header-about .logo__header .header-logo {
+      -webkit-transform: scale(4);
+          -ms-transform: scale(4);
+              transform: scale(4); } }
+
+@media (max-width: 992px) {
+  body .about-txt__about-principles {
+    padding-top: 25px; }
+  body .about-txt__about-why {
+    padding-top: 25px; }
+  body .about-txt__section-second-about {
+    padding-top: 0; }
+  body .logo-header-about {
+    top: 299px;
+    left: 100px; }
+  body .section-second-about-quote {
+    -webkit-flex-flow: wrap;
+        -ms-flex-flow: wrap;
+            flex-flow: wrap; }
+  body .section-second-about-principles__inner {
+    padding-top: 50px; }
+  body .title-second__section-third-about {
+    padding-top: 50px; }
+  body .title__head {
+    margin-top: 50px; } }
+
 .head-about {
   position: relative;
   width: 100%;
@@ -478,7 +507,7 @@
 
 .logo-header-about {
   width: 100%;
-  height: 100%;
+  height: auto;
   position: absolute;
   top: 352px;
   left: 281px; }
@@ -597,7 +626,7 @@
   margin: 0 auto; }
 
 .investor-box {
-  width: 25%;
+  width: auto;
   height: 100%;
   margin: 54px auto 0; }
 
