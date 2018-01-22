@@ -297,7 +297,7 @@
   position: relative; }
 
 .footer-background {
-  position: absolute;
+  position: static;
   width: 100%;
   height: 100%; }
 
@@ -804,6 +804,7 @@
   padding-bottom: 105px; }
 
 .footer-background {
+  position: absolute;
   overflow: hidden; }
   .footer-background .footer-background__inner {
     background: #F6F9FC;
