@@ -49,7 +49,7 @@
     border-radius: 83px 83px 6px 6px
     box-shadow: 0px 7px 20px -4px $silver
     transition: all 0.3s ease
-    cursor: pointer
+    cursor: default
     z-index: 1000
     &:hover
         transform: scale(1.04)
@@ -104,7 +104,7 @@
     font-weight: inherit
     margin-top: 37px
 
-h5.title-fifth__head-boxes
+.title-fifth__head-boxes
     font-size: inherit
     font-weight: inherit
     text-align: center
@@ -300,23 +300,11 @@ h5.title-fifth__head-boxes
     .section-third-description__content
         flex-flow: row-reverse
 
-.section-third-image__inner
-    width: 100%
-    height: 100%
-    transform: rotate(-7deg) translate(880px, 0px)
-    opacity: 0
-
-.section-third-image__inner--animation
-    @for $i from 1 through 4
-        &:nth-child(#{$i})
-            animation: animation-images 1s * $i 1 forwards cubic-bezier(0,-0.06, 0, 0.94);
-    
 .section-third-images__wrap
     width: 100%
-    height: 100%
-    position: relative
-    display: flex
-    justify-content: center
+    height: auto
+    margin: 0 auto
+    text-align: center
 
 .section-third-title__inner
     padding-top: 164px
@@ -326,18 +314,6 @@ h5.title-fifth__head-boxes
     font-weight: inherit
     color: inherit
 
-
-//animation keyframes
-
-@keyframes animation-images
-    0%
-        transform: rotate(-7deg) translate(880px, 0px)
-        opacity: 0
-    20%
-        opacity: 0
-    100%
-        transform: rotate(-7deg) translate(0px, 0px)
-        opacity: 1
 
 
 //section fourth
@@ -356,7 +332,7 @@ h5.title-fifth__head-boxes
     height: 100%
     margin: 0 auto
 
-.section-fourth-table__inner 
+.section-fourth-table__inner
     width: 106%
     height: 100%
     margin: 0 auto
@@ -367,6 +343,17 @@ h5.title-fifth__head-boxes
 .section-fourth-table__tbody
     width: 100%
     height: 100%
+    background-color: $white
+    position: relative
+    &:before
+        content: ''
+        position: absolute
+        height: 100%
+        width: 100%
+        background-color: $white
+        z-index: -1
+        border-radius: 6px
+
 
 .table-buttons__inner
     padding-top: 14px

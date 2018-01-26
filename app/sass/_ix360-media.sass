@@ -1,11 +1,15 @@
 @media (max-width: $breakpoint-device-3)
-    .container-large--row-boxes
-        .col-lg-3
-            width: 50%
     .head-content-boxes
         margin: 0 auto
         margin: 40px auto 0
 
+@media (max-width: $breakpoint-device)
+    body
+        .head-content-boxes.head-content-boxes--left
+            float: right
+        .head-content-boxes.head-content-boxes--right
+            float: left
+            
 @media (max-width: $breakpoint-tablet)
     body
         .about-txt__section-third
@@ -64,6 +68,8 @@
             bottom: -1%
         .head-content
             margin-top: 0
+        .head-content-boxes.head-content-boxes--left, .head-content-boxes.head-content-boxes--right
+            float: none
         .head-description-image
             padding: 0 70px 0px 0px
         .image-head

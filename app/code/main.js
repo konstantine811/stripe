@@ -20,15 +20,6 @@ $(document).ready(function() {
 	});
 
 	$('.logo__header').find('.header-logo').addClass('animation');
-
-	//header nav hover
-	$('.header-nav__link').hover(function() {
-		$(this).find('.header-nav__menu').css({'transform': 'scaleX(1) scaleY(1) translate(0, 0)', 'z-index': '1000', 'box-shadow': '0px 6px 39px -8px black'});
-		$(this).find('.header-nav__menu').find('.menu').css('opacity', '1');
-	}, function() {
-		$(this).find('.header-nav__menu').css({'transform': 'scaleX(0) scaleY(0.6) translate(0, -90px)', 'z-index': '0', 'box-shadow': 'none'});
-		$(this).find('.header-nav__menu').find('.menu').css('opacity', '0');
-	});
 });
 
 $(window).on('load', function() { 

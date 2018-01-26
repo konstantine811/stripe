@@ -300,6 +300,10 @@ button.bt.pink:hover {
 @media (max-width: 767px) {
   .col-not-padding {
     padding: 0; }
+  body .icon-remove, body .icon-ok {
+    -webkit-transform: scale(0.7);
+        -ms-transform: scale(0.7);
+            transform: scale(0.7); }
   body .image-small {
     max-width: 332px;
     width: 100%; }
@@ -471,6 +475,37 @@ body {
   height: 209px;
   -webkit-border-radius: 6px;
           border-radius: 6px; }
+
+.label {
+  -webkit-border-radius: 20px;
+          border-radius: 20px;
+  font-weight: 600;
+  font-size: 13px;
+  color: #fff;
+  text-transform: uppercase; }
+
+.label--blue {
+  background-color: #68d4f8; }
+
+.label--purple {
+  background-color: #7795f8; }
+
+.label--pink {
+  background-color: #f6a4eb; }
+
+.label--orange {
+  background-color: #f5be58; }
+
+.label--red {
+  background-color: #fa755a; }
+
+.label--green {
+  background-color: #3ecf8e; }
+
+.label--green-big {
+  padding-left: 37%;
+  padding-right: 37%;
+  display: inline-block; }
 
 .main-background {
   width: 100%;
@@ -694,11 +729,10 @@ body {
 .title-wrap-back {
   position: relative;
   height: 85px;
-  width: 100.7%;
+  width: 100%;
   -webkit-border-radius: 6px 6px 0px 0px;
           border-radius: 6px 6px 0px 0px;
   background-color: #888;
-  right: 0.35%;
   top: -5px; }
 
 .title-wrap-back--blue-light {
