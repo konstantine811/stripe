@@ -619,6 +619,8 @@
     margin-left: 0; }
   .section-second .container-space {
     padding-left: 26px; }
+  .section-third .connect-box__txt--second {
+    padding: 52px 30px; }
   .section-fourth .buttons {
     position: relative; }
   .section-fifth .buttons {
@@ -635,6 +637,9 @@
     top: 26.1%; }
   .section-third .connect-box {
     margin: 15px 0; }
+  .section-third .connect-box-table {
+    -webkit-border-radius: 0 0 4px 4px;
+            border-radius: 0 0 4px 4px; }
   .section-second .txt-about__compress {
     right: 0; }
   .section-second .image-middle__inner {
