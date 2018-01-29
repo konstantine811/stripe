@@ -9,14 +9,15 @@ html(lang='en')
 		title Stripe
 		link(rel="stylesheet", href="libs/bootstrap/dist/css/bootstrap.min.css")
 		link(href='style/common.css', rel='stylesheet')
-		link(href='style/aboutUs.css', rel='stylesheet')
+		link(href='style/contactUs.css', rel='stylesheet')
 	body
 		include includes/_preloader
-		include includes/pages/aboutUs_page/_section-first
-		include includes/pages/aboutUs_page/_section-second
-		include includes/pages/aboutUs_page/_section-third
-		include includes/pages/aboutUs_page/_section-fourth
+		include includes/pages/contactUs_page/_section-first
+		include includes/pages/contactUs_page/_section-second
+		include includes/pages/partials/_map
 		include includes/_footer
 		script(type='text/javascript' src='libs/jquery/dist/jquery.min.js')
 		script(type="text/javascript" src="libs/bootstrap/dist/js/bootstrap.min.js")
 		script(type='text/javascript' src='code/main.js')
+		script(type='text/javascript' src='code/map.js')
+		script(async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAsyMNzd3MqENmrKaa6cOQe2_0r9Ci5uKE&callback=initMap")

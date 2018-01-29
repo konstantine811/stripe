@@ -9,17 +9,51 @@
 
 $(document).ready(function() {
 
+	var showMobileMenu;
+
 	//bootstrap carousel
 	$('.carousel').carousel({
 		interval: 3000
 	});
 
-	$('.mobile-button').click(function() {
-		$('.mobile-menu').toggle(300);
-		$(this).toggleClass('close');
-	});
 
 	$('.logo__header').find('.header-logo').addClass('animation');
+
+	// showMobileMenu = function() {
+	// 	var menu = $('.mobile-menu');
+	// 	var visible = $('.mobile-menu').css('opacity') == 0;
+
+	// 	$('.mobile-button').click(function()  {
+	// 		if (visible) {
+	// 			menu.css({'opacity': '1', transform: 'scale(1)'});
+	// 		}
+	// 	}
+	// }
+
+	function showMobileMenu() {
+		var menu = $('header.header').find('.mobile-menu'),
+		button_open = $('header.header').find('.mobile-button'),
+		button_close = $('header.header').find('.mobile-menu__button-close');
+		
+		
+		button_open.click(function() {
+			var visible = menu.is(':visible');
+			if(!visible) {
+				menu.fadeIn(0).css({'transform': 'none'}).animate({'opacity': '1'}, 100, "linear");
+			}
+		});
+		
+		button_close.click(function() {
+			var visible = menu.is(':visible');
+			if (visible) {
+				menu.fadeOut(140).css({'transform': 'scale(.95)'}).animate({'opacity': '0'}, 100, "linear");
+			}
+		});
+		
+	}
+
+	showMobileMenu();
+
 });
 
 $(window).on('load', function() { 

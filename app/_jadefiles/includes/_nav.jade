@@ -2,21 +2,39 @@ header.header
     .mobile-button.visible-xs-inline-block
         .mobile-button__inner
     .mobile-menu
-        .container
-            .row
-                .col-xs-6
-                    nav.header-nav
-                        ul.header-nav__wrap
-                            li.header-nav__item
-                                a(href="#" class="header-nav__link") Products
-                            li.header-nav__item
-                                a(href="#" class="header-nav__link") Developers
-                            li.header-nav__item
-                                a(href="#" class="header-nav__link") Company
-                            li.header-nav__item
-                                a(href="#" class="header-nav__link") Pricing
-                .auth-mobile 
-                    a(href="#").auth-mobile__inner Sign in
+        .mobile-menu__wrap
+            .mobile-menu__button-close
+            .container
+                .row
+                    .mobile-menu-content
+                        .mobile-menu__title
+                            .title-sixth.title-sixth--upper Products
+                        ul.mobile-menu-top-link
+                            li.mobile-menu-top-link__item
+                                a(href="#").mobile-menu-top-link__link
+                                    .mobile-menu-top-link__image
+                                        .image-circle-small
+                                    .mobile-menu-top-link__txt Link 1
+                            li.mobile-menu-top-link__item
+                                a(href="#").mobile-menu-top-link__link
+                                    .mobile-menu-top-link__image
+                                        .image-circle-small
+                                    .mobile-menu-top-link__txt Link 2
+                            li.mobile-menu-top-link__item
+                                a(href="#").mobile-menu-top-link__link
+                                    .mobile-menu-top-link__image
+                                        .image-circle-small
+                                    .mobile-menu-top-link__txt Link 3
+                        ul.mobile-menu-bottom-link
+                            li.mobile-menu-bottom-link__item
+                                a(href="#").mobile-menu-bottom-link__link Link 1
+                            li.mobile-menu-bottom-link__item
+                                a(href="#").mobile-menu-bottom-link__link Link 2
+                            li.mobile-menu-bottom-link__item
+                                a(href="#").mobile-menu-bottom-link__link Link 4
+                        .mobile-menu__sign-in
+                            .auth 
+                                a(href="#").auth__mobile-menu Sign in
     .col-lg-3.col-md-3.col-sm-2
         .logo
             a(href="#" class="logo__link")

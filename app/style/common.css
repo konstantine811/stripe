@@ -1,5 +1,12 @@
 @font-face {
   font-family: "Quicksand";
+  src: url("../fonts/Quicksand/Quicksand-Light.eot");
+  src: url("../fonts/Quicksand/Quicksand-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Quicksand/Quicksand-Light.woff") format("woff"), url("../fonts/Quicksand/Quicksand-Light.ttf") format("truetype"), url("../fonts/Quicksand/Quicksand-Light.svg") format("svg");
+  font-weight: 100;
+  font-style: light; }
+
+@font-face {
+  font-family: "Quicksand";
   src: url("../fonts/Quicksand/Quicksand-Regular.eot");
   src: url("../fonts/Quicksand/Quicksand-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Quicksand/Quicksand-Regular.woff") format("woff"), url("../fonts/Quicksand/Quicksand-Regular.ttf") format("truetype"), url("../fonts/Quicksand/Quicksand-Regular.svg") format("svg");
   font-weight: 300;
@@ -388,6 +395,30 @@ body {
   font-size: 18px;
   font-weight: 300; }
 
+.email-link-lg {
+  color: #5F83DA;
+  font-size: 24px;
+  font-weight: 300; }
+
+.form-control {
+  height: 43px;
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  background-color: #F7F9FC;
+  font-size: 18px;
+  font-weight: 100;
+  font-style: italic;
+  color: #5F83DA; }
+  .form-control::-webkit-input-placeholder {
+    color: #5F83DA; }
+  .form-control::-moz-placeholder {
+    color: #5F83DA; }
+  .form-control:-ms-input-placeholder {
+    color: #5F83DA; }
+  .form-control::placeholder {
+    color: #5F83DA; }
+
 .icon-ok {
   width: 42px;
   height: 42px;
@@ -441,6 +472,14 @@ body {
   display: inline-block;
   width: 50px;
   height: 50px;
+  background-color: #8898AA;
+  -webkit-border-radius: 50%;
+          border-radius: 50%; }
+
+.image-circle-small {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
   background-color: #8898AA;
   -webkit-border-radius: 50%;
           border-radius: 50%; }
@@ -507,6 +546,13 @@ body {
   padding-right: 37%;
   display: inline-block; }
 
+.label-input {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: Quicksand, sans-serif;
+  color: #657E97;
+  padding-top: 13px; }
+
 .main-background {
   width: 100%;
   height: 100%;
@@ -526,6 +572,15 @@ body {
   background: -webkit-gradient(linear, right top, left top, from(#62B1D9), to(#83CBF1));
   background: -webkit-linear-gradient(right, #62B1D9, #83CBF1);
   background: linear-gradient(to left, #62B1D9, #83CBF1); }
+
+#map {
+  width: 100%;
+  height: 806px; }
+
+.customBox {
+  background: yellow;
+  border: 1px solid black;
+  position: absolute; }
 
 .nav-tabs {
   border-bottom: none;
