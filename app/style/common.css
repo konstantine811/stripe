@@ -366,7 +366,7 @@ button.bt.pink:hover {
 body {
   font-family: Quicksand, sans-serif;
   font-weight: 300;
-  overflow: hidden;
+  overflow-x: hidden;
   position: relative; }
 
 .container-lg {
