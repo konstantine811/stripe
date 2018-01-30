@@ -336,6 +336,9 @@ button.bt.pink:hover {
       width: 100%;
       margin: 10px auto; } }
 
+html {
+  overflow-x: hidden; }
+
 .about-txt {
   font-family: Quicksand, sans-serif;
   font-size: 24px;
