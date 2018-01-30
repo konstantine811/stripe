@@ -300,9 +300,30 @@ button.bt.pink:hover {
   body .container-large--row-boxes {
     padding: 0; } }
 
+@media (max-width: 1199px) {
+  body .about-txt-image {
+    font-size: 12px; }
+  body .row-image--second {
+    top: -webkit-calc(20vw - 37px);
+    top: calc(20vw - 37px); } }
+
 @media (max-width: 992px) {
   .col-not-padding {
-    padding: 0; } }
+    padding: 0; }
+  body .row-image__first {
+    width: 57%; }
+  body .row-image--first {
+    top: -webkit-calc(7vw - 6px);
+    top: calc(7vw - 6px); }
+  body .about-txt-image {
+    line-height: 14px; }
+  body .row-image--second {
+    top: -webkit-calc(20vw - 27px);
+    top: calc(20vw - 27px); }
+  body .row-image__second {
+    width: 65%; }
+  body .row-image__third {
+    width: 70%; } }
 
 @media (max-width: 767px) {
   .col-not-padding {

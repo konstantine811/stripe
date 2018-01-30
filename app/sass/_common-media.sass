@@ -3,9 +3,29 @@
         .container-large--row-boxes
             padding: 0
 
+@media (max-width: $breakpoint-device)
+    body
+        .about-txt-image
+            font-size: 12px
+        .row-image--second
+            top: calc(20vw - 37px)
+
 @media (max-width: $breakpoint-tablet)
     .col-not-padding
         padding: 0
+    body
+        .row-image__first
+            width: 57%
+        .row-image--first
+            top: calc(7vw - 6px)
+        .about-txt-image
+            line-height: 14px
+        .row-image--second
+            top: calc(20vw - 27px)
+        .row-image__second
+            width: 65%
+        .row-image__third
+            width: 70%
 
 @media (max-width: $breakpoint-mobile)
     .col-not-padding
