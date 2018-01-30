@@ -715,14 +715,94 @@
             transform: rotateX(67deg) rotateY(0deg) rotateZ(46deg) translate3d(0px, 0px, 120px) skewY(7deg) skewX(9deg);
     opacity: 1; } }
 
-.head-contact {
+@media (max-width: 992px) {
+  body .section-second-sign-form {
+    width: 100%;
+    bottom: 304px; } }
+
+@media (max-width: 767px) {
+  body .footer {
+    bottom: -381px; }
+  body .form-group-submit {
+    -webkit-flex-flow: wrap;
+        -ms-flex-flow: wrap;
+            flex-flow: wrap; }
+  body .form-group-submit__validation-txt {
+    padding: 0; }
+  body .form-group-submit__wrap {
+    width: auto;
+    height: auto;
+    padding-top: 20px; } }
+
+.head-sign {
   width: 100%;
   height: 100%;
   position: relative;
-  padding-bottom: 445px; }
+  padding-bottom: 397px; }
 
-.head-contact__background {
+.head-sign__background {
   width: 100%;
   height: 100%;
   position: absolute;
   bottom: 100px; }
+
+.head-sign-content {
+  display: block;
+  width: 100%;
+  height: aut; }
+
+.title-sign__head {
+  font-size: inherit;
+  font-weight: inherit;
+  margin: 0;
+  padding: 74px 0 0 0; }
+
+.title-about-sign__head {
+  font-size: inherit;
+  font-weight: inherit;
+  margin: 0;
+  padding: 54px 0 0 0; }
+
+.form-group-submit {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding-top: 24px; }
+
+.form-group-submit__validation-txt {
+  display: none;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  padding: 33px 0px 0px 50px; }
+
+.no-valid {
+  display: block; }
+
+.section-second-sign-form {
+  position: relative;
+  bottom: 243px;
+  margin: 0 auto;
+  width: 71%;
+  height: auto;
+  background-color: #fff;
+  -webkit-border-radius: 12px;
+          border-radius: 12px;
+  -webkit-box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07);
+          box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07); }
+
+.section-second-sign-form__wrap {
+  width: 100%;
+  height: 100%;
+  padding: 50px 50px 30px; }
+
+.footer {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  bottom: -210px; }

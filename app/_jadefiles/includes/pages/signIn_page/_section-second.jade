@@ -1,0 +1,20 @@
+section.section-second-sign
+    .container.container-lg
+        .row
+            .col-lg-12
+                .section-second-sign-form
+                    .section-second-sign-form__wrap
+                        form.form-horizontal(action="")
+                            .form-group
+                                label(for="email" control-label).col-sm-4.label-input Your email
+                                .col-sm-8
+                                    input(type="email" id="email" placeholder="john.doe@example.com").form-control
+                            .form-group
+                                label(for="password" control-label).col-sm-4.label-input Password
+                                .col-sm-8
+                                    input(type="password" id="password" placeholder="password").form-control
+                            .form-group-submit
+                                .form-group-submit__validation-txt.no-valid
+                                    span.form-validation-txt forgot password
+                                .form-group-submit__wrap
+                                    button(type="submit").bt.purple Sign in

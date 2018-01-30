@@ -568,6 +568,11 @@ body {
   background: -webkit-linear-gradient(top, #657E97, #333F4C);
   background: linear-gradient(to bottom, #657E97, #333F4C); }
 
+.main-background--grey-second {
+  background: -webkit-gradient(linear, left top, left bottom, from(#829BA5), to(#97C0CF));
+  background: -webkit-linear-gradient(top, #829BA5, #97C0CF);
+  background: linear-gradient(to bottom, #829BA5, #97C0CF); }
+
 .main-background--light-blue {
   background: -webkit-gradient(linear, right top, left top, from(#62B1D9), to(#83CBF1));
   background: -webkit-linear-gradient(right, #62B1D9, #83CBF1);
@@ -576,11 +581,6 @@ body {
 #map {
   width: 100%;
   height: 806px; }
-
-.customBox {
-  background: yellow;
-  border: 1px solid black;
-  position: absolute; }
 
 .nav-tabs {
   border-bottom: none;
