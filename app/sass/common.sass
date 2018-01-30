@@ -25,6 +25,13 @@
     font-weight: 300
     color: $blue-dark
 
+.about-txt-image
+    font-family: Quicksand, sans-serif
+    font-size: 15px
+    font-weight: 300
+    line-height: 19px
+    color: $white
+
 body 
     font-family: Quicksand, sans-serif
     font-weight: 300
@@ -68,9 +75,14 @@ body
     color: $blue
     font-size: 24px
     font-weight: 300
+    text-decoration: none
+    &:hover, &:focus
+        text-decoration: none
+        color: $blue
 
 .form-control
     height: 43px
+    width: 100%
     border: none
     box-shadow: none
     background-color: $white-3
@@ -80,6 +92,18 @@ body
     color: $blue
     &::placeholder
         color: $blue
+
+textarea.form-control
+    resize: vertical
+
+.form-validation-txt 
+    font-size: 16px
+    font-weight: 300
+    color: $silver-2
+    text-decoration: none
+    &:hover, &:focus
+        color: $silver-2
+        text-decoration: none
 
 .icon-ok
     width: 42px
@@ -156,7 +180,8 @@ body
     background-color: $silver-2
     border-radius: 3px
 
-.image-small 
+.image-small
+    position: relative
     background-color: $silver-2
     width: 332px
     height: 209px

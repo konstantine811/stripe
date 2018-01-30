@@ -356,6 +356,13 @@ button.bt.pink:hover {
   font-weight: 300;
   color: #657E97; }
 
+.about-txt-image {
+  font-family: Quicksand, sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 19px;
+  color: #fff; }
+
 body {
   font-family: Quicksand, sans-serif;
   font-weight: 300;
@@ -398,10 +405,15 @@ body {
 .email-link-lg {
   color: #5F83DA;
   font-size: 24px;
-  font-weight: 300; }
+  font-weight: 300;
+  text-decoration: none; }
+  .email-link-lg:hover, .email-link-lg:focus {
+    text-decoration: none;
+    color: #5F83DA; }
 
 .form-control {
   height: 43px;
+  width: 100%;
   border: none;
   -webkit-box-shadow: none;
           box-shadow: none;
@@ -418,6 +430,18 @@ body {
     color: #5F83DA; }
   .form-control::placeholder {
     color: #5F83DA; }
+
+textarea.form-control {
+  resize: vertical; }
+
+.form-validation-txt {
+  font-size: 16px;
+  font-weight: 300;
+  color: #8898AA;
+  text-decoration: none; }
+  .form-validation-txt:hover, .form-validation-txt:focus {
+    color: #8898AA;
+    text-decoration: none; }
 
 .icon-ok {
   width: 42px;
@@ -509,6 +533,7 @@ body {
           border-radius: 3px; }
 
 .image-small {
+  position: relative;
   background-color: #8898AA;
   width: 332px;
   height: 209px;

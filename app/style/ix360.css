@@ -718,7 +718,9 @@
 @media (max-width: 1528px) {
   .head-content-boxes {
     margin: 0 auto;
-    margin: 40px auto 0; } }
+    margin: 40px auto 0; }
+  body .head-image__inner {
+    margin-left: 0; } }
 
 @media (max-width: 1199px) {
   body .head-content-boxes.head-content-boxes--left {
@@ -764,11 +766,12 @@
     padding-top: 5px; }
   body .section-third-description__content-image {
     width: 100%;
-    min-width: 100%; }
+    min-width: 100%;
+    padding-top: 35px; }
   body .section-third-description__content-txt {
     width: 100%;
     padding-right: 0;
-    padding-top: 15px; }
+    padding-top: 70px; }
   body .section-third-description__inner {
     padding-top: 50px; }
   body .section-third-description__wrap {
@@ -917,18 +920,73 @@
   height: 100%; }
 
 .head-image__inner {
-  height: -webkit-calc(50vw + 61px);
-  height: calc(50vw + 61px);
-  width: -webkit-calc(50vw - 348px);
-  width: calc(50vw - 348px);
+  background-image: url("../img/ix360/ix360_head_image.png");
+  background-repeat: no-repeat;
+  height: -webkit-calc(30vw + 442px);
+  height: calc(30vw + 442px);
+  width: 30vw;
+  background-size: contain;
+  position: relative;
   margin-top: 25px;
-  background-color: #8898AA;
-  margin-left: 50px;
-  -webkit-border-radius: 6px;
-          border-radius: 6px; }
+  margin-left: 50px; }
 
 .head-description__txt {
   max-width: 488px; }
+
+.row-image {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.row-image--first {
+  top: -webkit-calc(7vw - 20px);
+  top: calc(7vw - 20px); }
+
+.row-image__first {
+  height: auto;
+  width: 232px;
+  text-align: center; }
+
+.row-image--second {
+  top: -webkit-calc(20vw - 42px);
+  top: calc(20vw - 42px); }
+
+.row-image__second {
+  width: 254px;
+  height: auto;
+  text-align: center; }
+
+.row-image--third {
+  top: 30vw; }
+
+.row-image__third {
+  width: 100%;
+  height: auto;
+  text-align: center; }
+
+.row-image--fourth {
+  top: 43vw; }
+
+.row-image__fourth {
+  width: 100%;
+  height: auto;
+  text-align: center; }
+
+.row-image--fifth {
+  top: 54vw; }
+
+.row-image__fifth {
+  width: 90%;
+  height: auto;
+  text-align: center; }
 
 .title-about__head {
   font-size: inherit;
@@ -1082,6 +1140,12 @@
 .image-head--fourth {
   right: 158px;
   top: -29px; }
+
+.image-small__inner {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  bottom: -60px; }
 
 .section-third {
   width: 100%;

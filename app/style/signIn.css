@@ -732,7 +732,9 @@
   body .form-group-submit__wrap {
     width: auto;
     height: auto;
-    padding-top: 20px; } }
+    padding-top: 20px; }
+  body .section-second-sign-form__wrap {
+    padding: 30px 15px; } }
 
 .head-sign {
   width: 100%;
