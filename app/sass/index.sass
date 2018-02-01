@@ -28,25 +28,24 @@
     margin-top: 152px
     padding-left: 30px
 
-.header-content-title
-    width: 100%
-    height: 100%
-
-.title__inner
-    width: 95%
-    font-size: inherit
-    color: inherit
-    font-weight: inherit
-
-.title-about__inner
-    padding-top: 31px
-    color: inherit
-    font-size: inherit
+.header-content-bottom__txt
+    width: 99%
+    height: auto
+    padding-top: 22px
 
 .header-content-button__inner
     padding-top: 73px
     position: relative
     right: 7px
+
+.header-content-title
+    width: 100%
+    height: 100%
+
+.header-content-title__txt
+    width: 83%
+    height: auto
+    padding-top: 32px
 
 .head-image 
     position: absolute
@@ -93,7 +92,11 @@
     width: 100%
     height: auto
     text-align: left
-    padding-top: 28px
+
+.title-about__inner
+    padding-top: 31px
+    color: inherit
+    font-size: inherit
 
 //header section bottom
 
@@ -213,14 +216,19 @@
     position: absolute
     top: -8%
     width: 100%
-    height: 61%
-    background-color: $white-2
+    height: 100%
+    background: $background-grey-light
     transform: skewY(-6deg)
     z-index: -1
 
 .section-second__inner
     margin-top: 283px
     padding-left: 62px
+
+.section-second__txt-left
+    width: 95%
+    height: auto
+    text-align: right
 
 //title
 .stripe-section-title
@@ -258,18 +266,8 @@
     right: 38px
     padding-top: 8px
 
-//section-second -image
-
-.image-middle
-    width: 100%
-    height: 100%
-    position: relative
-
-.image-middle__inner 
-    width: 94%
-    height: 477px
-    border-radius: 6px
-    background-color: $silver-2
+//section-second-image
+.section-second__image
     margin-top: 54px
     margin-left: 5px
 
@@ -278,9 +276,7 @@
     display: block
     width: 100%
     height: 100%
-    margin-top: 97px
-    position: relative
-    right: 25px
+    margin-top: 99px
 
 //logo
 .logo__inner
@@ -296,11 +292,6 @@
 
 .logo__inner-operation
     background-image: url('../img/Icon-03.jpg')
-
-.title-fourth__section-second 
-    margin-top: 18px
-    font-size: inherit
-    font-weight: 500
 
 .txt-about-small__section-second
     font-size: inherit
@@ -412,7 +403,8 @@
     color: $purple-5
 
 .row-third__image 
-    margin-top: 48px
+    margin-top: 63px
+    margin-bottom: 93px
 
 .section-third
     width: 100%
@@ -422,12 +414,17 @@
 .section-third-background
     position: absolute
     width: 100%
-    height: 31%
+    height: 42%
     background-color: $grey-3
     bottom: 0
 
 .section-third__inner 
     margin-top: 103px
+
+.stripe-section-title__txt
+    width: 52%
+    height: auto
+    margin: 0 auto
 
 .title-second__inner-third
     max-width: 516px
@@ -445,11 +442,7 @@
 
 
 
-//section-fouth
-.image-middle__inner
-    width: 100%
-    height: auto
-
+//section-fourth
 .section-fourth
     width: 100%
     height: 100%
@@ -472,14 +465,13 @@
     top: 3px
 
 
-.about-txt__center
-    max-width: 800px
+.section-fourth__about-txt
+    width: 69%
     margin: 0 auto
-    font-size: inherit
-    font-weight: inherit
     padding-top: 123px
     position: relative
     right: 24px
+    text-align: center
 
 .section-fifth
     .nav-item .nav-link
@@ -495,17 +487,16 @@
     margin-top: 95px
     padding-bottom: 149px
 
-.image-middle__tabs 
+.tab__image
     width: 100%
-    height: 471px
-    background-color: silver
-    border-radius: 6px
+    height: auto
+    position: relative
 
 .image-middle__third
     width: 100%
     height: auto
 
-.tab__txt 
+.tab-txt 
     width: 70%
     height: auto
     padding-left: 93px
@@ -516,19 +507,10 @@
 .title-fourth--white
     color: $white
 
-.title-fourth__tabs 
-    font-size: inherit
-    margin: 0
-    padding-top: 3px
-    font-weight: inherit
-
-.about-txt__inner 
-    margin: 0
-    text-align: initial
+.tab-txt__about
+    width: 85%
+    height: auto
     padding-top: 48px
-    font-size: inherit
-    font-weight: inherit
-    line-height: inherit
 
 .buttons 
     width: 100%
@@ -556,6 +538,14 @@
     background: linear-gradient(to bottom, $blue-dark, $silver-blue)
     top: -19%
     z-index: -2
+
+.section-fifth__about-txt
+    width: 69%
+    margin: 0 auto
+    padding-top: 123px
+    position: relative
+    right: 24px
+    text-align: center
 
 .title-border.title-boder--fifth
     margin-top: 128px

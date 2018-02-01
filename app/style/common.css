@@ -298,14 +298,18 @@ button.bt.pink:hover {
 
 @media (max-width: 1528px) {
   body .container-large--row-boxes {
-    padding: 0; } }
+    padding: 0; }
+  body .container-space {
+    padding-left: 0; } }
 
 @media (max-width: 1199px) {
   body .about-txt-image {
-    font-size: 12px; }
+    font-size: 9pt; }
   body .row-image--second {
     top: -webkit-calc(20vw - 37px);
-    top: calc(20vw - 37px); } }
+    top: calc(20vw - 37px); }
+  body .image-middle {
+    width: 100%; } }
 
 @media (max-width: 992px) {
   .col-not-padding {
@@ -336,20 +340,23 @@ button.bt.pink:hover {
     max-width: 332px;
     width: 100%; }
   body .title {
-    font-size: 32px; }
+    font-size: 24pt; }
   body .title-second {
-    font-size: 26px; }
+    font-size: 20pt; }
   body .txt-about-second {
-    font-size: 18px;
-    line-height: 32px; }
+    font-size: 12pt;
+    font-weight: 500;
+    line-height: 18pt;
+    margin: 18px; }
   body .txt-about {
-    font-size: 18px; }
+    font-size: 12pt;
+    line-height: 18pt; }
   body .title-border {
-    font-size: 20px;
+    font-size: 15pt;
     padding-top: 24px;
     height: 81px; }
   body .about-txt {
-    font-size: 18px; }
+    font-size: 12pt; }
   body .nav-item {
     padding: 0 10px; }
     body .nav-item .nav-link {
@@ -360,38 +367,21 @@ button.bt.pink:hover {
 html {
   overflow-x: hidden; }
 
-.about-txt {
-  font-family: Quicksand, sans-serif;
-  font-size: 24px;
-  color: #fff;
-  text-align: center;
-  width: 100%;
-  height: auto;
-  margin: 0 auto;
-  font-weight: 300;
-  line-height: 38px; }
-
-.about-txt--blue-dark {
-  color: #657E97; }
-
-.about-txt-fourth {
-  font-family: Quicksand, sans-serif;
-  font-size: 18px;
-  font-weight: 300;
-  color: #657E97; }
-
-.about-txt-image {
-  font-family: Quicksand, sans-serif;
-  font-size: 15px;
-  font-weight: 300;
-  line-height: 19px;
-  color: #fff; }
-
 body {
   font-family: Quicksand, sans-serif;
   font-weight: 300;
   overflow-x: hidden;
   position: relative; }
+
+.not-indent {
+  margin: 0 !important;
+  padding: 0 !important; }
+
+.text-uppercase {
+  text-transform: uppercase; }
+
+.text-bold {
+  font-weight: bold; }
 
 .container-lg {
   max-width: 1040px;
@@ -421,20 +411,6 @@ body {
 .container-space {
   padding-left: 82px; }
 
-.email-link {
-  color: #CF3095;
-  font-size: 18px;
-  font-weight: 300; }
-
-.email-link-lg {
-  color: #5F83DA;
-  font-size: 24px;
-  font-weight: 300;
-  text-decoration: none; }
-  .email-link-lg:hover, .email-link-lg:focus {
-    text-decoration: none;
-    color: #5F83DA; }
-
 .form-control {
   height: 43px;
   width: 100%;
@@ -442,7 +418,7 @@ body {
   -webkit-box-shadow: none;
           box-shadow: none;
   background-color: #F7F9FC;
-  font-size: 18px;
+  font-size: 15pt;
   font-weight: 100;
   font-style: italic;
   color: #5F83DA; }
@@ -556,6 +532,13 @@ textarea.form-control {
   -webkit-border-radius: 3px;
           border-radius: 3px; }
 
+.image-middle {
+  width: 94%;
+  height: 477px;
+  -webkit-border-radius: 6px;
+          border-radius: 6px;
+  background-color: #8898AA; }
+
 .image-small {
   position: relative;
   background-color: #8898AA;
@@ -568,7 +551,7 @@ textarea.form-control {
   -webkit-border-radius: 20px;
           border-radius: 20px;
   font-weight: 600;
-  font-size: 13px;
+  font-size: 10pt;
   color: #fff;
   text-transform: uppercase; }
 
@@ -596,7 +579,7 @@ textarea.form-control {
   display: inline-block; }
 
 .label-input {
-  font-size: 18px;
+  font-size: 13pt;
   font-weight: 500;
   font-family: Quicksand, sans-serif;
   color: #657E97;
@@ -654,13 +637,13 @@ textarea.form-control {
   color: #fff;
   text-decoration: none;
   text-align: center;
-  font-size: 15px;
+  font-size: 12pt;
+  font-weight: 600;
   border: 1px solid #fff;
   -webkit-border-radius: 21px;
           border-radius: 21px;
   padding: 9px 31px;
   margin: 0px 11px 28px 13px;
-  font-weight: 600;
   text-transform: uppercase;
   -webkit-transition: background-color 1s linear;
   transition: background-color 1s linear;
@@ -673,7 +656,7 @@ textarea.form-control {
 
 .read-more {
   font-family: Quicksand, sans-serif;
-  font-size: 18px;
+  font-size: 12pt;
   text-decoration: underline;
   cursor: pointer;
   color: #657E97; }
@@ -699,136 +682,6 @@ textarea.form-control {
   width: 100%;
   height: 100%;
   margin-top: 135px; }
-
-.title {
-  color: #fff;
-  font-family: Quicksand, sans-serif;
-  font-size: 41px;
-  width: 100%;
-  height: 100%;
-  font-weight: 300; }
-
-.title--blue-dark {
-  color: #657E97; }
-
-.title-about {
-  font-size: 24px;
-  font-weight: 300;
-  font-family: Quicksand, sans-serif;
-  line-height: 38px;
-  color: #fff;
-  width: 100%;
-  height: 100%; }
-
-.title-about--medium {
-  font-weight: 500; }
-
-.title-about--blue-dark {
-  color: #657E97; }
-
-.title-about--blue {
-  color: #5F83DA; }
-
-.title-about-second {
-  width: 100%;
-  height: 100%;
-  font-size: 28px;
-  font-weight: 500;
-  line-height: 48px;
-  color: #62B1D9;
-  font-family: Quicksand, sans-serif; }
-
-.title-border {
-  font-family: Quicksand, sans-serif;
-  color: #fff;
-  border: 1px solid #fff;
-  max-width: 447px;
-  height: 96px;
-  width: 100%;
-  text-align: center;
-  margin: 0 auto;
-  font-size: 22px;
-  padding-top: 30px;
-  text-transform: uppercase;
-  font-weight: 500; }
-
-.title-border--unset {
-  text-transform: unset;
-  max-width: 365px;
-  height: 92px; }
-
-.title-fifth {
-  height: 100%;
-  width: 100%;
-  font-family: Quicksand, sans-serif;
-  padding: 0;
-  margin: 0;
-  font-size: 18px;
-  font-weight: 600;
-  line-height: 23px;
-  color: #fff; }
-
-.title-fifth--uppercase {
-  text-transform: uppercase; }
-
-.title-fourth {
-  font-family: Quicksand, sans-serif;
-  padding: 0;
-  margin: 0;
-  font-size: 22px;
-  color: #5F83DA;
-  font-weight: 500; }
-
-.title-fourth--blue-dark {
-  color: #657E97; }
-
-.title-fourth--white {
-  color: #fff; }
-
-.title-second {
-  font-size: 32px;
-  font-family: Quicksand, sans-serif;
-  color: #5F83DA;
-  font-weight: 300; }
-
-.title-second--medium {
-  font-weight: 500; }
-
-.title-second--white {
-  color: #fff; }
-
-.title-second--blue-dark {
-  color: #657E97; }
-
-.title-seventh {
-  font-weight: 600;
-  color: #657E97;
-  font-family: Quicksand;
-  font-size: 16px; }
-
-.title-sixth {
-  font-family: Quicksand, sans-serif;
-  font-size: 14px;
-  color: #5F83DA;
-  font-weight: 600; }
-
-.title-sixth__placeholder {
-  font-weight: 600; }
-
-.title-sixth--upper {
-  text-transform: uppercase;
-  font-weight: 600;
-  color: #657E97;
-  font-family: Quicksand; }
-
-.title-third {
-  font-size: 20px;
-  font-weight: 500;
-  color: #657E97;
-  font-family: Quicksand; }
-
-.title-third--blue {
-  color: #5F83DA; }
 
 .title-wrap-back {
   position: relative;
@@ -873,37 +726,171 @@ textarea.form-control {
   -webkit-border-radius: 0 0 6px 0;
           border-radius: 0 0 6px 0; }
 
-.txt-about {
-  font-family: Quicksand, sans-serif;
-  font-size: 20px;
-  font-weight: 300;
-  line-height: 26px;
-  color: #657E97; }
+.email-link {
+  color: #CF3095;
+  font-size: 14pt;
+  font-weight: 300; }
 
-.txt-about--white {
+.email-link-lg {
+  color: #5F83DA;
+  font-size: 15pt;
+  font-weight: 300;
+  text-decoration: none; }
+  .email-link-lg:hover, .email-link-lg:focus {
+    text-decoration: none;
+    color: #5F83DA; }
+
+h1 {
+  width: 100%;
+  height: 100%;
+  font-family: Quicksand, sans-serif;
+  font-size: 28pt;
+  font-weight: 300;
+  line-height: 44px;
   color: #fff; }
 
-.txt-about-second {
+.title--blue-dark {
+  color: #657E97; }
+
+.title--blue {
+  color: #5F83DA; }
+
+h2 {
+  font-size: 22pt;
   font-family: Quicksand, sans-serif;
-  font-size: 22px;
-  line-height: 43px;
-  color: #5F83DA;
+  color: #fff;
+  font-weight: 300;
+  line-height: 28px; }
+
+.title-second--blue {
+  color: #5F83DA; }
+
+.title-second--blue-dark {
+  color: #657E97; }
+
+.title-second--medium {
   font-weight: 500; }
+
+h3 {
+  font-size: 15pt;
+  font-weight: 500;
+  color: #fff;
+  font-family: Quicksand; }
+
+h3.title-third--blue {
+  color: #5F83DA; }
+
+h3.title-third--blue-dark {
+  color: #657E97; }
+
+h3.title-third--regular {
+  font-weight: 300; }
+
+.title-border {
+  font-family: Quicksand, sans-serif;
+  color: #fff;
+  border: 1px solid #fff;
+  max-width: 447px;
+  height: 96px;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 16pt;
+  padding-top: 30px;
+  text-transform: uppercase;
+  font-weight: 500; }
+
+.title-border--unset {
+  text-transform: unset;
+  max-width: 365px;
+  height: 92px; }
+
+h4 {
+  font-family: Quicksand, sans-serif;
+  font-size: 14pt;
+  font-weight: 300;
+  color: #fff; }
+
+h6 {
+  font-family: Quicksand, sans-serif;
+  font-size: 10pt;
+  font-weight: 600;
+  color: #fff; }
+
+.title-sixth--uppercase {
+  text-transform: uppercase; }
+
+.title-sixth--blue {
+  color: #5F83DA; }
+
+.title-sixth--blue-dark {
+  color: #657E97; }
+
+p.color-blue-dark {
+  color: #657E97; }
+
+.txt-main-title {
+  font-family: Quicksand, sans-serif;
+  font-size: 14pt;
+  font-weight: 300;
+  line-height: 26px;
+  color: #fff;
+  width: 100%;
+  height: auto;
+  margin: 0 auto; }
+
+p.txt-main-title--blue-dark {
+  color: #657E97; }
+
+.txt-about {
+  font-family: Quicksand, sans-serif;
+  font-size: 15pt;
+  font-weight: 300;
+  line-height: 26px;
+  color: #fff;
+  width: 100%;
+  height: auto;
+  margin: 0 auto; }
+
+p.txt-about--blue {
+  color: #5F83DA; }
+
+p.txt-about--purple-2 {
+  color: #545377; }
+
+p.txt-about--large-line-height {
+  line-height: 44px;
+  margin-top: -8px; }
+
+p.txt-about--middle-line-height {
+  line-height: 38px; }
 
 .txt-about-small {
   font-family: Quicksand, sans-serif;
-  width: 100%;
-  height: 100%;
-  font-size: 16px;
-  font-weight: 300;
-  line-height: 26px;
+  font-size: 12pt;
+  margin: 22px 0;
+  color: #fff; }
+
+p.txt-about-small--purple-2 {
   color: #545377; }
 
-.txt-about-small--white {
+.txt-about-least {
+  font-family: Quicksand, sans-serif;
+  font-size: 10pt;
+  color: #fff; }
+
+p.txt-about-least--silver-2 {
+  color: #8898AA; }
+
+.about-txt-image {
+  font-family: Quicksand, sans-serif;
+  font-size: 12pt;
+  font-weight: 300;
+  line-height: 19px;
   color: #fff; }
 
 .txt-about-less {
-  font-size: 15px;
+  font-size: 12pt;
   line-height: 22px;
   color: #657E97; }
 

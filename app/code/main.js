@@ -58,6 +58,5 @@ $(document).ready(function() {
 
 $(window).on('load', function() { 
 	$(".container-fix").delay(0).fadeOut("slow");
-	$('body').css('overflow-y', 'scroll');
 });
 

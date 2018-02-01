@@ -7,38 +7,21 @@
 html
     overflow-x: hidden
 
-.about-txt 
-    font-family: Quicksand, sans-serif
-    font-size: 24px
-    color: $white
-    text-align: center
-    width: 100%
-    height: auto
-    margin: 0 auto
-    font-weight: 300
-    line-height: 38px
-
-.about-txt--blue-dark
-    color: $blue-dark
-
-.about-txt-fourth
-    font-family: Quicksand, sans-serif
-    font-size: 18px
-    font-weight: 300
-    color: $blue-dark
-
-.about-txt-image
-    font-family: Quicksand, sans-serif
-    font-size: 15px
-    font-weight: 300
-    line-height: 19px
-    color: $white
-
 body 
     font-family: Quicksand, sans-serif
     font-weight: 300
     overflow-x: hidden
     position: relative
+
+.not-indent
+    margin: 0 !important
+    padding: 0 !important
+
+.text-uppercase
+    text-transform: uppercase
+
+.text-bold
+    font-weight: bold
 
 .container-lg
     max-width: 1040px
@@ -68,27 +51,13 @@ body
 .container-space 
     padding-left: 82px
 
-.email-link 
-    color: $purple
-    font-size: 18px
-    font-weight: 300
-
-.email-link-lg
-    color: $blue
-    font-size: 24px
-    font-weight: 300
-    text-decoration: none
-    &:hover, &:focus
-        text-decoration: none
-        color: $blue
-
 .form-control
     height: 43px
     width: 100%
     border: none
     box-shadow: none
     background-color: $white-3
-    font-size: 18px
+    font-size: 15pt
     font-weight: 100
     font-style: italic
     color: $blue
@@ -182,6 +151,12 @@ textarea.form-control
     background-color: $silver-2
     border-radius: 3px
 
+.image-middle
+    width: 94%
+    height: 477px
+    border-radius: 6px
+    background-color: $silver-2
+    
 .image-small
     position: relative
     background-color: $silver-2
@@ -192,7 +167,7 @@ textarea.form-control
 .label
     border-radius: 20px
     font-weight: 600
-    font-size: 13px
+    font-size: 10pt
     color: $white
     text-transform: uppercase
 
@@ -220,7 +195,7 @@ textarea.form-control
     display: inline-block
 
 .label-input
-    font-size: 18px
+    font-size: 13pt
     font-weight: 500
     font-family: Quicksand, sans-serif
     color: $blue-dark
@@ -261,12 +236,12 @@ textarea.form-control
     color: $white
     text-decoration: none
     text-align: center
-    font-size: 15px
+    font-size: 12pt
+    font-weight: 600
     border: 1px solid $white
     border-radius: 21px
     padding: 9px 31px
     margin: 0px 11px 28px 13px
-    font-weight: 600
     text-transform: uppercase
     transition: background-color 1s linear
     display: inline-block
@@ -278,7 +253,7 @@ textarea.form-control
 
 .read-more
     font-family: Quicksand, sans-serif
-    font-size: 18px
+    font-size: 12pt
     text-decoration: underline
     cursor: pointer
     color: $blue-dark
@@ -305,136 +280,6 @@ textarea.form-control
     width: 100%
     height: 100%
     margin-top: 135px
-
-.title
-    color: $white
-    font-family: Quicksand, sans-serif
-    font-size: 41px
-    width: 100%
-    height: 100%
-    font-weight: 300
-
-.title--blue-dark
-    color: $blue-dark
-
-.title-about
-    font-size: 24px
-    font-weight: 300
-    font-family: Quicksand, sans-serif
-    line-height: 38px
-    color: $white
-    width: 100%
-    height: 100%
-
-.title-about--medium
-    font-weight: 500
-
-.title-about--blue-dark
-    color: $blue-dark
-
-.title-about--blue
-    color: $blue
-
-.title-about-second
-    width: 100%
-    height: 100%
-    font-size: 28px
-    font-weight: 500
-    line-height: 48px
-    color: $blue-4
-    font-family: Quicksand, sans-serif
-
-.title-border
-    font-family: Quicksand, sans-serif
-    color: $white
-    border: 1px solid $white
-    max-width: 447px
-    height: 96px
-    width: 100%
-    text-align: center
-    margin: 0 auto
-    font-size: 22px
-    padding-top: 30px
-    text-transform: uppercase
-    font-weight: 500
-
-.title-border--unset
-    text-transform: unset
-    max-width: 365px
-    height: 92px
-
-.title-fifth
-    height: 100%
-    width: 100%
-    font-family: Quicksand, sans-serif
-    padding: 0
-    margin: 0
-    font-size: 18px
-    font-weight: 600
-    line-height: 23px
-    color: $white
-
-.title-fifth--uppercase
-    text-transform: uppercase
-
-.title-fourth
-    font-family: Quicksand, sans-serif
-    padding: 0
-    margin: 0
-    font-size: 22px
-    color: $blue
-    font-weight: 500
-
-.title-fourth--blue-dark
-    color: $blue-dark
-
-.title-fourth--white
-    color: $white
-
-.title-second
-    font-size: 32px
-    font-family: Quicksand, sans-serif
-    color: $blue
-    font-weight: 300
-
-.title-second--medium
-    font-weight: 500
-
-.title-second--white
-    color: $white
-
-.title-second--blue-dark
-    color: $blue-dark
-
-.title-seventh
-    font-weight: 600
-    color: $blue-dark
-    font-family: Quicksand
-    font-size: 16px
-
-.title-sixth
-    font-family: Quicksand, sans-serif
-    font-size: 14px
-    color: $blue
-    font-weight: 600
-
-.title-sixth__placeholder
-    font-weight: 600
-
-.title-sixth--upper
-    text-transform: uppercase
-    font-weight: 600
-    color: $blue-dark
-    font-family: Quicksand
-
-.title-third
-    font-size: 20px
-    font-weight: 500
-    color: $blue-dark
-    font-family: Quicksand
-
-.title-third--blue
-    color: $blue
 
 .title-wrap-back
     position: relative
@@ -469,42 +314,176 @@ textarea.form-control
     tbody tr:last-child td:last-child
         border-radius: 0 0 6px 0
 
-.txt-about
-    font-family: Quicksand, sans-serif
-    font-size: 20px
+
+
+//style for text
+//txt for link
+.email-link 
+    color: $purple
+    font-size: 14pt
     font-weight: 300
-    line-height: 26px
-    color: $blue-dark
 
-
-.txt-about--white
-    color: $white
-    
-.txt-about-second
-    font-family: Quicksand, sans-serif
-    font-size: 22px
-    line-height: 43px
+.email-link-lg
     color: $blue
-    font-weight: 500
-
-.txt-about-small
-    font-family: Quicksand, sans-serif
+    font-size: 15pt
+    font-weight: 300
+    text-decoration: none
+    &:hover, &:focus
+        text-decoration: none
+        color: $blue
+//title
+h1
     width: 100%
     height: 100%
-    font-size: 16px
+    font-family: Quicksand, sans-serif
+    font-size: 28pt
+    font-weight: 300
+    line-height: 44px
+    color: $white
+
+.title--blue-dark
+    color: $blue-dark
+.title--blue
+    color: $blue
+
+h2
+    font-size: 22pt
+    font-family: Quicksand, sans-serif
+    color: $white
+    font-weight: 300
+    line-height: 28px
+
+.title-second--blue
+    color: $blue
+
+.title-second--blue-dark
+    color: $blue-dark
+
+.title-second--medium
+    font-weight: 500
+
+h3
+    font-size: 15pt
+    font-weight: 500
+    color: $white
+    font-family: Quicksand
+
+h3.title-third--blue
+    color: $blue
+
+h3.title-third--blue-dark
+    color: $blue-dark
+
+h3.title-third--regular
+    font-weight: 300
+
+.title-border
+    font-family: Quicksand, sans-serif
+    color: $white
+    border: 1px solid $white
+    max-width: 447px
+    height: 96px
+    width: 100%
+    text-align: center
+    margin: 0 auto
+    font-size: 16pt
+    padding-top: 30px
+    text-transform: uppercase
+    font-weight: 500
+
+.title-border--unset
+    text-transform: unset
+    max-width: 365px
+    height: 92px
+
+h4
+    font-family: Quicksand, sans-serif
+    font-size: 14pt
+    font-weight: 300
+    color: $white
+h6
+    font-family: Quicksand, sans-serif
+    font-size: 10pt
+    font-weight: 600
+    color: $white
+
+.title-sixth--uppercase
+    text-transform: uppercase
+
+.title-sixth--blue
+    color: $blue
+
+.title-sixth--blue-dark
+    color: $blue-dark
+
+//paragraph
+p.color-blue-dark
+    color: $blue-dark
+
+.txt-main-title
+    font-family: Quicksand, sans-serif
+    font-size: 14pt
     font-weight: 300
     line-height: 26px
+    color: $white
+    width: 100%
+    height: auto
+    margin: 0 auto
+    
+p.txt-main-title--blue-dark
+    color: $blue-dark
+
+.txt-about
+    font-family: Quicksand, sans-serif
+    font-size: 15pt
+    font-weight: 300
+    line-height: 26px
+    color: $white
+    width: 100%
+    height: auto
+    margin: 0 auto
+
+p.txt-about--blue
+    color: $blue
+
+p.txt-about--purple-2
+    color: $purple-2 
+
+p.txt-about--large-line-height
+    line-height: 44px
+    margin-top: -8px
+
+p.txt-about--middle-line-height
+    line-height: 38px
+    
+.txt-about-small
+    font-family: Quicksand, sans-serif
+    font-size: 12pt
+    margin: 22px 0
+    color: $white
+
+p.txt-about-small--purple-2
     color: $purple-2
 
-.txt-about-small--white
+.txt-about-least
+    font-family: Quicksand, sans-serif
+    font-size: 10pt
+    color: $white
+
+p.txt-about-least--silver-2
+    color: $silver-2
+
+.about-txt-image
+    font-family: Quicksand, sans-serif
+    font-size: 12pt
+    font-weight: 300
+    line-height: 19px
     color: $white
 
 .txt-about-less
-    font-size: 15px
+    font-size: 12pt
     line-height: 22px
     color: $blue-dark
-
-
 //keyframes animation
 
 @keyframes anim-opacity

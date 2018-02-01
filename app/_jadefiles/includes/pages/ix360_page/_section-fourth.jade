@@ -5,11 +5,11 @@ section.section-fourth
                 .section-fourth-header
                     .section-fourth-header__logo
                         include ../partials/_logo-circle
-                    .section-fourth-header__title
-                        .title-second.title-second--white
-                            .title-second__section-fourth Details of ixLayer end-to-end product and services
-                        .txt-about.txt-about--white
-                            .txt-about__section-fourth.
+                    .section-fourth-header__head
+                        .section-fourth-header__title
+                            h2 Details of ixLayer end-to-end product and services
+                        .section-fourth-header__txt-about
+                            .txt-about.
                                 With ixLayer end-to-end solution 
                                 that is needed from your side is 
                                 the scientific claims and ixLayer 
@@ -25,20 +25,20 @@ section.section-fourth
                                 tr
                                     th(scope="col")
                                     th(scope="col")
-                                        .txt-about.txt-about--white
-                                            .txt-about__table Consumer Genetic products
+                                        .table__head
+                                            h3 Consumer Genetic products
                                     th(scope="col")
-                                        .txt-about.txt-about--white
-                                            .txt-about__table Health (LDT) genetic products
+                                        .table__head
+                                            h3 Health (LDT) genetic products
                             tbody.section-fourth-table__tbody
                                 each val in table
                                     tr
                                         td.table-row-txt
                                             .table-row-txt__inner
-                                                .title-third
-                                                    h3.title-third__table-row #{val.title}
-                                                .txt-about-small
-                                                    .txt-about-small__table-row #{val.txt_about}
+                                                .tbody__title
+                                                    h3.title-third--blue #{val.title}
+                                                .tbody__txt
+                                                    p.txt-about-small.txt-about-small--purple-2.not-indent #{val.txt_about}
                                         td
                                             .table-row-icon
                                                 .table-row-icon__inner
@@ -55,8 +55,8 @@ section.section-fourth
                                                         span.icon-remove
                         .table-launch-buttons
                             .table-launch-buttons__inner
-                                .title-about.title-about--blue-dark
-                                    .title-about__table-buttons Launch your genetic product today
+                                .table-launch-buttons__title
+                                    h3.title-third--regular.title-third--blue-dark Launch your genetic product today
                                 .table-buttons__inner
                                     button.bt.purple Explore Solution
                                     button.bt.grey Request a demo

@@ -99,7 +99,7 @@
 
 .header-nav__link {
   color: #fff;
-  font-size: 18px;
+  font-size: 14pt;
   padding-right: 37px;
   font-family: Quicksand;
   font-weight: 300;
@@ -434,6 +434,13 @@
   .button-footer__inner button.bt {
     margin: 0; }
 
+.company-wrap {
+  position: relative;
+  right: 32px; }
+
+.develop-wrap {
+  margin-left: 34px; }
+
 .footer {
   padding-top: 102px;
   padding-bottom: 125px;
@@ -443,6 +450,19 @@
   position: static;
   width: 100%;
   height: 100%; }
+
+.footer-info {
+  width: 100%;
+  height: 100%;
+  position: relative; }
+
+.footer-info__txt {
+  position: absolute;
+  right: 8%;
+  top: 24px;
+  font-size: 14px;
+  font-weight: 300;
+  color: #8898AA; }
 
 .footer-link {
   width: 100%;
@@ -464,44 +484,20 @@
     color: #32325d;
     text-decoration: none; }
 
-.txt-about-small-footer {
-  font-size: 14px;
-  font-weight: 300;
-  color: #8898AA;
-  max-width: 201px; }
-
-.txt-about-small-footer__column-first {
-  font-size: inherit;
-  font-weight: inherit; }
-
-.title-sixth__footer {
-  font-weight: inherit;
-  color: inherit;
-  font-family: inherit; }
-
-.develop-wrap {
-  margin-left: 34px; }
-
-.company-wrap {
-  position: relative;
-  right: 32px; }
+.placeholder-wrap__txt {
+  width: 93%;
+  height: auto;
+  padding-top: 15px; }
 
 .resources-wrap {
   position: relative;
   right: 30px; }
 
-.footer-info {
-  width: 100%;
-  height: 100%;
-  position: relative; }
-
-.footer-info__txt {
-  position: absolute;
-  right: 8%;
-  top: 24px;
+.txt-about-small-footer {
   font-size: 14px;
   font-weight: 300;
-  color: #8898AA; }
+  color: #8898AA;
+  max-width: 201px; }
 
 .stripe-section-logo {
   width: 100%;
@@ -788,6 +784,8 @@
     bottom: -1%; }
   body .head-content {
     margin-top: 0; }
+  body .head-content-boxes {
+    height: 505px; }
   body .head-content-boxes.head-content-boxes--left, body .head-content-boxes.head-content-boxes--right {
     float: none; }
   body .head-description-image {
@@ -823,10 +821,7 @@
   body .table-row-txt__inner {
     height: 100%;
     padding-right: 0;
-    padding-left: 3%; }
-  body .txt-about__table {
-    font-size: 12px;
-    padding-bottom: 15px; } }
+    padding-left: 3%; } }
 
 .boxes-items {
   width: 100%;
@@ -836,6 +831,9 @@
   padding: 0px 0px 0px 39px;
   font-family: Quicksand;
   font-size: 18px; }
+
+.boxes-items__txt {
+  padding-bottom: 10px; }
 
 .container-large__boxes {
   position: relative;
@@ -862,6 +860,9 @@
   width: 100%;
   height: 100%;
   margin-top: 112px; }
+
+.head-content-bottom__txt {
+  padding-top: 22px; }
 
 .head-content-boxes {
   width: 100%;
@@ -933,6 +934,9 @@
 .head-description__txt {
   max-width: 488px; }
 
+.head__txt-main {
+  padding-top: 32px; }
+
 .row-image {
   position: absolute;
   width: 100%;
@@ -956,11 +960,11 @@
   text-align: center; }
 
 .row-image--second {
-  top: -webkit-calc(20vw - 42px);
-  top: calc(20vw - 42px); }
+  top: -webkit-calc(20vw - 39px);
+  top: calc(20vw - 39px); }
 
 .row-image__second {
-  width: 53%;
+  width: 54%;
   height: auto;
   text-align: center; }
 
@@ -993,6 +997,18 @@
   font-weight: inherit;
   margin-top: 37px; }
 
+.txt-about__head-botom {
+  font-size: inherit;
+  font-weight: inherit;
+  margin-left: 20px;
+  margin-top: 18px; }
+
+.txt-about-small__head-description {
+  font-size: inherit;
+  font-weight: inherit;
+  margin: 10px 0 0 0;
+  padding: 0; }
+
 .title-fifth__head-boxes {
   font-size: inherit;
   font-weight: inherit;
@@ -1017,26 +1033,9 @@
   margin: 0;
   padding: 0; }
 
-.title__head {
-  font-size: inherit;
-  font-weight: inherit; }
-
-.title-second__head-bottom {
-  font-size: inherit;
-  font-weight: inherit;
-  margin-left: 20px; }
-
-.txt-about__head-botom {
-  font-size: inherit;
-  font-weight: inherit;
-  margin-left: 20px;
-  margin-top: 18px; }
-
-.txt-about-small__head-description {
-  font-size: inherit;
-  font-weight: inherit;
-  margin: 10px 0 0 0;
-  padding: 0; }
+.title-wrap-back__inner {
+  text-align: center;
+  padding-top: 8%; }
 
 .section-second {
   width: 100%;
@@ -1052,14 +1051,15 @@
   height: auto;
   padding-top: 9px; }
 
-.section-second-header__title {
-  font-size: inherit;
-  font-weight: inherit; }
-
 .section-second-header__txt {
   width: auto;
   height: auto;
   padding-left: 8px; }
+
+.section-second-header__txt-title {
+  width: 76%;
+  height: auto;
+  padding-top: 22px; }
 
 .section-second-header__wrap {
   display: -webkit-box;
@@ -1205,7 +1205,7 @@
   height: 100%;
   padding-top: 108px; }
 
-.section-third-description__inner:nth-child(odd) .title-fourth__section-third-description {
+.section-third-description__inner:nth-child(odd) .section-third-description__title {
   text-align: center; }
 
 .section-third-description__inner:nth-child(odd) .about-txt__section-third-description {
@@ -1228,6 +1228,14 @@
 .section-third-title__inner {
   padding-top: 164px; }
 
+.section-third-title__txt {
+  width: 69%;
+  margin: 0 auto;
+  padding-top: 123px;
+  position: relative;
+  right: 24px;
+  text-align: left; }
+
 .title-fourth__section-third-description {
   font-size: inherit;
   font-weight: inherit;
@@ -1238,10 +1246,19 @@
   position: relative;
   bottom: 525px; }
 
-.section-fourth-header__title {
+.section-fourth-header__head {
   max-width: 748px;
   margin: 0 auto;
   padding-top: 21px; }
+
+.section-fourth-header__title {
+  text-align: center; }
+
+.section-fourth-header__txt-about {
+  width: 90%;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 22px; }
 
 .section-fourth-table {
   width: 100%;
@@ -1264,7 +1281,7 @@
   .section-fourth-table__tbody:before {
     content: '';
     position: absolute;
-    height: 100%;
+    height: 80%;
     width: 100%;
     background-color: #fff;
     z-index: -1;
@@ -1286,36 +1303,21 @@
 
 .table-row-icon__inner {
   width: 100%;
-  height: 120px;
+  height: auto;
   text-align: center;
   padding-top: 52px; }
 
 .table-row-txt__inner {
   max-width: 716px;
-  height: 120px;
+  height: auto;
   padding-left: 39px;
-  padding-top: 25px;
   padding-right: 28px;
-  padding-bottom: 23px; }
+  padding-bottom: 18px; }
 
-.title-third__table-row {
-  font-size: inherit;
-  font-weight: inherit;
-  margin: 0;
-  padding: 0; }
-
-.txt-about__section-fourth {
-  padding-top: 23px;
-  font-size: inherit;
-  font-weight: inherit;
-  text-align: center; }
-
-.txt-about__table {
+.table__head {
   width: 100%;
   height: 100%;
   text-align: center;
-  font-size: inherit;
-  font-weight: inherit;
   padding-bottom: 45px; }
 
 .footer {
