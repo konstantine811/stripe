@@ -742,11 +742,11 @@
     height: fit-content; }
   body .section-second-about-principles__inner {
     padding-top: 50px; }
-  body .title-about__head {
+  body .head-about__txt {
     padding-top: 25px; }
   body .title-second__section-third-about {
     padding-top: 50px; }
-  body .title__head {
+  body .head-about__title {
     margin-top: 50px; }
   body .txt-about__qoute-about {
     width: 100%;
@@ -801,13 +801,10 @@
       -webkit-transform: rotateX(67deg) rotateY(0deg) rotateZ(46deg) translate3d(0px, 0px, 120px) skewY(7deg) skewX(9deg);
               transform: rotateX(67deg) rotateY(0deg) rotateZ(46deg) translate3d(0px, 0px, 120px) skewY(7deg) skewX(9deg); }
 
-.title__head {
-  font-size: inherit;
-  font-weight: inherit;
-  color: inherit;
-  margin-top: 150px; }
+.head-about__title {
+  padding-top: 150px; }
 
-.title-about__head {
+.head-about__txt {
   width: 100%;
   height: auto;
   padding-top: 52px; }

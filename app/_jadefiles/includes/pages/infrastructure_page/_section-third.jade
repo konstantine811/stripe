@@ -8,22 +8,20 @@ section.section-third-infrastructure
                     .title-border.title-border--unset ixAnypoint
                 .col-lg-12
                     .section-third-infrasturcture__txt-title
-                        .title
-                            .title__section-third-infrasturcture ixAnypoint infrastrucutre includes
+                        h1 ixAnypoint infrastrucutre includes
                     each val, index in infrastructure_description
                         .section-third-infrasturcture__description
                             .section-third-infrasturcture-includes
+                                .section-third-infrasturcture-includes__title
+                                    h3 #{index + 1}. #{val.title}
+                            .section-third-infrasturcture-includes__wrap
                                 .section-third-infrasturcture-includes__image
                                     .image-small
-                                .section-third-infrasturcture-includes__description
-                                    .title-fourth.title-fourth--white
-                                        .title-fourth__infrasturcture-description #{index + 1}. #{val.title}
-                                    ul.infrasturcture-description-item
-                                        each item in val.txt
-                                            li.infrasturcture-description-item__inner #{item}
+                                ul.infrasturcture-description-item
+                                    each item in val.txt
+                                        li.infrasturcture-description-item__inner #{item}
                     .section-third-infrastructure__launch-buttons
-                        .title-about
-                                .title-about__third-infrastructur Launch your genetic product today
+                        h3.title-third--regular Launch your genetic product today
                         .third-infrastructur__buttons
                             button.bt.purple Explore Solution
                             button.bt.grey Request a demo

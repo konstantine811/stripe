@@ -128,14 +128,10 @@ gulp.task('html', function(){
 });
 
 gulp.task('watch', function() {
-	gulp.watch('app/sass/**/*.+(scss|sass)', function() {
-		gulp.run('sass');
-	});
-	gulp.watch('app/_jadefiles/**/*.jade', function() {
-		gulp.run('jade');
-	}); 
+	gulp.watch('app/sass/**/*.+(scss|sass)', ['sass']);
+	gulp.watch('app/_jadefiles/**/*.jade', ['jade']); 
 	gulp.watch('app/code/**/*.js', browserSync.reload);
-	 gulp.watch("app/*.html").on('change', browserSync.reload);
+	gulp.watch("app/*.html").on('change', browserSync.reload);
 	// gulp.watch('./app/src/**/*.js', ['es6']);
 });
 
