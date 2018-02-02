@@ -107,18 +107,17 @@ gulp.task('build', ['img'], function() {
 
 gulp.task('browserSync', ['sass', 'jade'], function() {
 	browserSync.init({
-		server: { baseDir: './app'},
+		server: './app',
 		notify: false,
-		ghostMode: {
-          clicks: true,
-          location: true,
-          forms: true,
-          scroll: false
-      }
+		browser: false
 	});
 });
 
-gulp.task('jade-rebuild', ['pug'], function() {
+gulp.task('jade-rebuild', ['jade'], function() {
+	browserSync.reload();
+});
+
+gulp.task('browser-reload', () => {
 	browserSync.reload();
 });
 
@@ -129,7 +128,7 @@ gulp.task('html', function(){
 
 gulp.task('watch', function() {
 	gulp.watch('app/sass/**/*.+(scss|sass)', ['sass']);
-	gulp.watch('app/_jadefiles/**/*.jade', ['jade']); 
+	gulp.watch('app/_jadefiles/**/*.jade', ['jade-rebuild']); 
 	gulp.watch('app/code/**/*.js', browserSync.reload);
 	gulp.watch("app/*.html").on('change', browserSync.reload);
 	// gulp.watch('./app/src/**/*.js', ['es6']);

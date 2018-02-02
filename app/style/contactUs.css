@@ -772,16 +772,25 @@
     width: 100%;
     padding: 42px 0px 0px 7px;
     margin: 0 auto; }
-  body .title__head {
+  body .head-contact__title {
     padding-top: 69px; }
   body .head-contact {
     padding-bottom: 364px; } }
 
 @media (max-width: 767px) {
+  body .secttion-second-contacts__wrap {
+    bottom: 0;
+    top: -240px; }
+  body .head-contact__txt-main {
+    width: 100%; }
   body .section-second-description {
     bottom: 194px; }
   body .section-second-description__about {
-    padding-top: 22px; }
+    padding-top: 0px;
+    width: 100%; }
+  body .section-second-descriptioin__email-link {
+    padding-top: 0;
+    text-align: center; }
   body .section-second-contacts-description-txt__about {
     padding-top: 20px; }
   body .section-second-description__wrap-second {
@@ -789,11 +798,18 @@
     position: relative;
     top: 78px; }
   body .section-second-contacts-form__wrap {
-    padding: 30px 15px; } }
+    padding: 30px 15px; }
+  body .section-map {
+    padding-top: 559px; }
+  body #map {
+    top: -620px; } }
+
+html, body {
+  height: auto; }
 
 .head-contact {
   width: 100%;
-  height: 100%;
+  height: auto;
   position: relative;
   padding-bottom: 445px; }
 
@@ -803,16 +819,11 @@
   position: absolute;
   bottom: 100px; }
 
-.title__head {
-  font-size: inherit;
-  font-weight: inherit;
-  margin: 0;
+.head-contact__title {
   padding-top: 167px; }
 
-.title-contact__head {
-  font-size: inherit;
-  font-weight: inherit;
-  margin: 0;
+.head-contact__txt-main {
+  width: 80%;
   padding-top: 52px; }
 
 .form-group-button {
@@ -850,7 +861,7 @@
   width: 266px;
   height: auto;
   position: relative;
-  top: 107px;
+  top: 163px;
   left: 80px; }
 
 .section-second-contacts-description-txt__about {
@@ -887,7 +898,7 @@
   bottom: 138px; }
 
 .section-second-description__about {
-  width: auto;
+  width: 80%;
   height: auto;
   padding-top: 45px; }
 
@@ -904,6 +915,15 @@
 .title-about {
   margin: 0; }
 
+.section-map {
+  width: 100%;
+  height: 100%;
+  padding-top: 287px;
+  position: relative; }
+
+#map {
+  top: -289px; }
+
 .container-space {
   margin-top: 220px; }
 
@@ -912,7 +932,8 @@
   padding-bottom: 105px;
   position: absolute;
   width: 100%;
-  bottom: -12%; }
+  bottom: 0;
+  overflow: hidden; }
 
 .footer-background {
   position: absolute;

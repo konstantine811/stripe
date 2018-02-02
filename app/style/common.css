@@ -1,29 +1,36 @@
 @font-face {
   font-family: "Quicksand";
   src: url("../fonts/Quicksand/Quicksand-Light.eot");
-  src: url("../fonts/Quicksand/Quicksand-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Quicksand/Quicksand-Light.woff") format("woff"), url("../fonts/Quicksand/Quicksand-Light.ttf") format("truetype"), url("../fonts/Quicksand/Quicksand-Light.svg") format("svg");
+  src: url("../fonts/Quicksand/Quicksand-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Quicksand/Quicksand-Light.ttf") format("truetype"), url("../fonts/Quicksand/Quicksand-Light.svg") format("svg");
   font-weight: 100;
   font-style: light; }
 
 @font-face {
   font-family: "Quicksand";
   src: url("../fonts/Quicksand/Quicksand-Regular.eot");
-  src: url("../fonts/Quicksand/Quicksand-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Quicksand/Quicksand-Regular.woff") format("woff"), url("../fonts/Quicksand/Quicksand-Regular.ttf") format("truetype"), url("../fonts/Quicksand/Quicksand-Regular.svg") format("svg");
+  src: url("../fonts/Quicksand/Quicksand-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Quicksand/Quicksand-Regular.ttf") format("truetype"), url("../fonts/Quicksand/Quicksand-Regular.svg") format("svg");
   font-weight: 300;
   font-style: regular; }
 
 @font-face {
   font-family: "Quicksand";
   src: url("../fonts/Quicksand/Quicksand-Medium.eot");
-  src: url("../fonts/Quicksand/Quicksand-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Quicksand/Quicksand-Medium.woff") format("woff"), url("../fonts/Quicksand/Quicksand-Medium.ttf") format("truetype"), url("../fonts/Quicksand/Quicksand-Medium.svg") format("svg");
+  src: url("../fonts/Quicksand/Quicksand-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Quicksand/Quicksand-Medium.ttf") format("truetype"), url("../fonts/Quicksand/Quicksand-Medium.svg") format("svg");
   font-weight: 500;
   font-style: medium; }
 
 @font-face {
   font-family: "Quicksand";
   src: url("../fonts/Quicksand/Quicksand-Bold.eot");
-  src: url("../fonts/Quicksand/Quicksand-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Quicksand/Quicksand-Bold.woff") format("woff"), url("../fonts/Quicksand/Quicksand-Bold.ttf") format("truetype"), url("../fonts/Quicksand/Quicksand-Bold.svg") format("svg");
+  src: url("../fonts/Quicksand/Quicksand-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Quicksand/Quicksand-Bold.ttf") format("truetype"), url("../fonts/Quicksand/Quicksand-Bold.svg") format("svg");
   font-weight: 600;
+  font-style: semi-bold; }
+
+@font-face {
+  font-family: "Raleway";
+  src: url("../fonts/Raleway/Raleway-Bold.eot");
+  src: url("../fonts/Raleway/Raleway-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Raleway/Raleway-Bold.ttf") format("truetype"), url("../fonts/Raleway/Raleway-Bold.svg") format("svg");
+  font-weight: 700;
   font-style: bold; }
 
 @media (max-width: 767px) {
@@ -39,6 +46,7 @@ button.bt {
   padding: 14px 24px;
   background: #888;
   color: #fff;
+  font-family: Raleway, sans-serif;
   text-transform: uppercase;
   width: auto;
   min-width: 165px;
@@ -76,42 +84,18 @@ button.bt.purple {
 button.bt.purple:hover {
   background: #E847AD; }
 
-button.bt.puprle-blue {
-  background: #7C72DB; }
-
-button.bt.purple-blue:hover {
-  background: rgba(124, 114, 219, 0.9); }
-
-button.bt.purple-dark {
-  background: #BC72DB; }
-
-button.bt.purple-dark:hover {
-  background: rgba(188, 114, 219, 0.9); }
-
 button.bt.blue {
   background: #5F83DA; }
 
 button.bt.blue:hover {
   background: #6D91E9; }
 
-button.bt.blue-dark {
-  background: #6E73F9; }
-
-button.bt.blue-dark:hover {
-  background: rgba(110, 115, 249, 0.9); }
-
 button.bt.grey {
   background: #E1F0FF;
   color: #5F83DA; }
 
 button.bt.grey:hover {
-  background: #F3F9FF; }
-
-button.bt.pink {
-  background: #EB89B7; }
-
-button.bt.pink:hover {
-  background: rgba(235, 137, 183, 0.9); }
+  background: #F5F5F5; }
 
 @imports "_logo";
 .container-fix {
@@ -339,24 +323,17 @@ button.bt.pink:hover {
   body .image-small {
     max-width: 332px;
     width: 100%; }
-  body .title {
-    font-size: 24pt; }
-  body .title-second {
-    font-size: 20pt; }
-  body .txt-about-second {
+  body h3, body h2, body h1 {
+    text-align: center; }
+  body p.txt-main-title, body p.txt-about, body p.txt-about-small {
     font-size: 12pt;
-    font-weight: 500;
     line-height: 18pt;
-    margin: 18px; }
-  body .txt-about {
-    font-size: 12pt;
-    line-height: 18pt; }
-  body .title-border {
-    font-size: 15pt;
-    padding-top: 24px;
-    height: 81px; }
-  body .about-txt {
-    font-size: 12pt; }
+    padding: 12px;
+    text-align: center;
+    margin: 0; }
+  body p.txt-about--large-line-height {
+    line-height: 18pt;
+    font-weight: 500; }
   body .nav-item {
     padding: 0 10px; }
     body .nav-item .nav-link {
@@ -365,7 +342,8 @@ button.bt.pink:hover {
       margin: 10px auto; } }
 
 html {
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  position: relative; }
 
 body {
   font-family: Quicksand, sans-serif;
@@ -670,7 +648,7 @@ textarea.form-control {
   background-color: #fff; }
 
 .table-striped > tbody > tr:nth-of-type(even) {
-  background-color: #F3F9FF; }
+  background-color: #F5F5F5; }
 
 .table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td,
 .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
@@ -681,7 +659,7 @@ textarea.form-control {
 .tabs {
   width: 100%;
   height: 100%;
-  margin-top: 135px; }
+  margin-top: 100px; }
 
 .title-wrap-back {
   position: relative;
@@ -790,13 +768,13 @@ h3.title-third--regular {
   font-family: Quicksand, sans-serif;
   color: #fff;
   border: 1px solid #fff;
-  max-width: 447px;
-  height: 96px;
+  max-width: 400px;
+  height: 80px;
   width: 100%;
   text-align: center;
   margin: 0 auto;
   font-size: 16pt;
-  padding-top: 30px;
+  padding-top: 25px;
   text-transform: uppercase;
   font-weight: 500; }
 

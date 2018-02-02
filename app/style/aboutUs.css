@@ -720,9 +720,9 @@
               transform: scale(4); } }
 
 @media (max-width: 992px) {
-  body .about-txt__about-principles {
+  body .section-second-about-principles__title-txt {
     padding-top: 25px; }
-  body .about-txt__about-why {
+  body .section-second-about-why__title-txt {
     padding-top: 25px; }
   body .about-txt__section-second-about {
     padding-top: 0; }
@@ -730,7 +730,7 @@
     width: 120px;
     height: 120px; }
   body .logo-header-about {
-    top: 299px;
+    top: 240px;
     left: 100px; }
   body .section-second-about-quote {
     -webkit-flex-flow: wrap;
@@ -743,29 +743,46 @@
   body .section-second-about-principles__inner {
     padding-top: 50px; }
   body .head-about__txt {
-    padding-top: 25px; }
-  body .title-second__section-third-about {
-    padding-top: 50px; }
-  body .head-about__title {
-    margin-top: 50px; }
-  body .txt-about__qoute-about {
     width: 100%;
-    height: auto;
-    padding-top: 10px; } }
+    padding-top: 25px; }
+  body .head-about__title {
+    padding-top: 50px; }
+  body .section-third-about__title {
+    padding-top: 50px; }
+  body .section-second-about-txt__inner {
+    width: 100%; } }
 
 @media (max-width: 767px) {
   body .image-quote {
     width: 100px;
-    height: 100px; }
+    height: 100px;
+    margin: 0 auto; }
+  body .section-second-about-quote__image {
+    width: 100%; }
+  body .section-second-about-quote {
+    width: 100%; }
+  body .section-second-about {
+    margin-top: 20px; }
   body .section-second-about-principles__column {
     padding-top: 0; }
   body .title-about__principles-column {
-    padding-top: 50px; } }
+    padding-top: 50px; }
+  body .section-second-about-why__inner {
+    paddding-top: 50px; }
+  body .section-second-about-why__title-txt, body .section-second-about-principles__title-txt {
+    padding-top: 0; }
+  body .section-second-about-principles__boxes {
+    padding-top: 10px; }
+  body .principles-column__txt-about {
+    padding-top: 0; } }
+
+html, body {
+  height: 100%; }
 
 .head-about {
   position: relative;
   width: 100%;
-  height: 100%;
+  height: auto;
   padding-bottom: 95px; }
 
 .head-about__background {
@@ -778,12 +795,12 @@
   width: 100%;
   height: auto;
   position: absolute;
-  top: 352px;
+  top: 277px;
   left: 281px; }
   .logo-header-about .logo__header .header-logo {
-    -webkit-transform: scale(6);
-        -ms-transform: scale(6);
-            transform: scale(6); }
+    -webkit-transform: scale(5);
+        -ms-transform: scale(5);
+            transform: scale(5); }
     .logo-header-about .logo__header .header-logo .rect-top, .logo-header-about .logo__header .header-logo .rect-middle-first, .logo-header-about .logo__header .header-logo .rect-middle-second, .logo-header-about .logo__header .header-logo .rect-bottom {
       -webkit-animation: none;
               animation: none;
@@ -805,20 +822,16 @@
   padding-top: 150px; }
 
 .head-about__txt {
-  width: 100%;
+  width: 81%;
   height: auto;
   padding-top: 52px; }
 
-.about-txt__about-principles {
-  font-size: inherit;
-  font-weight: inherit;
-  text-align: left;
+.section-second-about-principles__title-txt {
   padding-top: 52px; }
 
-.about-txt__principles-column {
+.principles-column__txt-about {
   width: 100%;
   height: auto;
-  text-align: left;
   padding-top: 29px; }
 
 .about-txt__section-second-about {
@@ -827,10 +840,7 @@
   text-align: left;
   padding-top: 60px; }
 
-.about-txt__about-why {
-  font-size: inherit;
-  font-weight: inherit;
-  text-align: left;
+.section-second-about-why__title-txt {
   padding-top: 52px; }
 
 .image-quote {
@@ -842,7 +852,7 @@
 
 .section-second-about {
   width: 100%;
-  height: 100%;
+  height: auto;
   position: relative;
   margin-top: 98px; }
 
@@ -851,7 +861,7 @@
   height: auto;
   padding-top: 120px; }
 
-.section-second-about-principles__buttons {
+.section-second-about-principles__boxes {
   width: 100%;
   height: 100%;
   padding-top: 50px;
@@ -859,19 +869,40 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-flex-wrap: wrap;
-      -ms-flex-wrap: wrap;
-          flex-wrap: wrap;
+  -webkit-flex-flow: wrap;
+      -ms-flex-flow: wrap;
+          flex-flow: wrap;
   -webkit-justify-content: space-around;
       -ms-flex-pack: distribute;
           justify-content: space-around; }
-  .section-second-about-principles__buttons button.bt {
-    width: 100%;
-    max-width: 230px;
-    height: 85px;
-    text-transform: unset;
-    font-size: 18px;
-    font-weight: 500; }
+
+.principles-boxes {
+  margin: 10px;
+  padding: 33px 24px;
+  background: #888;
+  color: #fff;
+  font-family: Qicksand, sans-serif;
+  width: 230px;
+  height: 85px;
+  font-size: 9pt;
+  font-weight: 500;
+  letter-spacing: 0.8pt;
+  border: 0;
+  -webkit-border-radius: 4px;
+          border-radius: 4px;
+  text-align: center; }
+
+.blue-dark {
+  background: #6E73F9; }
+
+.puprle-blue {
+  background: #7C72DB; }
+
+.purple-dark {
+  background: #BC72DB; }
+
+.pink {
+  background: #EB89B7; }
 
 .section-second-about-principles__column {
   width: 100%;
@@ -879,7 +910,7 @@
   padding-top: 77px; }
 
 .section-second-about-quote {
-  width: 100%;
+  width: 86%;
   height: auto;
   display: -webkit-box;
   display: -webkit-flex;
@@ -895,14 +926,19 @@
   width: 100%;
   height: auto; }
 
+.section-second-about-txt__inner {
+  width: 86%;
+  height: auto; }
+
+.section-second-about-txt__row {
+  height: auto;
+  width: 100%;
+  padding-top: 32px; }
+
 .section-second-about-why__inner {
   width: 100%;
   height: auto;
   padding-top: 97px; }
-
-.title-about-second__quote-about {
-  font-size: inherit;
-  font-weight: inherit; }
 
 .about-txt__section-third-about {
   width: 100%;
@@ -926,9 +962,9 @@
 
 .section-third-about {
   width: 100%;
-  height: 100%;
+  height: auto;
   position: relative;
-  background-color: #97C0CF;
+  background-color: #FAFAFA;
   margin-top: 91px;
   padding-bottom: 132px; }
 
@@ -944,11 +980,16 @@
       -ms-flex-wrap: wrap;
           flex-wrap: wrap; }
 
-.title-second__section-third-about {
-  font-size: inherit;
-  font-weight: inherit;
+.section-third-about__title {
+  padding-top: 132px;
+  text-align: center; }
+
+.section-third-about__txt-main {
   text-align: center;
-  padding-top: 132px; }
+  width: 70%;
+  height: auto;
+  margin: 0 auto;
+  padding-top: 52px; }
 
 .about-txt__section-fourth-about {
   width: 100%;
@@ -963,17 +1004,20 @@
   position: relative;
   padding-top: 81px; }
 
+.section-fourth-about__txt-main {
+  width: 65%;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 72px; }
+
+.section-fourth-about__title {
+  text-align: center; }
+
 .section-fourth-about__email-link {
   width: 100%;
   height: 100%;
   text-align: center;
   padding-top: 29px; }
-
-.title-second__section-fourth-about {
-  text-align: center;
-  font-size: inherit;
-  font-weight: inherit;
-  margin: 0; }
 
 .container-space {
   margin-top: 220px; }

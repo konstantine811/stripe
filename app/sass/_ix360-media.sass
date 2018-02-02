@@ -17,6 +17,20 @@
 
 @media (max-width: $breakpoint-tablet)
     body
+        .footer
+            bottom: -100px
+        .section-third-description__inner:nth-child(odd) 
+            .section-third-description__content-txt
+                padding-left: 0
+                padding-right: 0
+        .section-third-description__title
+            text-align: center
+        div.margin-on-image
+            margin: 40px auto
+        .section-third-title__txt
+            right: 0
+            width: 100%
+            padding-top: 50px
         .about-txt__section-third
             padding-top: 50px
         .about-txt__section-third-description
@@ -36,7 +50,7 @@
             padding-right: 0
         .section-second-header__logo
             width: auto
-            padding-right: 20px
+            padding-right: 0px
         .section-second-header__wrap
             padding-top: 50px
         .section-second-image__wrap
@@ -51,11 +65,11 @@
         .section-third-description__content-image
             width: 100%
             min-width: 100%
-            padding-top: 35px
+            padding-top: 5px
         .section-third-description__content-txt
             width: 100%
             padding-right: 0
-            padding-top: 70px
+            padding-top: 15px
         .section-third-description__inner
             padding-top: 50px
         .section-third-description__wrap
@@ -66,16 +80,34 @@
             text-align: center
 
 @media (max-width: $breakpoint-mobile)
+    .section-third-description__buttons-inner
+        text-align: center
     .container-large--row-boxes
         .col-lg-3
             width: 100%
     body
-        .footer
-            bottom: -1%
+        .tbody__txt
+            p.txt-about-small
+                text-align: left
+        .tbody__title
+            h3
+                text-align: left
+        .section-second-header__txt-title
+            width: 100%
+        .section-second-header__txt
+            padding-left: 0
+        .container-large__boxes
+            top: 0
+        .boxes-items__txt
+            .txt-main-title
+                padding: 0
+                text-align: left
         .head-content
             margin-top: 0
         .head-content-boxes
             height: 505px
+        .footer
+            bottom: -2.3%
         .head-content-boxes.head-content-boxes--left, .head-content-boxes.head-content-boxes--right
             float: none
         .head-description-image
@@ -103,7 +135,7 @@
         .section-second-header__wrap
             flex-flow: column
             padding-left: 0
-            padding-top: 50px
+            padding-top: 0px
         .table-row-txt__inner
             height: 100%
             padding-right: 0

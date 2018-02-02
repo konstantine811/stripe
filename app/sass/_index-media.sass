@@ -1,7 +1,11 @@
 /*==========  Desktop First Method  ==========*/
 @import './imports/_variables'
 
-
+@media (max-width: $breakpoint-device-3)
+    body
+        .section-second__inner
+            padding-left: 0
+            
 @media (max-width: $breakpoint-device-2)
     .head
         .head-image__first
@@ -10,7 +14,7 @@
             width: 20%
             right: 1%
             top: 41.1%
-
+        
 
 @media (max-width: $breakpoint-device)
     body
@@ -29,7 +33,8 @@
         .section-second__image
             margin-left: 0
             padding: 0 30px
-
+        .tab-txt--section-fourth
+            padding-left: 93px
 
     .section-second
         .image-middle__inner
@@ -39,12 +44,6 @@
     .section-third
         .connect-box__txt--second
             padding: 52px 30px
-    .section-fourth
-        .buttons
-            position: relative
-    .section-fifth
-        .buttons
-            position: relative
 
 @media (max-width: $breakpoint-tablet)
     //header
@@ -86,6 +85,8 @@
     .section-fourth
         padding-top: 60px !important
         padding-bottom: 0px !important
+        .tab-txt--section-fourth
+            padding-left: 0
         .title-border--fourth, .about-txt__center
             right: 0
         .tab__inner
@@ -96,10 +97,11 @@
             margin-top: 60px
         .about-txt__center
             padding-top: 60px
-        .tab__txt
+        .tab-txt
             padding-left: 0
             padding-top: 30px
             width: 100%
+            padding-bottom: 0
         .title-fourth__tabs
             text-align: center
         .buttons
@@ -114,9 +116,10 @@
             flex-flow: wrap
             margin-top: 30px
             padding-bottom: 60px
-        .tab__txt
+        .tab-txt
             padding-left: 0
             padding-top: 30px
+            padding-bottom: 0
             width: 100%
         .title-fourth__tabs
             text-align: center
@@ -127,6 +130,14 @@
             padding-top: 60px
         .tabs--fifth 
             margin-top: 60px
+    .section-fourth
+        .buttons
+            position: relative
+            padding-top: 40px
+    .section-fifth
+        .buttons
+            position: relative
+            padding-top: 40px
     body
         .section-fifth
             .tab__inner
@@ -138,6 +149,8 @@
     .head
         .header-content
             margin-top: 49px
+        .header-content-title__txt
+            width: 100%
     .section-second
         .secion-second-text-item
             right: 0
@@ -148,15 +161,28 @@
             margin: 0 auto
         .title-fourth__section-second
             text-align: center
+        .section-second__inner
+            margin-top: 70px
+        .section-second-background
+            top: -25px
     body
-        .section-first-technologies__wrap
-            padding-top: 70px
+        .stripe-section-title__txt
+            width: 100%
+        .header-content-bottom__txt
+            padding-top: 0
+        .header-content-bottom
+            margin-top: 50px
+        .section-second .container-space
+            padding-left: 0
+        .tab-txt__about
+            width: 100%
+        .section-second__txt-left
+            text-align: center
         .section-third
             .connect-box-table__label--international
                 text-align: right
                 padding-right: 3%
                 margin-left: 0
-            
         .header-content-bottom
             padding-left: 0
         .txt-about-second__space-right
@@ -205,7 +231,9 @@
             margin: 0 auto
     .section-second
         .section-second__inner
-            margin-top: 174px
+            margin-top: 70px
+        .section-second-background
+            top: -25px
         .secion-second-text-item
             margin-top: 46px
             right: 0
