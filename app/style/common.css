@@ -41,7 +41,7 @@
     padding: 14px 1%;
     max-width: 165px; } }
 
-a.bt {
+a.bt, button.bt {
   margin: 10px;
   padding: 14px 24px;
   background: #888;
@@ -67,7 +67,7 @@ a.bt {
       -webkit-transition--moz-transition--o-transition: all .2s ease;
       -webkit-transition--moz-transition-transition: all .2s ease; }
 
-a.bt:hover {
+a.bt:hover, button.bt:hover {
   -webkit-transform: translateY(2px);
       -ms-transform: translateY(2px);
           transform: translateY(2px);
@@ -75,29 +75,29 @@ a.bt:hover {
           box-shadow: rgba(0, 0, 0, 0.15) 0 1px 6px;
   text-decoration: none; }
 
-a.bt.green {
+a.bt.green, button.bt.green {
   background: #3AC69D; }
 
-a.bt.green:hover {
+a.bt.green:hover, button.bt.green:hover {
   background: #4BDBB1; }
 
-a.bt.purple {
+a.bt.purple, button.bt.purple {
   background: #CF3095; }
 
-a.bt.purple:hover {
+a.bt.purple:hover, button.bt.purple:hover {
   background: #E847AD; }
 
-a.bt.blue {
+a.bt.blue, button.bt.blue {
   background: #5F83DA; }
 
-a.bt.blue:hover {
+a.bt.blue:hover, button.bt.blue:hover {
   background: #6D91E9; }
 
-a.bt.grey {
+a.bt.grey, button.bt.grey {
   background: #E1F0FF;
   color: #5F83DA; }
 
-a.bt.grey:hover {
+a.bt.grey:hover, button.bt.grey:hover {
   background: #F5F5F5; }
 
 @imports "_logo";
@@ -506,7 +506,9 @@ textarea.form-control {
 .image-less {
   width: 20px;
   height: 20px;
-  background-color: #3AC69D; }
+  background-color: #3AC69D;
+  -webkit-border-radius: 2px;
+          border-radius: 2px; }
 
 .image-middle {
   width: 100%;

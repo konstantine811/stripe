@@ -2,11 +2,11 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="description" content="Portfolio Abrams">
+    <meta name="description" content="ixLayer">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ixAnypoint - Contact us</title>
+    <title>ixLayer - Contact us</title>
     <link rel="stylesheet" href="libs/bootstrap/dist/css/bootstrap.min.css">
     <link href="style/common.css" rel="stylesheet">
     <link href="style/contactUs.css" rel="stylesheet">
@@ -75,7 +75,7 @@
               </div>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-2">
-              <div class="logo"><a href="#" class="logo__link">
+              <div class="logo"><a href="/" class="logo__link">
                   <div class="logo__header">
                     <div class="header-logo">
                       <div class="rect rect-top">
@@ -130,7 +130,7 @@
                                       </div>
                                     </div>
                                   </div></a></li>
-                            </ul><a href="" class="menu-content-bottom"> 
+                            </ul><a href="/contact-us" class="menu-content-bottom">
                               <div class="menu-content-bottom__image">
                                 <div class="image-less"></div>
                               </div>
@@ -174,29 +174,30 @@
             <div class="col-lg-9 col-md-8 col-sm-12 col-xs-12">
               <div class="section-second-contacts-form">
                 <div class="section-second-contacts-form__wrap">
-                  <form action="" class="form-horizontal">
+                  <form action="https://formspree.io/info@ixlayer.com" method="post" class="form-horizontal">
+                    <input type="hidden" name="_next" value="thank-you.html">
                     <div class="form-group">
                       <label for="name" control-label class="col-sm-4 label-input">Your name</label>
                       <div class="col-sm-8">
-                        <input type="text" id="name" placeholder="John Doe" class="form-control">
+                        <input type="text" id="name" name="name" placeholder="John Doe" class="form-control">
                       </div>
                     </div>
                     <div class="form-group">
                       <label for="email" control-label class="col-sm-4 label-input">Your email</label>
                       <div class="col-sm-8">
-                        <input type="email" id="email" placeholder="john.doe@example.com" class="form-control">
+                        <input type="email" id="email" name="email" placeholder="john.doe@example.com" class="form-control">
                       </div>
                     </div>
                     <div class="form-group">
                       <label for="company" control-label class="col-sm-4 label-input">Company name</label>
                       <div class="col-sm-8">
-                        <input type="text" id="company" placeholder="The big corp" class="form-control">
+                        <input type="text" id="company" name="company" placeholder="The big corp" class="form-control">
                       </div>
                     </div>
                     <div class="form-group">
                       <label for="message" control-label class="col-sm-4 label-input">Message</label>
                       <div class="col-sm-8">
-                        <textarea rows="8" placeholder="Tell us more about your project, needs and timeline" class="form-control"></textarea>
+                        <textarea rows="8" id="message" name="message" placeholder="Tell us more about your project, needs and timeline" class="form-control"></textarea>
                       </div>
                     </div>
                     <div class="form-group-button">
@@ -240,7 +241,7 @@
                 <div class="section-second-description__about">
                   <p class="txt-about color-blue-dark txt-about--middle-line-height">We’d love to talk about how we can help to launch your genetic product.</p>
                 </div>
-                <div class="section-second-descriptioin__email-link">                     <a href="mailto:info@ixlayer.com" class="email-link-lg">info@ixlayer.com</a></div>
+                <div class="section-second-descriptioin__email-link"><a href="mailto:info@ixlayer.com" class="email-link-lg">info@ixlayer.com</a></div>
               </div>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
@@ -251,7 +252,7 @@
                 <div class="section-second-description__about">
                   <p class="txt-about color-blue-dark txt-about--middle-line-height">We’re here to help with any technical and operational question</p>
                 </div>
-                <div class="section-second-descriptioin__email-link">                     <a href="mailto:support@ixlayer.com" class="email-link-lg">support@ixlayer.com</a></div>
+                <div class="section-second-descriptioin__email-link"><a href="mailto:support@ixlayer.com" class="email-link-lg">support@ixlayer.com</a></div>
               </div>
             </div>
           </div>
@@ -279,7 +280,7 @@
                 </p>
               </div>
               <div class="button-footer">
-                <div class="button-footer__inner"><a href="" class="bt blue">Explore Solutions</a></div>
+                <div class="button-footer__inner"><a href="/ix360" class="bt blue">Explore Solutions</a></div>
               </div>
             </div>
           </div>

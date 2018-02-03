@@ -5,23 +5,24 @@ section.section-second-contacts
                 .col-lg-9.col-md-8.col-sm-12.col-xs-12
                     .section-second-contacts-form
                         .section-second-contacts-form__wrap
-                            form.form-horizontal(action="")
+                            form.form-horizontal(action="https://formspree.io/info@ixlayer.com", method="post")
+                                input(type="hidden" name="_next" value="thank-you.html")
                                 .form-group
                                     label(for="name" control-label).col-sm-4.label-input Your name
                                     .col-sm-8
-                                        input(type="text"  id="name" placeholder="John Doe").form-control
+                                        input(type="text"  id="name" name="name" placeholder="John Doe").form-control
                                 .form-group
                                     label(for="email" control-label).col-sm-4.label-input Your email
                                     .col-sm-8
-                                        input(type="email" id="email" placeholder="john.doe@example.com").form-control
+                                        input(type="email" id="email" name="email" placeholder="john.doe@example.com").form-control
                                 .form-group
                                     label(for="company" control-label).col-sm-4.label-input Company name
                                     .col-sm-8
-                                        input(type="text" id="company" placeholder="The big corp").form-control
+                                        input(type="text" id="company" name="company" placeholder="The big corp").form-control
                                 .form-group
                                     label(for="message" control-label).col-sm-4.label-input Message
                                     .col-sm-8
-                                        textarea(rows="8" placeholder="Tell us more about your project, needs and timeline").form-control
+                                        textarea(rows="8" id="message" name="message" placeholder="Tell us more about your project, needs and timeline").form-control
                                 .form-group-button
                                     .from-group-button__wrap
                                         button(type="submit").bt.purple Contact
@@ -49,7 +50,7 @@ section.section-second-contacts
                         .section-second-description__about
                             p.txt-about.color-blue-dark.txt-about--middle-line-height.
                                 We’d love to talk about how we can help to launch your genetic product.
-                        .section-second-descriptioin__email-link                      
+                        .section-second-descriptioin__email-link
                             a(href="mailto:info@ixlayer.com").email-link-lg info@ixlayer.com
                 .col-lg-6.col-md-6.col-sm-6.col-xs-12
                     .section-second-description__wrap-second
@@ -58,5 +59,5 @@ section.section-second-contacts
                         .section-second-description__about
                             p.txt-about.color-blue-dark.txt-about--middle-line-height.
                                 We’re here to help with any technical and operational question
-                        .section-second-descriptioin__email-link                      
+                        .section-second-descriptioin__email-link
                             a(href="mailto:support@ixlayer.com").email-link-lg support@ixlayer.com
