@@ -176,7 +176,11 @@
   padding: 20px;
   background-color: #E1F0FF;
   -webkit-border-radius: 0 0 6px 6px;
-          border-radius: 0 0 6px 6px; }
+          border-radius: 0 0 6px 6px;
+  text-decoration: none;
+  cursor: pointer; }
+  .menu-content-bottom:hover, .menu-content-bottom:focus {
+    text-decoration: none; }
 
 .menu-content-bottom__image {
   width: auto;

@@ -34,7 +34,7 @@
   font-style: bold; }
 
 @media (max-width: 767px) {
-  body button.bt {
+  body a.bt {
     width: 50%;
     min-width: 165px;
     margin: 10px auto;

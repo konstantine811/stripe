@@ -176,7 +176,11 @@
   padding: 20px;
   background-color: #E1F0FF;
   -webkit-border-radius: 0 0 6px 6px;
-          border-radius: 0 0 6px 6px; }
+          border-radius: 0 0 6px 6px;
+  text-decoration: none;
+  cursor: pointer; }
+  .menu-content-bottom:hover, .menu-content-bottom:focus {
+    text-decoration: none; }
 
 .menu-content-bottom__image {
   width: auto;
@@ -1484,7 +1488,8 @@
   width: 100%;
   height: auto;
   position: absolute;
-  bottom: 0; }
+  bottom: 0;
+  z-index: 100; }
 
 .stripe-section-logo__circle--fourth {
   position: absolute;
@@ -1499,7 +1504,8 @@
   position: absolute;
   left: -webkit-calc(-17vw - 198px);
   left: calc(-17vw - 198px);
-  top: -141px; }
+  top: -141px;
+  z-index: 0; }
 
 .section-fifth {
   position: relative;
