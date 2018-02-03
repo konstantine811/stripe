@@ -41,13 +41,15 @@
     padding: 14px 1%;
     max-width: 165px; } }
 
-button.bt {
+a.bt {
   margin: 10px;
   padding: 14px 24px;
   background: #888;
   color: #fff;
+  display: inline-block;
   font-family: Raleway, sans-serif;
   text-transform: uppercase;
+  text-decoration: none;
   width: auto;
   min-width: 165px;
   height: auto;
@@ -65,36 +67,37 @@ button.bt {
       -webkit-transition--moz-transition--o-transition: all .2s ease;
       -webkit-transition--moz-transition-transition: all .2s ease; }
 
-button.bt:hover {
+a.bt:hover {
   -webkit-transform: translateY(2px);
       -ms-transform: translateY(2px);
           transform: translateY(2px);
   -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0 1px 6px;
-          box-shadow: rgba(0, 0, 0, 0.15) 0 1px 6px; }
+          box-shadow: rgba(0, 0, 0, 0.15) 0 1px 6px;
+  text-decoration: none; }
 
-button.bt.green {
+a.bt.green {
   background: #3AC69D; }
 
-button.bt.green:hover {
+a.bt.green:hover {
   background: #4BDBB1; }
 
-button.bt.purple {
+a.bt.purple {
   background: #CF3095; }
 
-button.bt.purple:hover {
+a.bt.purple:hover {
   background: #E847AD; }
 
-button.bt.blue {
+a.bt.blue {
   background: #5F83DA; }
 
-button.bt.blue:hover {
+a.bt.blue:hover {
   background: #6D91E9; }
 
-button.bt.grey {
+a.bt.grey {
   background: #E1F0FF;
   color: #5F83DA; }
 
-button.bt.grey:hover {
+a.bt.grey:hover {
   background: #F5F5F5; }
 
 @imports "_logo";
@@ -474,7 +477,6 @@ textarea.form-control {
   display: inline-block;
   width: 50px;
   height: 50px;
-  background-color: #8898AA;
   -webkit-border-radius: 50%;
           border-radius: 50%; }
 
@@ -482,7 +484,6 @@ textarea.form-control {
   display: inline-block;
   width: 30px;
   height: 30px;
-  background-color: #8898AA;
   -webkit-border-radius: 50%;
           border-radius: 50%; }
 
@@ -491,8 +492,6 @@ textarea.form-control {
   max-width: 972px;
   height: 339px;
   background: #8898AA;
-  -webkit-border-radius: 6px;
-          border-radius: 6px;
   display: inline-block; }
 
 .image-least {
@@ -500,8 +499,6 @@ textarea.form-control {
   height: 64px;
   display: inline-block;
   background-color: #fff;
-  -webkit-border-radius: 6px;
-          border-radius: 6px;
   background-size: contain;
   background-position: center center;
   background-repeat: no-repeat; }
@@ -509,15 +506,11 @@ textarea.form-control {
 .image-less {
   width: 20px;
   height: 20px;
-  background-color: #8898AA;
-  -webkit-border-radius: 3px;
-          border-radius: 3px; }
+  background-color: #3AC69D; }
 
 .image-middle {
   width: 100%;
   height: auto;
-  -webkit-border-radius: 6px;
-          border-radius: 6px;
   background-color: #8898AA;
   background-size: contain;
   background-position: center center;
@@ -525,10 +518,8 @@ textarea.form-control {
 
 .image-small {
   position: relative;
-  width: 332px;
-  height: 209px;
-  -webkit-border-radius: 6px;
-          border-radius: 6px; }
+  width: 490px;
+  height: 350px; }
 
 .label {
   -webkit-border-radius: 20px;

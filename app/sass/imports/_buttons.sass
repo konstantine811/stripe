@@ -1,12 +1,14 @@
 @import './media/_buttons-media'
 
-button.bt 
+a.bt 
     margin: 10px
     padding: 14px 24px
     background: $silver
     color: $white
+    display: inline-block
     font-family: Raleway, sans-serif
     text-transform: uppercase
+    text-decoration: none
     width: auto
     min-width: 165px
     height: auto
@@ -22,28 +24,29 @@ button.bt
             -o-transition: all .2s ease
             transition: all .2s ease
 
-button.bt:hover 
+a.bt:hover 
     transform: translateY(2px)
     box-shadow: rgba(0,0,0,.15) 0 1px 6px
+    text-decoration: none
 
 
-button.bt.green
+a.bt.green
     background: $green
-button.bt.green:hover
+a.bt.green:hover
     background: $green-light
 
-button.bt.purple
+a.bt.purple
     background: $purple
-button.bt.purple:hover
+a.bt.purple:hover
     background: $purple-light
 
-button.bt.blue
+a.bt.blue
     background: $blue
-button.bt.blue:hover
+a.bt.blue:hover
     background: $blue-light
 
-button.bt.grey
+a.bt.grey
     background: $grey
     color: $blue
-button.bt.grey:hover
+a.bt.grey:hover
     background: $white-grey

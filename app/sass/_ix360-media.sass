@@ -17,14 +17,16 @@
 
 @media (max-width: $breakpoint-tablet)
     body
+        .section-third-description__inner:nth-child(even)
+            flex-flow: column-reverse
+        
+        .section-third-description__inner:nth-child(3), .section-third-description__inner:nth-child(4)
+            .section-third-description__content-image
+                padding-top: 33px
         .footer
             bottom: -100px
-        .section-third-description__inner:nth-child(odd) 
-            .section-third-description__content-txt
-                padding-left: 0
-                padding-right: 0
-        .section-third-description__title
-            text-align: center
+        .head-description__txt
+            width: 77%
         div.margin-on-image
             margin: 40px auto
         .section-third-title__txt
@@ -59,24 +61,26 @@
             margin-top: 90px
         .section-third-description__butons-title
             padding-top: 50px
-        .section-third-description__content
-            flex-flow: column !important
-            padding-top: 5px
         .section-third-description__content-image
-            width: 100%
-            min-width: 100%
-            padding-top: 5px
             text-align: center
-        .section-third-description__content-txt
             width: 100%
-            padding-right: 0
-            padding-top: 15px
+        .section-third-description__title
+            text-align: center
+            position: absolute
+            top: 41px
+        .section-third-description__content-txt
+            padding: 0
+        .section-third-description__content
+            width: 100%
         .section-third-description__inner
             padding-top: 50px
+            flex-flow: wrap
+            position: relative
+            height: auto
         .section-third-description__wrap
             padding-left: 0
         .section-third-title__inner
-            padding-top: 90px
+            padding-top: 70px
         .title-fourth__section-third-description
             text-align: center
 
@@ -87,6 +91,18 @@
         .col-lg-3
             width: 100%
     body
+        .head-description__item
+            justify-content: center
+            flex-flow: column
+            position: relative
+        .head-description__title
+            position: absolute
+            top: -17px
+            width: 100%
+        .head-description-image
+            margin: 0 auto
+        .head-description__txt
+            width: 100%
         .tbody__txt
             p.txt-about-small
                 text-align: left
@@ -111,8 +127,6 @@
             bottom: -2.3%
         .head-content-boxes.head-content-boxes--left, .head-content-boxes.head-content-boxes--right
             float: none
-        .head-description-image
-            padding: 0 70px 0px 0px
         .image-head
             width: 100%
             height: 37vw
@@ -141,3 +155,11 @@
             height: 100%
             padding-right: 0
             padding-left: 3%
+
+@media (max-width: $breakpoint-mobile-low)
+    body
+        .section-third-images__wrap
+            position: relative
+            top: 44px
+        .section-third
+            margin-top: 29px

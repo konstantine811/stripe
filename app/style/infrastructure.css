@@ -425,12 +425,13 @@
   .footer .button-footer .bt {
     min-width: 100%; } }
 
-.button-footer {
-  max-width: 194px; }
-
 .button-footer__inner {
   margin: 0 auto;
-  text-align: center; }
+  text-align: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
   .button-footer__inner button.bt {
     margin: 0; }
 
@@ -736,7 +737,7 @@
   body .image-dna.image-dna--first {
     padding-top: 0; }
   body .infrasturcture-description-item {
-    padding: 25px 0 0 25px; }
+    padding: 0px 0 0 25px; }
   body .infrasturcture-description-item__inner {
     line-height: 18pt; }
   body .third-infrastructur__buttons {
@@ -1006,7 +1007,9 @@
 
 .section-third-infrasturcture-includes__image {
   width: 60%;
-  height: auto; }
+  height: auto;
+  position: relative;
+  bottom: 34px; }
 
 .section-third-infrastructure__launch-buttons {
   width: 100%;

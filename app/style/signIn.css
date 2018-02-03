@@ -425,12 +425,13 @@
   .footer .button-footer .bt {
     min-width: 100%; } }
 
-.button-footer {
-  max-width: 194px; }
-
 .button-footer__inner {
   margin: 0 auto;
-  text-align: center; }
+  text-align: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
   .button-footer__inner button.bt {
     margin: 0; }
 

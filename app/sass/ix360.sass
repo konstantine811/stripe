@@ -68,19 +68,10 @@
 
 
 .head-description-image
-    width: 18%
-    min-width: 50px
-    height: 100%
-    padding: 0
+    width: 70px
+    height: 120px
+    padding-top: 20px
     margin: 0
-
-.head-description-image__inner
-    width: 50px
-    height: 50px
-    background-color: $silver-2
-    margin-left: 36%
-    margin-top: 2px
-    border-radius: 6px
 
 .head-description__item:first-child
      margin-top: 80px
@@ -89,6 +80,7 @@
     display: flex
     margin-top: 80px
     margin-left: -7px
+    justify-content: space-between
 
 .head-image
     width: 100%
@@ -102,7 +94,7 @@
     margin-left: 50px
 
 .head-description__txt
-    max-width: 488px
+    width: 85%
 
 .head__txt-main
     padding-top: 32px
@@ -166,6 +158,10 @@
     width: auto
     height: auto
     padding-left: 8px
+
+.ixlayer-product-image
+    width: 79%
+    height: 100%
 
 .section-second-header__txt-title
     width: 76%
@@ -275,21 +271,25 @@
     height: 100%
 
 .section-third-description__content
-    width: 100%
+    width: 43%
     height: 100%
     display: flex
-    padding-top: 35px
+    padding-top: 0
+    flex-flow: wrap
+    justify-content: center
 
 .section-third-description__content-image
-    width: 36%
+    width: 47%
     height: auto
     min-width: 332px
-    padding-top: 12px
+    position: relative
+    bottom: 0
+    align-self: start
     
 .section-third-description__content-txt
-    width: 64%
+    width: 100%
     height: auto
-    padding-right: 51px
+    padding-top: 50px
 
 .section-third-description__wrap
     width: 100%
@@ -300,22 +300,23 @@
     width: 100%
     height: 100%
     padding-top: 100px
+    display: flex
+    justify-content: space-between
     
+.section-third-description__title
+    width: 100%
+    text-align: left
 
 .section-third-description__inner:nth-child(odd)
-    .section-third-description__title
-        text-align: center
-    .section-third-description__content-txt
-        padding-left: 60px
-        padding-right: 50px
+    
 
-.section-third-description__inner:nth-child(even)
-    .section-third-description__content
-        flex-flow: row-reverse
+// .section-third-description__inner:nth-child(even)
+//     .section-third-description__content
+//         flex-flow: row-reverse
 
 .section-third-images__op, .section-third-images__be,
 .section-third-images__health, .section-third-images__fe
-    width: 25%
+    width: 22%
     height: auto
     transform: rotate(-6deg)
     box-shadow: -1px 10px 39px 10px rgba(0, 0, 0, 0.15)
@@ -323,33 +324,34 @@
 .section-third-images__op
     position: relative
     z-index: 100
-    right: 26%
+    right: 24%
 
 .section-third-images__be
     position: absolute
     z-index: 101
-    right: 45%
+    right: 48%
 
 .section-third-images__health
     position: absolute
     z-index: 102
-    right: 27%
+    right: 32%
 
 .section-third-images__fe
     position: absolute
     z-index: 103
-    right: 10%
+    right: 17%
 
 .section-third-images__wrap
     width: 100%
     height: auto
     margin: 0 auto
     text-align: center
+    position: relative
 
 .section-third-images__op
 
 .section-third-title__inner
-    padding-top: 100px
+    padding-top: 140px
 
 .section-third-title__txt
     width: 69%
