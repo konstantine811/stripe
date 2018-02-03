@@ -1467,7 +1467,11 @@
   position: absolute;
   right: -webkit-calc(4vw - 228px);
   right: calc(4vw - 228px);
-  top: -141px; }
+  top: -141px;
+  z-index: 0; }
+
+.nav-tabs > li {
+  z-index: 1000; }
 
 .tab-txt {
   width: 70%;
