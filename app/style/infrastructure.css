@@ -716,6 +716,10 @@
     width: -webkit-calc(50vw - 213px);
     width: calc(50vw - 213px); } }
 
+@media (max-width: 1199px) {
+  body .section-second-infrastructure-title__wrap {
+    margin: 0 auto; } }
+
 @media (max-width: 992px) {
   body .image-dna {
     margin: 0 auto; }
@@ -729,6 +733,8 @@
     padding: 50px 0 0 0; } }
 
 @media (max-width: 767px) {
+  body .image-dna.image-dna--first {
+    padding-top: 0; }
   body .infrasturcture-description-item {
     padding: 25px 0 0 25px; }
   body .infrasturcture-description-item__inner {
@@ -754,7 +760,10 @@
   body .head-infrastructure-image__inner {
     width: 100%;
     top: 0;
-    margin-top: 25px; }
+    margin-top: 25px;
+    position: relative; }
+  body .head-infrastructure-image {
+    text-align: center; }
   body .section-third-infrasturcture-includes__wrap {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -770,7 +779,8 @@
         -ms-flex-flow: wrap;
             flex-flow: wrap; }
   body .section-second-infrastructure-title-head__image {
-    margin: 0 auto; }
+    margin: 0 auto;
+    padding-top: 0; }
   body .section-second-infrastructure-title-head__txt {
     padding-top: 25px; }
   body .section-third-infrasturcture__txt-title {
@@ -806,13 +816,12 @@
   position: relative; }
 
 .head-infrastructure-image__inner {
-  position: relative;
-  width: 659px;
-  height: 377px;
-  background-color: #8898AA;
+  position: absolute;
+  width: 224%;
+  height: auto;
   -webkit-border-radius: 6px;
           border-radius: 6px;
-  top: 527px; }
+  top: 327px; }
 
 .head-infrastructure__txt {
   padding-top: 52px; }
@@ -834,11 +843,14 @@
   text-align: left;
   padding-top: 52px; }
 
+.image-dna.image-dna--first {
+  width: 55%;
+  padding-top: 6px; }
+
 .image-dna {
   width: 100%;
-  max-width: 480px;
-  height: 609px;
-  background-color: #8898AA;
+  height: auto;
+  max-height: 600px;
   -webkit-border-radius: 6px;
           border-radius: 6px; }
 
@@ -897,7 +909,8 @@
 .section-second-infrasturcture-dna-image__inner {
   width: 100%;
   height: 100%;
-  margin-top: 21px; }
+  margin-top: 21px;
+  text-align: center; }
 
 .section-second-infrastructure-title-head {
   width: 100%;
@@ -909,7 +922,9 @@
 
 .section-second-infrastructure-title-head__image {
   display: inline-block;
-  width: auto; }
+  width: auto;
+  height: auto;
+  padding-top: 24px; }
 
 .section-second-infrastructure-title-head__txt {
   display: inline-block;

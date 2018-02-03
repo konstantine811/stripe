@@ -6,15 +6,18 @@ html(lang='en')
 		meta(http-equiv="X-UA-Compatible" content="IE=edge")
 		meta(name="viewport" content="width=device-width, initial-scale=1")
 		meta(name="viewport" content="width=device-width, initial-scale=1.0")
-		title Stripe
+		title ixAnypoint - Contact us
 		link(rel="stylesheet", href="libs/bootstrap/dist/css/bootstrap.min.css")
 		link(href='style/common.css', rel='stylesheet')
-		link(href='style/signIn.css', rel='stylesheet')
+		link(href='style/contactUs.css', rel='stylesheet')
 	body
 		include includes/_preloader
-		include includes/pages/signIn_page/_section-first
-		include includes/pages/signIn_page/_section-second
+		include includes/pages/contactUs_page/_section-first
+		include includes/pages/contactUs_page/_section-second
+		include includes/pages/partials/_map
 		include includes/_footer
 		script(type='text/javascript' src='libs/jquery/dist/jquery.min.js')
 		script(type="text/javascript" src="libs/bootstrap/dist/js/bootstrap.min.js")
 		script(type='text/javascript' src='code/main.js')
+		script(type='text/javascript' src='code/map.js')
+		script(async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAsyMNzd3MqENmrKaa6cOQe2_0r9Ci5uKE&callback=initMap")

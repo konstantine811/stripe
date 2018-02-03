@@ -95,11 +95,8 @@
     height: 100%
 
 .head-image__inner
-    background-image: url('../img/ix360/ix360_head_image.png')
-    background-repeat: no-repeat
     height: calc(30vw + 442px)
     width: 30vw
-    background-size: contain
     position: relative
     margin-top: 25px
     margin-left: 50px
@@ -109,53 +106,6 @@
 
 .head__txt-main
     padding-top: 32px
-
-.row-image
-    position: absolute
-    width: 100%
-    height: auto
-    display: flex
-    justify-content: center
-
-.row-image--first
-    top: calc(7vw - 20px)
-
-.row-image__first
-    height: auto
-    width: 48%
-    text-align: center
-
-.row-image--second
-    top: calc(20vw - 39px)
-
-.row-image__second 
-    width: 54%
-    height: auto
-    text-align: center
-
-.row-image--third 
-    top: 30vw
-
-.row-image__third
-    width: 50%
-    height: auto
-    text-align: center
-
-.row-image--fourth
-    top: 43vw
-
-.row-image__fourth
-    width: 100%
-    height: auto
-    text-align: center
-
-.row-image--fifth
-    top: 54vw
-
-.row-image__fifth
-    width: 90%
-    height: auto
-    text-align: center
 
 .title-about__head 
     font-size: inherit
@@ -194,6 +144,10 @@
     padding-top: 8%
 
 //section-second
+.ixlayer-product-image
+    width: 100%
+    height: auto
+
 .section-second 
     width: 100%
     height: 100%
@@ -204,7 +158,7 @@
     padding-top: 9px
 
 .section-second-header__logo
-    width: 19%
+    width: 12%
     height: auto
     padding-top: 9px
 
@@ -220,7 +174,7 @@
 
 .section-second-header__wrap 
     display: flex
-    justify-content: space-between
+    justify-content: center
     width: 100%
     height: 100%
     padding-left: 71px
@@ -359,11 +313,40 @@
     .section-third-description__content
         flex-flow: row-reverse
 
+.section-third-images__op, .section-third-images__be,
+.section-third-images__health, .section-third-images__fe
+    width: 25%
+    height: auto
+    transform: rotate(-6deg)
+    box-shadow: -1px 10px 39px 10px rgba(0, 0, 0, 0.15)
+
+.section-third-images__op
+    position: relative
+    z-index: 100
+    right: 26%
+
+.section-third-images__be
+    position: absolute
+    z-index: 101
+    right: 45%
+
+.section-third-images__health
+    position: absolute
+    z-index: 102
+    right: 27%
+
+.section-third-images__fe
+    position: absolute
+    z-index: 103
+    right: 10%
+
 .section-third-images__wrap
     width: 100%
     height: auto
     margin: 0 auto
     text-align: center
+
+.section-third-images__op
 
 .section-third-title__inner
     padding-top: 100px

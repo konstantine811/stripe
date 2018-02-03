@@ -8,7 +8,7 @@ section.section-third-infrastructure
                     .title-border.title-border--unset ixAnypoint
                 .col-lg-12
                     .section-third-infrasturcture__txt-title
-                        h1 ixAnypoint infrastrucutre includes
+                        h1 Ixlayer infrastructure includes:
                     each val, index in infrastructure_description
                         .section-third-infrasturcture__description
                             .section-third-infrasturcture-includes
@@ -16,7 +16,7 @@ section.section-third-infrastructure
                                     h3 #{index + 1}. #{val.title}
                             .section-third-infrasturcture-includes__wrap
                                 .section-third-infrasturcture-includes__image
-                                    .image-small
+                                    object(type="image/svg+xml",data="./img/ixAnypoint/#{val.img}.svg").image-small
                                 ul.infrasturcture-description-item
                                     each item in val.txt
                                         li.infrasturcture-description-item__inner #{item}

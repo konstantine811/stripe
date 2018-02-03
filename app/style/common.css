@@ -499,9 +499,12 @@ textarea.form-control {
   width: 64px;
   height: 64px;
   display: inline-block;
-  background-color: #8898AA;
+  background-color: #fff;
   -webkit-border-radius: 6px;
-          border-radius: 6px; }
+          border-radius: 6px;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat; }
 
 .image-less {
   width: 20px;
@@ -511,15 +514,17 @@ textarea.form-control {
           border-radius: 3px; }
 
 .image-middle {
-  width: 94%;
-  height: 477px;
+  width: 100%;
+  height: auto;
   -webkit-border-radius: 6px;
           border-radius: 6px;
-  background-color: #8898AA; }
+  background-color: #8898AA;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat; }
 
 .image-small {
   position: relative;
-  background-color: #8898AA;
   width: 332px;
   height: 209px;
   -webkit-border-radius: 6px;
@@ -771,12 +776,23 @@ h3.title-third--regular {
   max-width: 400px;
   height: 80px;
   width: 100%;
-  text-align: center;
   margin: 0 auto;
   font-size: 16pt;
-  padding-top: 25px;
   text-transform: uppercase;
-  font-weight: 500; }
+  text-align: center;
+  font-weight: 500;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
 
 .title-border--unset {
   text-transform: unset;
