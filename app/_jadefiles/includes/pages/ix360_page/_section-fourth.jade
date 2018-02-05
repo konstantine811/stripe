@@ -3,8 +3,6 @@ section.section-fourth
         .row
             .col-lg-12
                 .section-fourth-header
-                    .section-fourth-header__logo
-                        include ../partials/_logo-circle
                     .section-fourth-header__head
                         .section-fourth-header__title
                             h2 Details of ix360 end-to-end solution
@@ -18,30 +16,30 @@ section.section-fourth
                         table.table.table-striped
                             thead.section-fourth-table__thead
                                 tr
-                                    th(scope="col")
-                                    th(scope="col")
+                                    th(scope="col").col-xs-8
+                                    th(scope="col").col-xs-2
                                         .table__head
-                                            h3.title-third--regular Consumer Genetic products
-                                    th(scope="col")
+                                            h4.title-third--regular "Consumer" Genetic products
+                                    th(scope="col").col-xs-2
                                         .table__head
-                                            h3.title-third--regular Health (LDT) genetic products
+                                            h4.title-third--regular "Health" (LDT) genetic products
                             tbody.section-fourth-table__tbody
                                 each val in table
                                     tr
-                                        td.table-row-txt
+                                        td.table-row-txt.col-xs-8
                                             .table-row-txt__inner
                                                 .tbody__title
                                                     h3.title-third--blue-dark #{val.title}
                                                 .tbody__txt
                                                     p.txt-about-small.txt-about-small--purple-2.not-indent #{val.txt_about}
-                                        td
+                                        td.col-xs-2
                                             .table-row-icon
                                                 .table-row-icon__inner
                                                     if val.consumer === true
                                                         span.icon-ok
                                                     else
                                                         span.icon-remove
-                                        td
+                                        td.col-xs-2
                                             .table-row-icon
                                                 .table-row-icon__inner
                                                     if val.health === true
@@ -53,6 +51,6 @@ section.section-fourth
                                 .table-launch-buttons__title
                                     h3.title-third--regular.title-third--blue-dark Launch your genetic product today
                                 .table-buttons__inner
-                                    a(href="/ix360").bt.purple Explore Solution
-                                    a(href="/contact-us").bt.grey Request a demo
+                                    a(href="/ix360.html").bt.purple Explore Solution
+                                    a(href="/contact-us.html").bt.grey Request a demo
 

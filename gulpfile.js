@@ -130,7 +130,7 @@ gulp.task('watch', function() {
 	gulp.watch('app/sass/**/*.+(scss|sass)', ['sass']);
 	gulp.watch('app/_jadefiles/**/*.jade', ['jade-rebuild']); 
 	gulp.watch('app/code/**/*.js', browserSync.reload);
-	gulp.watch("app/*.html").on('change', browserSync.reload);
+	// gulp.watch("app/*.html").on('change', browserSync.reload);
 	// gulp.watch('./app/src/**/*.js', ['es6']);
 });
 

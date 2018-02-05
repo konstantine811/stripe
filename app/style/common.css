@@ -50,6 +50,7 @@ a.bt, button.bt {
   font-family: Raleway, sans-serif;
   text-transform: uppercase;
   text-decoration: none;
+  text-align: center;
   width: auto;
   min-width: 165px;
   height: auto;
@@ -328,6 +329,13 @@ a.bt.grey:hover, button.bt.grey:hover {
     width: 100%; }
   body h3, body h2, body h1 {
     text-align: center; }
+  body h3.title-align, body h2.title-align, body h1.title-align {
+    margin: 0;
+    padding: 0 12px; }
+  body .mobile-txt-left {
+    text-align: left !important; }
+  body .mobile-txt-right {
+    text-align: right !important; }
   body p.txt-main-title, body p.txt-about, body p.txt-about-small {
     font-size: 12pt;
     line-height: 18pt;
@@ -363,6 +371,9 @@ body {
 
 .text-bold {
   font-weight: bold; }
+
+.text-left {
+  text-align: left !important; }
 
 .container-lg {
   max-width: 1040px;
@@ -550,8 +561,7 @@ textarea.form-control {
   background-color: #3ecf8e; }
 
 .label--green-big {
-  padding-left: 37%;
-  padding-right: 37%;
+  width: 77%;
   display: inline-block; }
 
 .label-input {
