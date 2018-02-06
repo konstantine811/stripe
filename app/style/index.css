@@ -1116,12 +1116,19 @@
 .technologies-about__txt-about {
   width: 100%;
   height: auto;
-  text-align: left; }
+  text-align: left;
+  padding-top: 12px; }
 
 .title-about__inner {
   padding-top: 31px;
   color: inherit;
   font-size: inherit; }
+
+.technologies-about__link {
+  width: 100%;
+  height: auto;
+  text-align: right;
+  padding-top: 5px; }
 
 .header-content-bottom {
   width: 100%;
@@ -1207,13 +1214,6 @@
 .about-txt-fourth__inner {
   padding-top: 26px;
   font-size: inherit;
-  color: inherit; }
-
-.read-more__inner {
-  padding-top: 11px;
-  display: inline-block;
-  font-size: inherit;
-  text-decoration: inherit;
   color: inherit; }
 
 .carousel-indicators {
