@@ -320,6 +320,10 @@ a.bt.grey:hover, button.bt.grey:hover {
 @media (max-width: 767px) {
   .col-not-padding {
     padding: 0; }
+  .not-mobile {
+    display: none !important; }
+  .only-mobile {
+    display: block !important; }
   body .icon-remove, body .icon-ok {
     -webkit-transform: scale(0.7);
         -ms-transform: scale(0.7);
@@ -363,6 +367,9 @@ body {
   font-weight: 300;
   overflow-x: hidden;
   position: relative; }
+
+.only-mobile {
+  display: none; }
 
 .not-indent {
   margin: 0 !important;

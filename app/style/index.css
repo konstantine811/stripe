@@ -930,6 +930,9 @@
     width: 100%; }
   body .section-second__txt-left {
     text-align: center; }
+  body .section-second__image {
+    padding: 0 15px;
+    margin-top: 25px; }
   body .section-third .connect-box-table__label--international {
     text-align: right;
     left: 0;
@@ -1059,11 +1062,11 @@
 .image-least--icon-price {
   background-image: url("../img/index/icon-price-elasticity.svg"); }
 
-.image-least--icon--platform {
+.image-least--icon-platform {
   background-image: url("../img/index/icon-platform.svg"); }
 
-.image-least--icon-ixlayer {
-  background-image: url("../img/index/icon-ixlayer.svg"); }
+.image-least--icon-helix {
+  background-image: url("../img/index/icon-helix.svg"); }
 
 .image-least--icon-market {
   background-image: url("../img/index/icon-market-growth.svg"); }
