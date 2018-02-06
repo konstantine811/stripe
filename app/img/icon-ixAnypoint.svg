@@ -1,1 +1,57 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="4950 4901 512 512"><defs><style>.a{clip-path:url(#f);}.b{opacity:0.4;}.b,.c,.d{fill:url(#b);}.c{opacity:0.65;}.e{fill:url(#a);}</style><linearGradient id="a" x2="0" y2="1" gradientUnits="objectBoundingBox"><stop offset="0" stop-color="#657e97"/><stop offset="1" stop-color="#333f4c"/></linearGradient><linearGradient id="b" x1="0.035" y1="0.644" x2="1" y2="0.192" gradientUnits="objectBoundingBox"><stop offset="0" stop-color="#627b93"/><stop offset="1" stop-color="#627a93" stop-opacity="0"/></linearGradient><clipPath id="f"><rect x="4950" y="4901" width="512" height="512"/></clipPath></defs><g id="e" class="a"><rect class="e" x="4950" y="4901" width="512" height="512"/><path class="b" d="M0,0,482-100V57L0,157Z" transform="matrix(-0.978, -0.208, 0.208, -0.978, 5358.808, 5146.484)"/><path class="c" d="M0,0,482-100V57L0,157Z" transform="matrix(-0.978, -0.208, 0.208, -0.978, 5278.808, 5246.484)"/><path class="d" d="M0,0,482-100V57L0,157Z" transform="matrix(-0.978, -0.208, 0.208, -0.978, 5198.808, 5346.484)"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="4950 5540 512 512">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-icon-ixAnypoint_4);
+      }
+
+      .cls-2 {
+        opacity: 0.4;
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-3 {
+        opacity: 0.65;
+      }
+
+      .cls-5 {
+        fill: #f7e88b;
+      }
+
+      .cls-6 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x2="0" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#657e97"/>
+      <stop offset="1" stop-color="#333f4c"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.035" y1="0.644" x2="1" y2="0.192" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#627b93"/>
+      <stop offset="1" stop-color="#627a93" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="clip-icon-ixAnypoint_4">
+      <rect x="4950" y="5540" width="512" height="512"/>
+    </clipPath>
+  </defs>
+  <g id="icon-ixAnypoint_4" data-name="icon-ixAnypoint – 4" class="cls-1">
+    <rect class="cls-6" x="4950" y="5540" width="512" height="512"/>
+    <path id="Path_1005" data-name="Path 1005" class="cls-2" d="M0,0,482-100V57L0,157Z" transform="matrix(-0.978, -0.208, 0.208, -0.978, 5358.808, 5785.484)"/>
+    <path id="Path_1006" data-name="Path 1006" class="cls-3" d="M0,0,482-100V57L0,157Z" transform="matrix(-0.978, -0.208, 0.208, -0.978, 5278.808, 5885.484)"/>
+    <path id="Path_1007" data-name="Path 1007" class="cls-4" d="M0,0,482-100V57L0,157Z" transform="matrix(-0.978, -0.208, 0.208, -0.978, 5198.808, 5985.484)"/>
+    <g id="Group_776" data-name="Group 776" transform="translate(4048.313 -1024.1)">
+      <g id="_360-degrees_copy" data-name="360-degrees copy" transform="translate(900.688 6541.1)">
+        <path id="Path_1026" data-name="Path 1026" class="cls-5" d="M255.7,60l25.84,81.308L255.7,123.982l-25.84,17.325Z" transform="translate(-2.504 64)"/>
+        <path id="Path_1028" data-name="Path 1028" class="cls-5" d="M255.7,462.663l-14.877-46.81-10.964-34.5L255.7,398.68l25.84-17.325Z" transform="translate(-2.504 -28.497)"/>
+        <g id="Group_774" data-name="Group 774" transform="translate(408.491 258.177)">
+          <path id="Path_1030" data-name="Path 1030" class="cls-5" d="M451.177,260.279,381.355,290.37l14.879-30.091-14.878-30.091Z" transform="translate(-454.355 -237.188)"/>
+        </g>
+        <path id="Path_1031" data-name="Path 1031" class="cls-5" d="M60,260.279l69.823-30.091-14.879,30.091,14.878,30.091Z" transform="translate(48 20.687)"/>
+      </g>
+    </g>
+    <path id="Path_1032" data-name="Path 1032" class="cls-5" d="M405.477,148.116a18.847,18.847,0,1,1,17.538-11.625A18.915,18.915,0,0,1,405.477,148.116Z" transform="translate(4800.451 5666.5)"/>
+  </g>
+</svg>

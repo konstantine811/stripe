@@ -335,7 +335,7 @@
 .mobile-menu-bottom-link {
   list-style: none;
   margin: 0;
-  padding: 0 0 18px;
+  padding: 0 24px 18px 0;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -769,6 +769,8 @@
     width: 100%; } }
 
 @media (max-width: 767px) {
+  body .section-second-about-principles__wrap {
+    padding-top: 25px; }
   body .image-quote {
     width: 100px;
     height: 100px;
@@ -955,6 +957,10 @@ html, body {
   width: 100%;
   height: auto;
   padding-top: 97px; }
+
+.section-second-about-principles__wrap {
+  width: 100%;
+  height: auto; }
 
 .about-txt__section-third-about {
   width: 100%;

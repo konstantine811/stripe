@@ -1,1 +1,42 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="4368 4901 512 512"><defs><style>.a{clip-path:url(#e);}.b{fill:url(#b);}.c{fill:url(#a);}</style><linearGradient id="a" x2="0" y2="1" gradientUnits="objectBoundingBox"><stop offset="0" stop-color="#223761"/><stop offset="1" stop-color="#36508d"/></linearGradient><linearGradient id="b" x1="0.035" y1="0.644" x2="1" y2="0.192" gradientUnits="objectBoundingBox"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#233863" stop-opacity="0.651"/></linearGradient><clipPath id="e"><rect x="4368" y="4901" width="512" height="512"/></clipPath></defs><g id="d" class="a"><rect class="c" x="4368" y="4901" width="512" height="512"/><path class="b" d="M0,0,482-100V57L0,157Z" transform="translate(4455 5163)"/><path class="b" d="M0,0,482-100V57L0,157Z" transform="translate(4817 5132) rotate(180)"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="4368 5540 512 512">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-icon-ix360_4);
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-3 {
+        fill: #f7e88b;
+      }
+
+      .cls-4 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x2="0" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#223761"/>
+      <stop offset="1" stop-color="#36508d"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.035" y1="0.644" x2="1" y2="0.192" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#233863" stop-opacity="0.651"/>
+    </linearGradient>
+    <clipPath id="clip-icon-ix360_4">
+      <rect x="4368" y="5540" width="512" height="512"/>
+    </clipPath>
+  </defs>
+  <g id="icon-ix360_4" data-name="icon-ix360 – 4" class="cls-1">
+    <rect class="cls-4" x="4368" y="5540" width="512" height="512"/>
+    <path id="Path_1003" data-name="Path 1003" class="cls-2" d="M0,0,482-100V57L0,157Z" transform="translate(4455 5802)"/>
+    <path id="Path_1004" data-name="Path 1004" class="cls-2" d="M0,0,482-100V57L0,157Z" transform="translate(4817 5771) rotate(180)"/>
+    <g id="_360-degrees" data-name="360-degrees" transform="translate(4398.5 5549.682)">
+      <path id="Path_1010" data-name="Path 1010" class="cls-3" d="M238.875,306.711,237.2,285.88c49.336-3.9,85.94-10.443,108.8-19.457,14.521-5.727,23.19-12.58,23.19-18.331,0-3.9-7.879-13.62-37.7-22.5-28.194-8.4-65.875-13.023-106.1-13.023s-77.909,4.625-106.1,13.023c-29.819,8.883-37.7,18.6-37.7,22.5,0,3.806,6.668,10.474,21.565,16.791,16.715,7.088,41.1,12.707,68.663,15.825l-2.39,20.763c-6.653-.752-13.1-1.634-19.562-2.678-21.512-3.475-40.368-8.49-55.005-14.7-22.8-9.666-34.356-21.78-34.356-36,0-12.233,9.145-29.538,52.714-42.516,30.109-8.968,69.946-13.908,112.172-13.908s82.063,4.939,112.171,13.908c43.569,12.978,52.715,30.283,52.715,42.516C390.272,279.491,340.75,298.666,238.875,306.711Z" transform="translate(0 -13.319)"/>
+      <path id="Path_1011" data-name="Path 1011" class="cls-3" d="M367.8,205.642c-30.108-8.968-69.091-14.486-114.069-13.978v20.9c42.125.069,79.807,4.7,108,13.093,29.819,8.882,37.7,18.6,37.7,22.5,0,5.751-8.669,12.6-23.19,18.331-22.857,9.014-59.461,15.56-108.8,19.457l1.675,20.832c101.875-8.046,151.4-27.22,151.4-58.62C420.517,235.925,411.372,218.62,367.8,205.642Z" transform="translate(-30.259 -13.313)"/>
+      <path id="Path_1012" data-name="Path 1012" class="cls-3" d="M161.735,338.306l-11.629-17.432,28.316-18.556L159.7,274.254l17.588-11.526,30.352,45.5Z" transform="translate(-14.032 -24.98)"/>
+    </g>
+  </g>
+</svg>
