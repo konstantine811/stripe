@@ -738,10 +738,10 @@ h1 {
   color: #fff; }
 
 .title--blue-dark {
-  color: #657E97; }
+  color: #657E97 !important; }
 
 .title--blue {
-  color: #5F83DA; }
+  color: #5F83DA !important; }
 
 h2 {
   font-size: 22pt;
