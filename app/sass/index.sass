@@ -56,6 +56,11 @@
     height: auto
     right: calc(27% - 432px)
     top: 30px
+    transform: translateX(400px)
+    opacity: 0
+
+.head__wrap-image--animation
+    animation: head-image-animation 0.9s 2s 1 both ease
 
 .head-image
     width: 100%
@@ -445,6 +450,17 @@
     text-transform: uppercase
     letter-spacing: 2px
     color: $purple-5
+
+
+//keyframes
+
+@keyframes head-image-animation
+    0%
+        opacity: 0
+        transform: translateX(400px)
+    100%
+        opacity: 1
+        transform: translateX(0px)
 
 
 
