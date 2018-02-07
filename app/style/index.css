@@ -817,7 +817,14 @@
   .section-fourth .section-fourth__ix360-txt {
     padding-top: 0; }
   .section-fourth .section-fourth__about-txt {
-    width: 100%; } }
+    width: 100%;
+    paddding-top: 50px; } }
+
+@media (max-width: 767px) {
+  .section-fourth .section-fourth__ix360-description {
+    padding-top: 0; }
+  .section-fourth .ix360-description__inner {
+    padding-top: 30px; } }
 
 .ixAnypoint-description__title-bottom {
   width: 69%;
@@ -933,7 +940,15 @@
   .section-fifth .ixAnypoint-image {
     width: 100%;
     float: none;
-    padding-top: 30px; } }
+    padding-top: 30px; }
+  .section-fifth .ixAnypoint-description__title-top {
+    width: 100%;
+    padding-top: 50px; }
+  .section-fifth .section-fifth__about-txt {
+    width: 100%;
+    padding-top: 50px; }
+  .section-fifth .ixAnypoint-description__title-bottom {
+    width: 100%; } }
 
 /*==========  Desktop First Method  ==========*/
 @media (max-width: 1528px) {
