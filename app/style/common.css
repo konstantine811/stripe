@@ -286,7 +286,8 @@ a.bt.grey:hover, button.bt.grey:hover {
 
 @media (max-width: 1528px) {
   body .container-large--row-boxes {
-    padding: 0; }
+    padding: 0;
+    top: 0; }
   body .container-space {
     padding-left: 0; } }
 
@@ -328,9 +329,6 @@ a.bt.grey:hover, button.bt.grey:hover {
     -webkit-transform: scale(0.7);
         -ms-transform: scale(0.7);
             transform: scale(0.7); }
-  body .image-small {
-    max-width: 332px;
-    width: 100%; }
   body h3, body h2, body h1 {
     text-align: center; }
   body h4 {
@@ -338,6 +336,11 @@ a.bt.grey:hover, button.bt.grey:hover {
   body h3.title-align, body h2.title-align, body h1.title-align {
     margin: 0;
     padding: 0 12px; }
+  body h3.title-third--mobile-less {
+    font-size: 12pt !important; }
+  body p.txt-about-small--mobile-less {
+    font-size: 10pt !important;
+    line-height: 14pt !important; }
   body .mobile-txt-left {
     text-align: left !important; }
   body .mobile-txt-right {
@@ -543,7 +546,7 @@ textarea.form-control {
 
 .image-small {
   position: relative;
-  width: 490px;
+  width: 100%;
   height: auto; }
 
 .label {
@@ -867,8 +870,7 @@ p.txt-about--purple-2 {
   color: #545377; }
 
 p.txt-about--large-line-height {
-  line-height: 44px;
-  margin-top: -8px; }
+  line-height: 32px; }
 
 p.txt-about--middle-line-height {
   line-height: 38px; }

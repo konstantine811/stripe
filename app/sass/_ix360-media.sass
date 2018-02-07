@@ -1,7 +1,7 @@
 @media (max-width: $breakpoint-device-3)
     .head-content-boxes
         margin: 0 auto
-        margin: 40px auto 0
+        margin: 30px auto 0
     body
         .head-image__inner
             margin-left: 0
@@ -19,10 +19,12 @@
     body
         .section-third-description__inner:nth-child(even)
             flex-flow: column-reverse
-        
         .section-third-description__inner:nth-child(3), .section-third-description__inner:nth-child(4)
             .section-third-description__content-image
-                padding-top: 33px
+                padding-top: 30px
+        .section-third-description__inner
+            .section-third-description__content-image
+                padding-top: 60px
         .head-description__txt
             width: 77%
         div.margin-on-image
@@ -77,8 +79,6 @@
             flex-flow: wrap
             position: relative
             height: auto
-        .section-third-description__wrap
-            padding-left: 0
         .section-third-title__inner
             padding-top: 70px
         .title-fourth__section-third-description
@@ -98,14 +98,13 @@
         .section-third-images__op, .section-third-images__be, 
         .section-third-images__health, .section-third-images__fe
             width: 30%
-        .section-third-description__inner:nth-child(1)
+        .section-third-description__inner:nth-child(1), .section-third-description__inner:nth-child(2)
             .section-third-description__content-image
-                padding-top: 10px
+                padding-top: 30px
+            .section-third-description__content-txt
+                padding-top: 30px
         .section-third-description__content-image
             min-width: 0
-            .image-small
-                max-width: 237px
-                height: auto
         .section-second-header__logo
             .header-logo
                 transform: scale(1.5)

@@ -736,7 +736,7 @@
     padding: 32px 0 0 0; }
   body .section-second-sign-form {
     padding: 0 15px;
-    top: 300px; }
+    top: 270px; }
   body .head-sign__txt-main {
     width: 100%;
     padding: 32px 0 0 0; }
@@ -761,8 +761,7 @@ html, body {
 .head-sign {
   width: 100%;
   height: auto;
-  position: relative;
-  padding-bottom: 397px; }
+  position: relative; }
 
 .head-sign__background {
   width: 100%;
@@ -804,10 +803,10 @@ html, body {
   display: block; }
 
 .section-second-sign-form {
-  position: absolute;
+  position: relative;
   width: 100%;
   height: auto;
-  top: 441px;
+  top: 320px;
   left: 0;
   right: 0; }
 
