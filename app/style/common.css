@@ -384,6 +384,9 @@ body {
 .text-left {
   text-align: left !important; }
 
+.text-center {
+  text-align: center; }
+
 .container-lg {
   max-width: 1040px;
   margin: 0 auto; }

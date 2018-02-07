@@ -1,130 +1,100 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="1222 8051 420 300">
-  <defs>
-    <style>
-      .cls-1 {
-        clip-path: url(#clip-ixAnypoint-plugins_1);
-      }
-
-      .cls-14, .cls-2, .cls-5 {
-        fill: #fff;
-      }
-
-      .cls-3 {
-        fill: #dbdbdb;
-      }
-
-      .cls-12, .cls-4 {
-        fill: #34aeff;
-      }
-
-      .cls-5 {
-        font-size: 17px;
-        letter-spacing: 0.045em;
-      }
-
-      .cls-14, .cls-5 {
-        font-family: Helvetica;
-      }
-
-      .cls-6 {
-        opacity: 0.91;
-      }
-
-      .cls-7 {
-        fill: #ffdb77;
-      }
-
-      .cls-8 {
-        fill: #ff905e;
-      }
-
-      .cls-9 {
-        fill: #28d2e4;
-      }
-
-      .cls-10 {
-        fill: #28c3e4;
-      }
-
-      .cls-11 {
-        fill: none;
-        stroke: #34aeff;
-        stroke-miterlimit: 10;
-        stroke-width: 3px;
-      }
-
-      .cls-12 {
-        opacity: 0.45;
-      }
-
-      .cls-13 {
-        fill: #00769d;
-      }
-
-      .cls-14 {
-        font-size: 13px;
-      }
-
-      .cls-15 {
-        filter: url(#Rectangle_84);
-      }
-    </style>
-    <filter id="Rectangle_84" x="1363.871" y="8068" width="228.346" height="144.843" filterUnits="userSpaceOnUse">
-      <feOffset dy="3" input="SourceAlpha"/>
-      <feGaussianBlur stdDeviation="3" result="blur"/>
-      <feFlood flood-opacity="0.161"/>
-      <feComposite operator="in" in2="blur"/>
-      <feComposite in="SourceGraphic"/>
-    </filter>
-    <clipPath id="clip-ixAnypoint-plugins_1">
-      <rect x="1222" y="8051" width="420" height="300"/>
-    </clipPath>
-  </defs>
-  <g id="ixAnypoint-plugins_1" data-name="ixAnypoint-plugins – 1" class="cls-1">
-    <g id="Group_763" data-name="Group 763" transform="translate(766 5032.997)">
-      <g id="Group_420" data-name="Group 420" transform="translate(606.871 3041.003)">
-        <g id="Group_365" data-name="Group 365" transform="translate(0 0)">
-          <g id="Group_302" data-name="Group 302">
-            <g class="cls-15" transform="matrix(1, 0, 0, 1, -1372.87, -8074)">
-              <rect id="Rectangle_84-2" data-name="Rectangle 84" class="cls-2" width="210.346" height="126.843" rx="2" transform="translate(1372.87 8074)"/>
-            </g>
-            <g id="Group_223" data-name="Group 223" transform="translate(118.336 105.679)">
-              <rect id="Rectangle_85" data-name="Rectangle 85" class="cls-3" width="38.946" height="15.098" rx="7.549"/>
-              <rect id="Rectangle_86" data-name="Rectangle 86" class="cls-3" width="38.946" height="15.098" rx="7.549" transform="translate(46.436)"/>
-            </g>
-            <path id="Rectangle_154" data-name="Rectangle 154" class="cls-4" d="M2,0H208.346a2,2,0,0,1,2,2V40.786a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V2A2,2,0,0,1,2,0Z"/>
-          </g>
-          <g id="Group_364" data-name="Group 364" transform="translate(37.046 11.121)">
-            <g id="Group_62" data-name="Group 62" transform="translate(20.841 2.467)">
-              <text id="Genetic_Product" data-name="Genetic Product" class="cls-5" transform="translate(0 13)"><tspan x="0" y="0">Genetic Product</tspan></text>
-            </g>
-            <g id="dna" class="cls-6" transform="translate(0 0)">
-              <path id="Path_89" data-name="Path 89" class="cls-7" d="M155.533,215.484l-4.26-4.26a.752.752,0,1,1,1.063-1.063l4.26,4.26a.752.752,0,0,1-1.063,1.063Z" transform="translate(-145.287 -201.928)"/>
-              <path id="Path_90" data-name="Path 90" class="cls-8" d="M215.825,273.649l-2.13-2.13-1.063,1.063,2.13,2.13a.752.752,0,1,0,1.063-1.063Z" transform="translate(-204.516 -261.156)"/>
-              <path id="Path_91" data-name="Path 91" class="cls-7" d="M328.39,42.627l-4.26-4.26a.752.752,0,0,1,1.063-1.063l4.26,4.26a.752.752,0,1,1-1.063,1.063Z" transform="translate(-311.546 -35.668)"/>
-              <path id="Path_92" data-name="Path 92" class="cls-8" d="M388.681,100.793l-2.13-2.13-1.063,1.063,2.13,2.13a.752.752,0,0,0,1.063-1.063Z" transform="translate(-370.775 -94.897)"/>
-              <path id="Path_93" data-name="Path 93" class="cls-9" d="M41.566,329.456l-4.26-4.26a.752.752,0,1,1,1.063-1.063l4.26,4.26a.752.752,0,0,1-1.063,1.063Z" transform="translate(-35.67 -311.55)"/>
-              <path id="Path_94" data-name="Path 94" class="cls-10" d="M101.856,387.618l-2.13-2.13-1.063,1.063,2.13,2.13a.752.752,0,1,0,1.063-1.063Z" transform="translate(-94.897 -370.775)"/>
-              <path id="Path_95" data-name="Path 95" class="cls-9" d="M214.42,156.6l-4.26-4.26a.752.752,0,1,1,1.063-1.063l4.26,4.26a.752.752,0,0,1-1.063,1.063Z" transform="translate(-201.927 -145.287)"/>
-              <path id="Path_96" data-name="Path 96" class="cls-10" d="M274.713,214.762l-2.13-2.13-1.063,1.063,2.13,2.13a.752.752,0,1,0,1.063-1.063Z" transform="translate(-261.157 -204.516)"/>
-              <path id="Path_97" data-name="Path 97" class="cls-2" d="M13.987,7.388c1.418.168,3.877.2,5.336-1.261a.752.752,0,0,0-1.063-1.063c-1.03,1.03-3.114,1-4.552.766-.2-1.207-.315-3.46.771-4.547A.752.752,0,0,0,13.417.22c-1.46,1.46-1.429,3.918-1.261,5.336-4.792-.567-7.176,1.7-6.6,6.6-1.418-.168-3.877-.2-5.336,1.261a.752.752,0,0,0,1.063,1.063c1.028-1.028,3.106-1,4.548-.767.236,1.441.261,3.52-.767,4.548a.752.752,0,0,0,1.063,1.063c1.46-1.46,1.429-3.918,1.261-5.336C12.182,14.552,14.566,12.283,13.987,7.388ZM12.43,7.114c.678,4.142-.883,5.46-3.745,5.449a10.164,10.164,0,0,1-1.57-.135,10.161,10.161,0,0,1-.135-1.57C6.97,8.065,8.215,6.424,12.43,7.114Z" transform="translate(-0.002 0)"/>
-            </g>
-          </g>
-        </g>
-      </g>
-      <path id="Path_674" data-name="Path 674" class="cls-11" d="M58.881,65.909H15.1C5.033,65.909,0,63.029,0,53.043V0" transform="translate(638.328 3127.055) rotate(90)"/>
-      <path id="Path_675" data-name="Path 675" class="cls-12" d="M21.72,0A21.72,21.72,0,1,1,0,21.72,21.72,21.72,0,0,1,21.72,0Z" transform="translate(641.324 3104.408)"/>
-      <g id="Group_421" data-name="Group 421" transform="translate(536.469 3201.033)">
-        <circle id="Ellipse_168" data-name="Ellipse 168" class="cls-2" cx="34.452" cy="34.452" r="34.452" transform="translate(1.498 1.51)"/>
-        <g id="wordpress" transform="translate(0)">
-          <path id="Path_328" data-name="Path 328" class="cls-13" d="M78.605,52.868H74.635l10.825,30.6L91.52,66.15l-4.7-13.282H82.632V49.952h18.552v2.916H96.839l10.825,30.6,3.891-11.12c5.1-14.246-4.184-18.684-4.184-21.864a5.757,5.757,0,0,1,5.757-5.757c.172,0,.339.009.5.025a30.08,30.08,0,0,0-45.68,5.2H78.605v2.916Z" transform="translate(-57.037 -30.678)"/>
-          <path id="Path_329" data-name="Path 329" class="cls-13" d="M36.548,162.174a30.074,30.074,0,0,0,15.978,26.574L38.951,150.376A29.982,29.982,0,0,0,36.548,162.174Z" transform="translate(-30.678 -126.224)"/>
-          <path id="Path_330" data-name="Path 330" class="cls-13" d="M323.908,131.547a21.264,21.264,0,0,1-.36,8.239h.12l-.455,1.3h0a28.035,28.035,0,0,1-.994,2.842l-10.35,29a30.094,30.094,0,0,0,12.04-41.377Z" transform="translate(-261.779 -110.419)"/>
-          <path id="Path_331" data-name="Path 331" class="cls-13" d="M166.075,272.72a30.221,30.221,0,0,0,18.149.129l-8.8-24.872Z" transform="translate(-139.402 -208.15)"/>
-          <path id="Path_332" data-name="Path 332" class="cls-13" d="M61.371,10.53A35.95,35.95,0,0,0,10.53,61.371,35.95,35.95,0,1,0,61.371,10.53ZM35.95,69.364A33.414,33.414,0,1,1,69.364,35.95,33.452,33.452,0,0,1,35.95,69.364Z" transform="translate(0 0)"/>
-        </g>
-      </g>
-      <text id="Wordpress_plugin" data-name="Wordpress plugin" class="cls-14" transform="translate(564 3292.561)"><tspan x="-50.464" y="0">Wordpress plugin</tspan></text>
-    </g>
-  </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 282.2 232" style="enable-background:new 0 0 282.2 232;" xml:space="preserve">
+<style type="text/css">
+	.st0{clip-path:url(#SVGID_2_);}
+	.st1{fill:#FFFFFF;}
+	.st2{fill:#DBDBDB;}
+	.st3{fill:#34AEFF;}
+	.st4{font-family:'ArialMT';}
+	.st5{font-size:17px;}
+	.st6{opacity:0.91;}
+	.st7{fill:#FFDB77;}
+	.st8{fill:#FF905E;}
+	.st9{fill:#28D2E4;}
+	.st10{fill:#28C3E4;}
+	.st11{fill:none;stroke:#34AEFF;stroke-width:3;stroke-miterlimit:10;}
+	.st12{opacity:0.45;fill:#34AEFF;enable-background:new    ;}
+	.st13{fill:#00769D;}
+</style>
+<g>
+	<defs>
+		<rect id="SVGID_1_" x="-79" y="-23" width="420" height="300"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	<g id="ixAnypoint-plugins_1" class="st0">
+		<g id="Group_763" transform="translate(766 5032.997)">
+			<g id="Group_420" transform="translate(606.871 3041.003)">
+				<g id="Group_365" transform="translate(0 0)">
+					<g id="Group_302">
+						<g transform="matrix(1, 0, 0, 1, -1372.87, -8074)">
+							<path id="Rectangle_84-2" class="st1" d="M73.9,0h206.3c1.1,0,2,0.9,2,2v122.8c0,1.1-0.9,2-2,2H73.9c-1.1,0-2-0.9-2-2V2
+								C71.9,0.9,72.8,0,73.9,0z"/>
+						</g>
+						<g id="Group_223" transform="translate(118.336 105.679)">
+							<path id="Rectangle_85" class="st2" d="M-1293.5-8074h23.8c4.2,0,7.5,3.4,7.5,7.5l0,0c0,4.2-3.4,7.5-7.5,7.5h-23.8
+								c-4.2,0-7.5-3.4-7.5-7.5l0,0C-1301-8070.6-1297.6-8074-1293.5-8074z"/>
+							<path id="Rectangle_86" class="st2" d="M-1247-8074h23.8c4.2,0,7.5,3.4,7.5,7.5l0,0c0,4.2-3.4,7.5-7.5,7.5h-23.8
+								c-4.2,0-7.5-3.4-7.5-7.5l0,0C-1254.6-8070.6-1251.2-8074-1247-8074z"/>
+						</g>
+						<path id="Rectangle_154" class="st3" d="M-1299-8074h206.3c1.1,0,2,0.9,2,2v38.8l0,0H-1301l0,0v-38.8
+							C-1301-8073.1-1300.1-8074-1299-8074z"/>
+					</g>
+					<g id="Group_364" transform="translate(37.046 11.121)">
+						<g id="Group_62" transform="translate(20.841 2.467)">
+							<text transform="matrix(1 0 0 1 -1301 -8061)" class="st1 st4 st5">Genetic Product</text>
+						</g>
+						<g id="dna" transform="translate(0 0)" class="st6">
+							<path id="Path_89" class="st7" d="M-1290.8-8060.4l-4.3-4.3c-0.3-0.3-0.3-0.8,0-1.1c0.3-0.3,0.8-0.3,1.1,0c0,0,0,0,0,0
+								l4.3,4.3c0.3,0.3,0.3,0.8,0,1.1C-1290-8060.2-1290.5-8060.2-1290.8-8060.4z"/>
+							<path id="Path_90" class="st8" d="M-1289.7-8061.5l-2.1-2.1l-1.1,1.1l2.1,2.1c0.3,0.3,0.8,0.3,1.1,0
+								S-1289.4-8061.2-1289.7-8061.5C-1289.7-8061.5-1289.7-8061.5-1289.7-8061.5z"/>
+							<path id="Path_91" class="st7" d="M-1284.2-8067l-4.3-4.3c-0.3-0.3-0.3-0.8,0-1.1c0.3-0.3,0.7-0.3,1,0l4.3,4.3
+								c0.3,0.3,0.3,0.8,0,1.1C-1283.3-8066.7-1283.8-8066.7-1284.2-8067C-1284.1-8067-1284.1-8067-1284.2-8067z"/>
+							<path id="Path_92" class="st8" d="M-1283.1-8068.1l-2.1-2.1l-1.1,1.1l2.1,2.1c0.3,0.3,0.8,0.3,1.1,0
+								C-1282.8-8067.4-1282.8-8067.8-1283.1-8068.1z"/>
+							<path id="Path_93" class="st9" d="M-1295.1-8056.1l-4.3-4.3c-0.3-0.3-0.3-0.8,0-1.1c0.3-0.3,0.8-0.3,1.1,0c0,0,0,0,0,0
+								l4.3,4.3c0.3,0.3,0.3,0.8,0,1.1C-1294.4-8055.8-1294.8-8055.8-1295.1-8056.1z"/>
+							<path id="Path_94" class="st10" d="M-1294-8057.2l-2.1-2.1l-1.1,1.1l2.1,2.1c0.3,0.3,0.8,0.3,1.1,0
+								S-1293.7-8056.8-1294-8057.2C-1294-8057.1-1294-8057.1-1294-8057.2z"/>
+							<path id="Path_95" class="st9" d="M-1288.5-8062.7l-4.3-4.3c-0.3-0.3-0.3-0.8,0-1.1c0.3-0.3,0.8-0.3,1.1,0c0,0,0,0,0,0
+								l4.3,4.3c0.3,0.3,0.3,0.8,0,1.1C-1287.8-8062.4-1288.2-8062.4-1288.5-8062.7z"/>
+							<path id="Path_96" class="st10" d="M-1287.4-8063.8l-2.1-2.1l-1.1,1.1l2.1,2.1c0.3,0.3,0.8,0.3,1.1,0
+								S-1287.1-8063.4-1287.4-8063.8C-1287.4-8063.7-1287.4-8063.7-1287.4-8063.8z"/>
+							<path id="Path_97" class="st1" d="M-1287-8066.6c1.4,0.2,3.9,0.2,5.3-1.3c0.3-0.3,0.3-0.8,0-1.1c-0.3-0.3-0.7-0.3-1,0
+								c-1,1-3.1,1-4.6,0.8c-0.2-1.2-0.3-3.5,0.8-4.5c0.3-0.3,0.3-0.8,0-1.1c-0.3-0.3-0.7-0.3-1,0c-1.5,1.5-1.4,3.9-1.3,5.3
+								c-4.8-0.6-7.2,1.7-6.6,6.6c-1.4-0.2-3.9-0.2-5.3,1.3c-0.3,0.3-0.3,0.8,0,1.1c0.3,0.3,0.7,0.3,1,0c1-1,3.1-1,4.5-0.8
+								c0.2,1.4,0.3,3.5-0.8,4.5c-0.3,0.3-0.3,0.8,0,1.1c0.3,0.3,0.7,0.3,1,0c1.5-1.5,1.4-3.9,1.3-5.3
+								C-1288.8-8059.4-1286.4-8061.7-1287-8066.6z M-1288.6-8066.9c0.7,4.1-0.9,5.5-3.7,5.4c-0.5,0-1.1,0-1.6-0.1
+								c-0.1-0.5-0.1-1-0.1-1.6C-1294-8065.9-1292.8-8067.6-1288.6-8066.9z"/>
+						</g>
+					</g>
+				</g>
+			</g>
+			<path id="Path_674" class="st11" d="M-728.6-4888.1v-43.8c0-10.1,2.9-15.1,12.9-15.1h53"/>
+			<path id="Path_675" class="st12" d="M-638-4969.6c12,0,21.7,9.7,21.7,21.7s-9.7,21.7-21.7,21.7c-12,0-21.7-9.7-21.7-21.7
+				S-650-4969.6-638-4969.6C-638-4969.6-638-4969.6-638-4969.6z"/>
+			<g id="Group_421" transform="translate(536.469 3201.033)">
+				<circle id="Ellipse_168" class="st1" cx="-1265.1" cy="-8038" r="34.5"/>
+				<g id="wordpress" transform="translate(0)">
+					<path id="Path_328" class="st13" d="M-1279.4-8051.8h-4l10.8,30.6l6.1-17.3l-4.7-13.3h-4.2v-2.9h18.6v2.9h-4.3l10.8,30.6
+						l3.9-11.1c5.1-14.2-4.2-18.7-4.2-21.9s2.6-5.8,5.8-5.8c0.2,0,0.3,0,0.5,0c-12.1-11.4-31.1-10.9-42.5,1.2
+						c-1.2,1.2-2.2,2.6-3.2,4h10.7C-1279.4-8054.7-1279.4-8051.8-1279.4-8051.8z"/>
+					<path id="Path_329" class="st13" d="M-1295.1-8038c0,11.1,6.1,21.4,16,26.6l-13.6-38.4
+						C-1294.3-8046.1-1295.1-8042.1-1295.1-8038z"/>
+					<path id="Path_330" class="st13" d="M-1238.9-8052.9c0.4,2.7,0.3,5.5-0.4,8.2h0.1l-0.5,1.3l0,0c-0.3,1-0.6,1.9-1,2.8l-10.3,29
+						c14.7-7.8,20.2-26,12.4-40.7C-1238.6-8052.4-1238.7-8052.6-1238.9-8052.9L-1238.9-8052.9z"/>
+					<path id="Path_331" class="st13" d="M-1274.3-8009.4c5.9,1.9,12.2,1.9,18.1,0.1l-8.8-24.9L-1274.3-8009.4z"/>
+					<path id="Path_332" class="st13" d="M-1239.6-8063.5c-14-14-36.8-14-50.8,0c-14,14-14,36.8,0,50.8c14,14,36.8,14,50.8,0
+						C-1225.6-8026.7-1225.6-8049.4-1239.6-8063.5z M-1265.1-8004.6c-18.5,0-33.4-15-33.4-33.4c0-18.5,15-33.4,33.4-33.4
+						c18.5,0,33.4,15,33.4,33.4c0,0,0,0,0,0C-1231.7-8019.6-1246.6-8004.7-1265.1-8004.6z"/>
+				</g>
+			</g>
+			<text transform="matrix(1 0 0 1 -787.464 -4781.439)" class="st1 st4" style="font-size:13px;">Wordpress plugin</text>
+		</g>
+	</g>
+</g>
 </svg>
