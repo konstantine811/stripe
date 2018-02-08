@@ -794,8 +794,6 @@
             flex-flow: column; }
   body .section-third-infrasturcture-includes__image {
     margin: 0 auto; }
-  body .section-third-infrasturcture__description {
-    padding-top: 50px; }
   body .section-second-infrastructure-title-head {
     -webkit-flex-flow: wrap;
         -ms-flex-flow: wrap;
@@ -953,8 +951,7 @@
 
 .section-second-infrastructure-title__wrap {
   width: 100%;
-  height: 100%;
-  max-width: 1000px; }
+  height: 100%; }
 
 .infrastructure-about__title {
   text-align: center; }
@@ -973,7 +970,7 @@
   text-align: center; }
 
 .infrasturcture-description-item {
-  width: 39%;
+  width: 42%;
   height: 100%;
   color: #fff; }
 
@@ -1001,7 +998,7 @@
 .section-third-infrasturcture__description {
   width: 100%;
   height: 100%;
-  padding-top: 80px; }
+  padding-top: 40px; }
 
 .section-third-infrasturcture-includes__title {
   text-align: center; }
@@ -1025,10 +1022,14 @@
   height: auto; }
 
 .section-third-infrasturcture-includes__image {
-  width: 57%;
+  width: 50%;
   height: auto;
   position: relative;
-  bottom: 17px; }
+  bottom: 17px;
+  -webkit-align-self: center;
+      -ms-flex-item-align: center;
+              -ms-grid-row-align: center;
+          align-self: center; }
 
 .section-third-infrastructure__launch-buttons {
   width: 100%;

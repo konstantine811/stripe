@@ -738,7 +738,6 @@
     padding: 0 15px;
     top: 270px; }
   body .head-sign__txt-main {
-    width: 100%;
     padding: 32px 0 0 0; }
   body .footer {
     bottom: -50px; }
@@ -778,7 +777,7 @@ html, body {
   padding: 74px 0 0 0; }
 
 .head-sign__txt-main {
-  width: 80%;
+  width: 100%;
   padding: 54px 0 0 0; }
 
 .form-group-submit {

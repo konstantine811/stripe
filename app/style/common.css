@@ -292,6 +292,8 @@ a.bt.grey:hover, button.bt.grey:hover {
     padding-left: 0; } }
 
 @media (max-width: 1199px) {
+  body .image-small {
+    width: 100%; }
   body .about-txt-image {
     font-size: 9pt; }
   body .row-image--second {
@@ -546,7 +548,7 @@ textarea.form-control {
 
 .image-small {
   position: relative;
-  width: 100%;
+  width: 90%;
   height: auto; }
 
 .label {
