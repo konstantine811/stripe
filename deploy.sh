@@ -2,7 +2,7 @@
 # You need to have loaded the AWS keys as environment variables before
 # running this script
 
-BUCKET=s3://ixlayer.com
+BUCKET=s3://ixlayer.com-new
 DISTRIBUTION_ID=E3857AR2FW9R6A
 
 # change all the html extensions
